@@ -2,33 +2,37 @@
 from numbers import Number
 
 
-def add_integers(a:int, b:int) -> int:
+def integer_division(a:int, b:int):
+  return a // b
+
+
+def integer_mod(a:int, b:int):
+  return a % b
+
+
+def float_add(a:float, b:float):
   return a + b
 
 
-def add_floats(a:float, b:float) -> float:
+def do_exponent(base, exponent):
+  return base ** exponent
+
+
+def reverse_string(s:str):
+  return s[::-1]
+
+
+def concat_strings(a:str, b:str):
   return a + b
 
 
-def add_numbers(a:Number, b:Number) -> Number:
-  return a + b
+def boolean_and(a:bool, b:bool) -> bool:
+  return a and b
 
 
-def add_ducks(a, b):
-  return a + b
+def boolean_or(a:bool, b:bool) -> bool:
+  return a or b
 
 
-def add_strings(a:str, b:str) -> str:
-  return a + b
-
-
-def add_booleans(a:bool, b:bool) -> bool:
-  return a + b
-
-
-def and_booleans(a:bool, b:bool) -> bool:
-  return a & b
-
-
-def xor_booleans(a:bool, b:bool) -> bool:
+def boolean_xor(a:bool, b:bool) -> bool:
   return a ^ b
