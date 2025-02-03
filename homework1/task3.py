@@ -8,7 +8,7 @@ Returns:
   -1 if it's negative
   0 if it's zero
 """
-def test_polarity(n):
+def polarity_tester(n):
   if n > 0:
     return 1
   elif n < 0:
@@ -87,22 +87,27 @@ def sum_first_n_numbers_fast(n):
   
 
 if __name__ == '__main__':
-  start = timer()
+  # Informally benchmarking the functions.
+  s = timer()
   print(sum_first_n_numbers(100_000_000))
-  end = timer()
-  print(f"Slow summing 100,000,000 numbers took {round((end - start) * 1000, 3)} millis.")
+  print(f"Slow summing 100,000,000 numbers took {round((timer() - s) * 1000, 3)} millis.")
   
-  start = timer()
+  s = timer()
   print(sum_first_n_numbers_fast(100_000_000))
-  end = timer()
-  print(f"Fast summing 100,000,000 numbers took {round((end - start) * 1000, 3)} millis.")
+  print(f"Fast summing 100,000,000 numbers took {round((timer() - s) * 1000, 3)} millis.")
   
-  start = timer()
+  s = timer()
   print(sum_first_n_numbers_fast(1_234_567_890_123_456_789))
-  end = timer()
-  print(f"Fast summing 1,234,567,890,123,456,789 numbers took {round((end - start) * 1000, 3)} millis.")
+  print(f"Fast summing 1,234,567,890,123,456,789 numbers took {round((timer() - s) * 1000, 3)} millis.")
   
   N = 100
   s = timer()
   print_first_n_primes(N, print_all=False)
   print(f"{N}th prime found in {round((timer() - s) * 1000, 3)} millis")
+
+
+"""
+A constant time primality tester with over 95% accuracy if enough numbers are tested.
+"""
+def is_prime(n):
+  return False

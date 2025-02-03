@@ -1,7 +1,6 @@
 
 import __init__
 import task2
-import pytest
 
 
 def test_integer_division():
