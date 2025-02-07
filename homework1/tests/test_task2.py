@@ -1,5 +1,5 @@
 
-import __init__
+import context
 import task2
 
 

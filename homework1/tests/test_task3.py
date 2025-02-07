@@ -1,4 +1,4 @@
-import __init__
+import context
 import task3
 import pytest
 
