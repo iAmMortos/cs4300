@@ -56,6 +56,3 @@ def test_boolean_xor():
   assert task2.boolean_xor(True, False) == True
   assert task2.boolean_xor(False, True) == True
   assert task2.boolean_xor(True, True) == False
-
-
-pass

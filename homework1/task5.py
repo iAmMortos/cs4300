@@ -74,18 +74,22 @@ class BookList(object):
 Represents a student with a first and last name, and a student ID.
 
 Parameters:
-  csvrow - a list or tuple of length 3. The 3rd item must be parsable 
+  csvrow - a list or tuple of length 3. The 1st item must be parsable 
     as an integer.
-    e.g. ["Taylor", "Lopez", "5"]
+    e.g. ["5", "Taylor", "Lopez"]
     
 Throws:
-  BadCSVRowException - If the third value in the row list isn't 
+  BadCSVRowException - If the first value in the row list isn't 
     parsable as an integer.
 """
 class Student(object):
   def __init__(self, csvrow):
     self.id, self.first_name, self.last_name = csvrow
-    self.id = int(self.id)
+    try:
+      self.id = int(self.id)
+    except ValueError as e:
+      raise BadCSVRowException(f"The given ID value [{self.id}] could not be parsed as an integer.")
+    
     
   def __repr__(self):
     return f"{self.first_name} {self.last_name} ({self.id})"
