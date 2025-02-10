@@ -1,8 +1,11 @@
 
-def main():
-  # read text, count number of words.
-  # metaprogramming techniques to dynamically generate function names for pytest test cases based on filenames of the text files.
-  pass
+import io
+
+
+def count_words(file):
+  with io.open(file, encoding="utf-8") as file:
+    return len(file.read().split())
+  
 
 if __name__ == '__main__':
   main()
