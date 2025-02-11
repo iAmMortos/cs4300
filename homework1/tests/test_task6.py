@@ -6,6 +6,14 @@ import task6
 import pytest
 
 
+def test_count_words():
+  assert task6.count_words('rsc/task5_books_good.csv') == 5
+  assert task6.count_words('rsc/task5_malformed.csv') == 3
+  assert task6.count_words('rsc/task5_students_good.csv') == 5
+  context.reset()
+  assert task6.count_words('rsc/task6_read_me.txt') == 104
+
+
 # metaprogramming function to generate one function per 
 def generate_test_function(file_name):
   def test_function():
