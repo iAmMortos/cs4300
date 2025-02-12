@@ -1,0 +1,3 @@
+Imagine you’re on a game show. There are three doors: behind one is a car, behind the other two, goats. You pick a door. The host, knowing what’s behind them, opens another door to reveal a goat. Now, he asks if you’d like to switch. Should you?
+
+Mathematically, yes! If you stay, your odds remain 1/3. If you switch, they rise to 2/3. Why? Because your initial pick had a low chance of being right, and the host’s action effectively transfers that probability to the remaining door. It’s counterintuitive, but true—switching gives you the best shot at the prize.

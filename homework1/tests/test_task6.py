@@ -15,7 +15,7 @@ def test_count_words():
 
 
 # metaprogramming function to generate one function per 
-def generate_test_function(file_name):
+def generate_test_function(path):
   def test_function():
     file_path = os.path.join(TEST_FILES_DIR, file_name)
     with io.open(file_path, "r", encoding="utf-8") as f:
