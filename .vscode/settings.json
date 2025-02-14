@@ -3,5 +3,11 @@
     "homework1"
   ],
   "python.testing.unittestEnabled": false,
-  "python.testing.pytestEnabled": true
+  "python.testing.pytestEnabled": true,
+  "editor.tabSize": 2,
+  "vscode-neovim.compositeKeys": {
+      "jk": {
+          "command": "vscode-neovim.escape",
+      },
+  },
 }
