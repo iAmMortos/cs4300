@@ -3,14 +3,20 @@ from numbers import Number
 
 
 def integer_division(a:int, b:int):
+  """
+  perform integer division: a // b
+  e.g. 5/2 = 2
+  """
   return a // b
 
 
 def integer_mod(a:int, b:int):
+  """a mod b"""
   return a % b
 
 
 def float_add(a:float, b:float):
+  """add two floats"""
   return a + b
 
 

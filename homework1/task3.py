@@ -1,14 +1,14 @@
 
 from timeit import default_timer as timer
 
-"""
-Tests the sign of the given number.
-Returns:
-  1 if it's positive
-  -1 if it's negative
-  0 if it's zero
-"""
 def polarity_tester(n):
+  """
+  Tests the sign of the given number.
+  Returns:
+    1 if it's positive
+    -1 if it's negative
+    0 if it's zero
+  """
   if n > 0:
     return 1
   elif n < 0:
@@ -17,13 +17,13 @@ def polarity_tester(n):
     return 0
 
 
-"""
-An implementation of the sieve of Eratosthenes that runs
-up to N primes instead of finding every prime under N.
-Theoretically inifinite, but the shifting list of Booleans 
-will obviously, eventually run out of memory.
-"""
 def print_first_n_primes(n_primes, print_all=True):
+  """
+  An implementation of the sieve of Eratosthenes that runs
+  up to N primes instead of finding every prime under N.
+  Theoretically inifinite, but the shifting list of Booleans 
+  will obviously, eventually run out of memory.
+  """
   if type(n_primes) is not int or n_primes <= 0:
     raise Exception("Invalid number n_primes. Must be positive integer.")
   primes = [2, 3]  # first two primes
@@ -106,8 +106,8 @@ if __name__ == '__main__':
   print(f"{N}th prime found in {round((timer() - s) * 1000, 3)} millis")
 
 
-"""
-A constant time primality tester with over 95% accuracy if enough numbers are tested.
-"""
 def is_prime(n):
+  """
+  A constant time primality tester with over 95% accuracy if enough numbers are tested.
+  """
   return False
