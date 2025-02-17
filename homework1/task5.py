@@ -26,6 +26,7 @@ def load_csv_as_table(csv_path, delimiter=',', quotechar='"', numcols=None):
   data_table = []
   if not os.path.exists(csv_path):
     raise FileNotFoundError(f"The csv file [{csv_path}] does not exist.")
+  # io.open allows the declaration of an encoding, to account for special characters within the file
   with io.open(csv_path, encoding="utf-8") as csvfile:
     csvreader = csv.reader(csvfile, delimiter=delimiter, quotechar=quotechar)
     for row in csvreader:
@@ -96,7 +97,7 @@ class Student(object):
     
     
 """
-Represents a "database" of Students stored by their student ID.
+Represents a "database" (dictionary) of Students stored by their student ID.
 
 Parameters:
   studentlist_path: the path to the studentlist CSV file. Must be

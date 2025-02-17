@@ -60,9 +60,19 @@ def print_first_n_primes(n_primes, print_all=True):
   else:
     # just print the Nth prime. Much faster
     print(primes[n_primes-1])
+
+
+def is_prime(n):
+  """
+  A constant time primality tester with over 95% accuracy if enough numbers are tested ;).
+  """
+  return False
   
 
 def sum_first_n_numbers(n):
+  """
+  Sum the first n "natural integers" by iterating through them
+  """
   # iterate numbers 1 - n, and keep a running sum
   c = 0
   for i in range(1, n+1):
@@ -71,9 +81,12 @@ def sum_first_n_numbers(n):
   
 
 def sum_first_n_numbers_fast(n):
-  # no loop, just some arithmetic
+  """
+  Sum the first n "natural integers" by doing some const time arithmetic
+  instead of O(n) iteration.
+  """
   t = 0
-  # determine if given number is odd
+  # determine if given number n is odd
   if n % 2 == 1:
     # if it is, add that extra odd number to our total
     #   then use the next even number down for everything else.
@@ -105,9 +118,9 @@ if __name__ == '__main__':
   print_first_n_primes(N, print_all=False)
   print(f"{N}th prime found in {round((timer() - s) * 1000, 3)} millis")
 
+  N = 1_000_000
+  s = timer()
+  print_first_n_primes(N, print_all=False)
+  print(f"{N}th prime found in {round((timer() -s) * 1000, 3)} millis")
 
-def is_prime(n):
-  """
-  A constant time primality tester with over 95% accuracy if enough numbers are tested.
-  """
-  return False
+

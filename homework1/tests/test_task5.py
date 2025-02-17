@@ -6,9 +6,11 @@ import pytest
 
 
 def test_load_csv_as_table():
+  # importing context moves the cwd and path up one directory so the task modules can be referenced directly
+  # context.reset() puts the cwd and path back to the test area so we can reference the test resources
   context.reset()
   data = task5.load_csv_as_table("rsc/task5_malformed.csv")
-  # Just assuring the table loads without complaint
+  # Just testing the table loads without complaint
   assert len(data) == 3
   
   with pytest.raises(MalformedCSVException):
@@ -32,6 +34,9 @@ def test_BookList():
   
   
 def test_BookList_print_n_books(capfd):
+  """
+  Use the capfd pytest fixture to read from the stdout
+  """
   context.reset()
   bl = task5.BookList("rsc/task5_books_good.csv")
   bl.print_n_books(3)
@@ -47,6 +52,7 @@ def test_Student():
   assert s.first_name == "A"
   assert s.last_name == "B"
 
+  # first argument must be parsable as an int, otherwise throw this error
   with pytest.raises(BadCSVRowException):
     task5.Student(["hotdog", "A", "B"])
   

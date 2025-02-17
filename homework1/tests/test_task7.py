@@ -6,6 +6,9 @@ import pytest
 
 
 def test_multiply_matrices():
+  """
+  Test the matrix multiplication of numpy
+  """
   m1 = np.array([[1, 2, 3]])
   m2 = np.transpose(np.array([[4, 5, 6]]))
   m3 = task7.multiply_matrices(m1, m2)
@@ -16,6 +19,9 @@ def test_multiply_matrices():
 
 
 def test_dot_product():
+  """
+  Test the matrix dot product of numpy
+  """
   m1 = np.array([[1, 2, 3]])  # 3x1
   m2 = np.transpose(np.array([[4, 5, 6]]))  # 1x3
   m3 = task7.dot_product(m1, m2)  # 1x1

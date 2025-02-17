@@ -4,6 +4,7 @@ import task1
 
 
 def test_print_hello_world(capfd):
+  """Calls task1's function, and verifies the stdout contents"""
   # capfd is a fixture from pytest that allows us to get information from the
   #   stdout and stderr
 

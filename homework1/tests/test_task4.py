@@ -6,6 +6,7 @@ def test_calculate_discount():
   assert task4.calculate_discount(20.00, 20)           == 16
   assert task4.calculate_discount(20.00, 0.2)          == 16
   assert task4.calculate_discount(30, 33.33)           == 20.001
+  # We round these values to account for floating point error
   assert round(task4.calculate_discount(30, 1/3), 10)  == 20
   assert round(task4.calculate_discount(50, 33.33), 2) == 33.34
   assert round(task4.calculate_discount(50, 1/3), 5)   == 33.33333
