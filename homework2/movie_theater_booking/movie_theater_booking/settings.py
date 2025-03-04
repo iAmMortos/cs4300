@@ -25,8 +25,7 @@ SECRET_KEY = 'django-insecure-@*6&u_r=rx^$5#f@&95y&vb!dd7h$t4m2*6-dpoe^2^m!e_mp5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['app-tlopez-5.devedu.io']
-
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -67,7 +66,7 @@ ROOT_URLCONF = 'movie_theater_booking.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['bookings/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -133,4 +132,4 @@ STATIC_URL = 'static/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+CSRF_TRUSTED_ORIGINS = ['https://app-tlopez-5.devedu.io']

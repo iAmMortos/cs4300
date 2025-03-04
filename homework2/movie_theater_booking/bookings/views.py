@@ -1,11 +1,12 @@
-# from django.shortcuts import render
-from rest_framework import viewsets, status
-from rest_framework.response import Response
-from rest_framework.permissions import IsAuthenticatedOrReadOnly, IsAuthenticated
 from .models.movie import Movie
 from .models.seat import Seat
 from .models.booking import Booking
+from rest_framework import viewsets, status
+from rest_framework.response import Response
+from rest_framework.permissions import IsAuthenticatedOrReadOnly, IsAuthenticated
 from .serializers import MovieSerializer, SeatSerializer, BookingSerializer
+from django.shortcuts import render
+from django.views import View
 
 
 class MovieViewSet(viewsets.ModelViewSet):
@@ -29,6 +30,7 @@ class BookingViewSet(viewsets.ModelViewSet):
     """
     ViewSet for managing bookings.
     """
+    queryset = Booking.objects.all()
     serializer_class = BookingSerializer
     permission_classes = [IsAuthenticated]
 
@@ -61,3 +63,19 @@ class BookingViewSet(viewsets.ModelViewSet):
             return Response({"error": "Seat not found."}, status=status.HTTP_404_NOT_FOUND)
 
 # Create your views here.
+
+class MovieListView(View):
+    def get(self, request):
+        movies = Movie.objects.all()
+        return render(request, 'bookings/movie_list.html', {'movies': movies})
+
+class SeatBookingView(View):
+    def get(self, request):
+        seats = Seat.objects.all()
+        return render(request, 'bookings/seat_booking.html', {'seats': seats})
+
+class BookingHistoryView(View):
+    def get(self, request):
+        history = Booking.objects.all()
+        return render(request, 'bookings/booking_history.html', {'history': history})
+

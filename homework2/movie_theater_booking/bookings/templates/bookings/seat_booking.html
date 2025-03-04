@@ -1,0 +1,23 @@
+
+{% extends "bookings/base.html" %}
+
+{% block title %}Seat Booking{% endblock %}
+
+{% block content %}
+    <div class="container mt-4">
+        <h2 class="mb-4">Available Seats</h2>
+        <div class="row">
+
+            {% for seat in seats %}
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ seat.seat_number }}</h5>
+                            <p class="card-text">{{ seat.is_booked }}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

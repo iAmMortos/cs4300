@@ -1,0 +1,23 @@
+
+{% extends "bookings/base.html" %}
+
+{% block title %}Booking History{% endblock %}
+
+{% block content %}
+    <div class="container mt-4">
+        <h2 class="mb-4">Booking History</h2>
+        <div class="row">
+
+            {% for booking in bookings %}
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ booking.movie.title }}</h5>
+                            <p class="card-text">{{ booking.seat.seat_number }}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}
