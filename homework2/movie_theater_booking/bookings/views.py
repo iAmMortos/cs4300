@@ -70,12 +70,27 @@ class MovieListView(View):
         return render(request, 'bookings/movie_list.html', {'movies': movies})
 
 class SeatBookingView(View):
-    def get(self, request):
-        seats = Seat.objects.all()
-        return render(request, 'bookings/seat_booking.html', {'seats': seats})
+    def get(self, request, movie_id):
+        movie = Movie.objects.get(id=movie_id)
+        available_seats = Seat.objects.filter(is_booked=False)
+        booked_seats = Booking.objects.filter(movie=movie)
+        return render(request, 'bookings/seat_booking.html', {'movie': movie, 'available_seats': available_seats, 'booked_seats': booked_seats})
+    def post(self, request, movie_id):
+        movie = Movie.objects.get(id=movie_id)
+        seat_id = request.POST.get('seat_id')
+        try:
+            seat = Seat.objects.get(id=seat_id)
+            if seat.is_booked:
+                return render(request, 'bookings/seat_booking.html', {'movie': movie, 'error': 'Seat is already booked'})
+            seat.is_booked = True
+            seat.save()
+            Booking.objects.create(movie=movie, seat=seat, user=request.user)
+            return redirect('booking_history')
+        except Seat.DoesNotExist:
+            return render(request, 'bookings/seat_booking.html', {'movie': movie, 'error': 'Seat not found'})
 
 class BookingHistoryView(View):
     def get(self, request):
-        history = Booking.objects.all()
+        history = Booking.objects.filter(user=request.user)
         return render(request, 'bookings/booking_history.html', {'history': history})
 

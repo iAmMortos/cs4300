@@ -5,19 +5,22 @@
 
 {% block content %}
     <div class="container mt-4">
-        <h2 class="mb-4">Available Seats</h2>
-        <div class="row">
-
-            {% for seat in seats %}
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">{{ seat.seat_number }}</h5>
-                            <p class="card-text">{{ seat.is_booked }}</p>
-                        </div>
-                    </div>
-                </div>
+        <h2 class="mb-4">Available Seats for {{ movie.title }}</h2>
+        <form method="post">
+            {% csrf_token %}
+            <select name="seat_id">
+                {% for seat in available_seats %}
+                    <option value="{{ seat.id }}">{{ seat.seat_number }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit">Book Seat</button>
+        </form>
+        <p>Booked Seats:</p>
+        <ul>
+            {% for booking in booked_seats %}
+                <li>{{ booking.seat.seat_number }}</li>
             {% endfor %}
-        </div>
+        </ul>
     </div>
 {% endblock %}
+

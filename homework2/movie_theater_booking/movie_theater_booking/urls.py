@@ -23,7 +23,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('bookings.urls')),
     path('movies/', MovieListView.as_view(), name="movie-list"),
-    path('seats/', SeatBookingView.as_view(), name="seat-booking"),
+    path('movies/<int:movie_id>/seats/',SeatBookingView.as_view(), name="seat-booking"),
+    # path('seats/', SeatBookingView.as_view(), name="seat-booking"),
     path('bookings/', BookingHistoryView.as_view(), name="booking-history"),
     path('', RedirectView.as_view(url='movies/')),
 ]
