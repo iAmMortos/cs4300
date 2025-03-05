@@ -5,10 +5,8 @@ from django.db import migrations
 
 
 def create_seats(apps, schema_editor):
-    Seat.objects.create(title="The Shawshank Redemption", duration="142", release_date="1994-09-13", description="A banker convicted of uxoricide forms a friendship over a quarter century with a hardened convict, while maintaining his innocence and trying to remain hopeful through simple compassion.")
-    Seat.objects.create(title="The Godfather", duration="175", release_date="1972-03-14", description="The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.")
-    Seat.objects.create(title="The Dark Knight", duration="152", release_date="2008-07-14", description="When a menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman, James Gordon and Harvey Dent must work together to put an end to the madness.")
-    Seat.objects.create(title="The Lord of the Rings: The Return of the King", duration="201", release_date="2003-12-01", description="Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.")
+    for n in range(1, 21):
+        Seat.objects.create(seat_number=n)
 
 
 class Migration(migrations.Migration):
