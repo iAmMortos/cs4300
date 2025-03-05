@@ -17,7 +17,7 @@ Including another URLconf
 from django.views.generic.base import RedirectView
 from django.contrib import admin
 from django.urls import path, include
-from bookings.views import MovieListView, SeatBookingView, BookingHistoryView
+from bookings.views import MovieListView, SeatBookingView, BookingHistoryView, UserLoginView, UserLogoutView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -27,4 +27,6 @@ urlpatterns = [
     # path('seats/', SeatBookingView.as_view(), name="seat-booking"),
     path('bookings/', BookingHistoryView.as_view(), name="booking-history"),
     path('', RedirectView.as_view(url='movies/')),
+    path("login/", UserLoginView.as_view(), name="login"),
+    path("logout/", UserLogoutView.as_view(), name="logout"),
 ]

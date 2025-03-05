@@ -7,9 +7,12 @@ from rest_framework.permissions import IsAuthenticatedOrReadOnly, IsAuthenticate
 from .serializers import MovieSerializer, SeatSerializer, BookingSerializer
 from django.shortcuts import render
 from django.views import View
+from django.contrib.auth.views import LoginView, LogoutView
+from django.urls import reverse_lazy
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 
-class MovieViewSet(viewsets.ModelViewSet):
+class MovieViewSet(LoginRequiredMixin, viewsets.ModelViewSet):
     """
     ViewSet for managing movies (CRUD)
     """
@@ -18,7 +21,7 @@ class MovieViewSet(viewsets.ModelViewSet):
     permission_classes = [IsAuthenticatedOrReadOnly]
 
 
-class SeatViewSet(viewsets.ReadOnlyModelViewSet):
+class SeatViewSet(LoginRequiredMixin, viewsets.ReadOnlyModelViewSet):
     """
     ViewSet for checking seat availability.
     """
@@ -26,7 +29,7 @@ class SeatViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = SeatSerializer
 
 
-class BookingViewSet(viewsets.ModelViewSet):
+class BookingViewSet(LoginRequiredMixin, viewsets.ModelViewSet):
     """
     ViewSet for managing bookings.
     """
@@ -64,12 +67,12 @@ class BookingViewSet(viewsets.ModelViewSet):
 
 # Create your views here.
 
-class MovieListView(View):
+class MovieListView(LoginRequiredMixin, View):
     def get(self, request):
         movies = Movie.objects.all()
         return render(request, 'bookings/movie_list.html', {'movies': movies})
 
-class SeatBookingView(View):
+class SeatBookingView(LoginRequiredMixin, View):
     def get(self, request, movie_id):
         movie = Movie.objects.get(id=movie_id)
         available_seats = Seat.objects.filter(is_booked=False)
@@ -89,8 +92,17 @@ class SeatBookingView(View):
         except Seat.DoesNotExist:
             return render(request, 'bookings/seat_booking.html', {'movie': movie, 'error': 'Seat not found'})
 
-class BookingHistoryView(View):
+class BookingHistoryView(LoginRequiredMixin, View):
     def get(self, request):
         history = Booking.objects.filter(user=request.user)
         return render(request, 'bookings/booking_history.html', {'history': history})
+
+
+class UserLoginView(LoginView):
+    template_name = "users/login.html"
+    redirect_authenticated_user = True
+
+
+class UserLogoutView(LogoutView):
+    next_page = reverse_lazy("login")
 

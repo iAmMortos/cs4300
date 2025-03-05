@@ -38,11 +38,20 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            {% if user.is_authenticated %}
+                <span class="navbar-text text-white me-3">
+                    Welcome, {{ user.username }}!
+                </span>
+            {% endif %}
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="{% url 'movie-list' %}">Movies</a></li>
                     <li class="nav-item"><a class="nav-link" href="{% url 'booking-history' %}">Bookings</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{% url 'admin:index' %}">Admin</a></li>
+                    {% if user.is_authenticated %}
+                        <li class="nav-item"><a class="nav-link" href="{% url 'logout' %}">Logout</a></li>
+                    {% else %}
+                        <li class="nav-item"><a class="nav-link" href="{% url 'login' %}">Login</a></li>
+                    {% endif %}
                 </ul>
             </div>
         </div>

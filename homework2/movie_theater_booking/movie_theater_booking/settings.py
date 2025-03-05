@@ -133,3 +133,8 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 CSRF_TRUSTED_ORIGINS = ['https://app-tlopez-5.devedu.io']
+
+LOGIN_URL = "/login/"
+LOGIN_REDIRECT_URL = "/movies/"
+LOGOUT_REDIRECT_URL = "/login/"
+
