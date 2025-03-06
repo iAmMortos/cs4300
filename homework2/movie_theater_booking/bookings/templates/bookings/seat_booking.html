@@ -18,7 +18,7 @@
         <p>Booked Seats:</p>
         <ul>
             {% for booking in booked_seats %}
-                <li>{{ booking.seat.seat_number }}</li>
+                <li>Seat #{{ booking.seat.seat_number }} <a href="">(cancel)</a></li>
             {% endfor %}
         </ul>
     </div>

@@ -5,7 +5,7 @@ from rest_framework import viewsets, status
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticatedOrReadOnly, IsAuthenticated
 from .serializers import MovieSerializer, SeatSerializer, BookingSerializer
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.views import View
 from django.contrib.auth.views import LoginView, LogoutView
 from django.urls import reverse_lazy
@@ -88,14 +88,14 @@ class SeatBookingView(LoginRequiredMixin, View):
             seat.is_booked = True
             seat.save()
             Booking.objects.create(movie=movie, seat=seat, user=request.user)
-            return redirect('booking_history')
+            return redirect('booking-history')
         except Seat.DoesNotExist:
             return render(request, 'bookings/seat_booking.html', {'movie': movie, 'error': 'Seat not found'})
 
 class BookingHistoryView(LoginRequiredMixin, View):
     def get(self, request):
-        history = Booking.objects.filter(user=request.user)
-        return render(request, 'bookings/booking_history.html', {'history': history})
+        bookings = Booking.objects.filter(user=request.user)
+        return render(request, 'bookings/booking_history.html', {'bookings': bookings})
 
 
 class UserLoginView(LoginView):
