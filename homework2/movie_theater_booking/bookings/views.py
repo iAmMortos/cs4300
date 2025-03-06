@@ -64,6 +64,17 @@ class BookingViewSet(LoginRequiredMixin, viewsets.ModelViewSet):
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         except Seat.DoesNotExist:
             return Response({"error": "Seat not found."}, status=status.HTTP_404_NOT_FOUND)
+        
+    def destroy(self, request, *args, **kwargs):
+        booking = self.get_object()
+        if booking.user != request.user:
+            return Response({"error": "You do not have permission to cancel this booking."}, status=status.HTTP_403_FORBIDDEN)
+        seat = booking.seat
+        seat.is_booked = False
+        seat.save()
+        booking.delete()
+        return Response({"message": "Booking successfully canceled."}, status=status.HTTP_204_NO_CONTENT)
+        
 
 # Create your views here.
 

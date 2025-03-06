@@ -14,11 +14,36 @@
                         <div class="card-body">
                             <h5 class="card-title">{{ booking.movie.title }}</h5>
                             <p class="card-text">Seat#: {{ booking.seat.seat_number }}</p>
-                            <a>Cancel Booking</a>
+                            
+                            <a href="#" class="btn btn-danger btn-sm" onclick="deleteBooking({{ booking.id }})">
+                                Cancel Booking
+                            </a>
                         </div>
                     </div>
                 </div>
             {% endfor %}
         </div>
     </div>
+    <script>
+        function deleteBooking(bookingId) {
+            if (confirm("Are you sure you want to cancel this booking?")) {
+                fetch(`/api/bookings/${bookingId}/`, {
+                    method: "DELETE",
+                    headers: {
+                        "X-CSRFToken": "{{ csrf_token }}",  // Include CSRF token if using session auth
+                        "Authorization": "Token {{ request.user.auth_token }}",  // Use if token-based auth
+                        "Content-Type": "application/json"
+                    }
+                })
+                .then(response => {
+                    if (response.ok) {
+                        location.reload();  // Refresh page to update the list
+                    } else {
+                        alert("Failed to delete booking.");
+                    }
+                })
+                .catch(error => console.error("Error:", error));
+            }
+        }
+    </script>
 {% endblock %}
