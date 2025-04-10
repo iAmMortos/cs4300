@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Thri-kreen</name>
+	    
+	<size>M</size>
+	    
+	<type>humanoid (thri-kreen)</type>
+	    
+	<alignment>Chaotic Neutral</alignment>
+	    
+	<ac>15 (natural armor)</ac>
+	    
+	<hp>33 (6d8+6)</hp>
+	    
+	<speed>walk 40 ft.</speed>
+	    
+	<str>12</str>
+	    
+	<dex>15</dex>
+	    
+	<con>13</con>
+	    
+	<int>8</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>7</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +3, Stealth +4, Survival +3</skill>
+	    
+	<passive>13</passive>
+	    
+	<languages>Thri-kreen</languages>
+	    
+	<cr>1</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Chameleon Carapace</name>
+		      
+		<text>The thri-kreen can change the color of its carapace to match the color and texture of its surroundings. As a result, it has advantage on Dexterity (Stealth) checks made to hide.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Standing Leap</name>
+		      
+		<text>The thri-kreen's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The thri-kreen makes two attacks: one with its bite and one with its claws.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. 4 (1d6 + 1) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or be poisoned for 1 minute. If the saving throw fails by 5 or more, the target is also paralyzed while poisoned in this way. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		      
+		<attack>Bite|+3|1d6+1</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Claws</name>
+		      
+		<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 6 (2d4 + 1) slashing damage.</text>
+		      
+		<attack>Claws|+3|2d4+1</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Variant: Thri-kreen Weapons and Psionics</name>
+		      
+		<text>Some thri-kreen employ special martial weapons. A gythka is a two-handed polearm with a blade at each end. A chatkcha is a flat, triangular wedge with three serrated blades (a light thrown weapon). A thri-kreen armed with a gythka and chatkchas gains the following action options:</text>
+		      
+		<text>Weapons Multiattack. The thri-kreen makes two gythka attacks or two chatkcha attacks.</text>
+		      
+		<text>Gythka. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 5 (1d8 + 1) slashing damage.</text>
+		      
+		<text>Chatkcha. Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. 5 (1d6 + 2) slashing damage.</text>
+		      
+		<text>A few thri-kreen manifest psionic abilities, using their powers to aid the hunt and communicate more easily with outsiders.</text>
+		      
+		<text>A psionic thri-kreen has telepathy out to a range of 60 feet and gains the following additional trait:</text>
+		      
+		<text>Innate Spellcasting (Psionics). The thri-kreen's innate spellcasting ability is Wisdom. The thri-kreen can innately cast the following spells, requiring no components:</text>
+		      
+		<text>• At will: mage hand (the hand is invisible)</text>
+		      
+		<text>• 1/day: invisibility (self only)</text>
+		      
+		<text>• 2/day each: blur, magic weapon</text>
+		      
+	</action>
+	    
+	<description>Thri-kreen wander the deserts and savannas of the world, avoiding all other races.Thri-Kreen Communication.  Thri-kreen employ a language without words. To show emotion and reaction, a thri-kreen clacks its mandibles and waves its antennae, giving other thri-kreen a sense of what it is thinking and feeling. Other creatures find this manner of communication difficult to interpret and impossible to duplicate.When forced to interact with creatures of other intelligent species, thri-kreen employ alternative methods of communication, such as drawing pictures in sand or making pictures out of twigs or blades of grass.Limited Emotions. Thri-kreen experience the full range of emotions but aren't as prone to emotional outbursts as humans. Thri-kreen with psionic ability often demonstrate a wider range of emotions, particularly if they live near or interact with humans or other highly emotional creatures.Isolationists and Wanderers. Thri-kreen consider all other living creatures as potential nourishment, and they love the taste of elf flesh in particular. If a creature might be useful for something other than food, the thri-kreen aren't likely to attack it on sight. Thri-kreen kill to survive, never for sport.Sleepless. Thri-kreen don't require sleep and can rest while remaining alert and performing light tasks. Their inability to sleep is thought to be the reason why thri-kreen have such short lifespans, the average thri-kreen life expectancy being only thirty years.Source: Monster Manual p. 288</description>
+	    
+	<environment>grassland, desert</environment>
+	    
+</monster>

@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Lizard</name>
+	    
+	<size>T</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>10</ac>
+	    
+	<hp>2 (1d4)</hp>
+	    
+	<speed>walk 20 ft., climb 20 ft.</speed>
+	    
+	<str>2</str>
+	    
+	<dex>11</dex>
+	    
+	<con>10</con>
+	    
+	<int>1</int>
+	    
+	<wis>8</wis>
+	    
+	<cha>3</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>9</passive>
+	    
+	<languages/>
+	    
+	<cr>0</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 30 ft.</senses>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. 1 piercing damage.</text>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 332, Tomb of Annihilation</description>
+	    
+	<environment/>
+	    
+</monster>

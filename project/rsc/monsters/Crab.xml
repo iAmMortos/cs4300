@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Crab</name>
+	    
+	<size>T</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>11 (natural armor)</ac>
+	    
+	<hp>2 (1d4)</hp>
+	    
+	<speed>walk 20 ft., swim 20 ft.</speed>
+	    
+	<str>2</str>
+	    
+	<dex>11</dex>
+	    
+	<con>10</con>
+	    
+	<int>1</int>
+	    
+	<wis>8</wis>
+	    
+	<cha>2</cha>
+	    
+	<save/>
+	    
+	<skill>Stealth +2</skill>
+	    
+	<passive>9</passive>
+	    
+	<languages/>
+	    
+	<cr>0</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 30 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Amphibious</name>
+		      
+		<text>The crab can breathe air and water.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Claw</name>
+		      
+		<text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. 1 bludgeoning damage.</text>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 320, Tomb of Annihilation, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus</description>
+	    
+	<environment>coastal</environment>
+	    
+</monster>

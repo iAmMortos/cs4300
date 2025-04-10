@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Earth Elemental</name>
+	    
+	<size>L</size>
+	    
+	<type>elemental</type>
+	    
+	<alignment>Neutral</alignment>
+	    
+	<ac>17 (natural armor)</ac>
+	    
+	<hp>126 (12d10+60)</hp>
+	    
+	<speed>walk 30 ft., burrow 30 ft.</speed>
+	    
+	<str>20</str>
+	    
+	<dex>8</dex>
+	    
+	<con>20</con>
+	    
+	<int>5</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>5</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>10</passive>
+	    
+	<languages>Terran</languages>
+	    
+	<cr>5</cr>
+	    
+	<resist>bludgeoning, piercing, slashing from nonmagical attacks</resist>
+	    
+	<immune>poison</immune>
+	    
+	<vulnerable>thunder</vulnerable>
+	    
+	<conditionImmune>exhaustion, paralyzed, petrified, poisoned, unconscious</conditionImmune>
+	    
+	<senses>darkvision 60 ft., tremorsense 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Earth Glide</name>
+		      
+		<text>The elemental can burrow through nonmagical, unworked earth and stone. While doing so, the elemental doesn't disturb the material it moves through.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Siege Monster</name>
+		      
+		<text>The elemental deals double damage to objects and structures.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The elemental makes two slam attacks.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Slam</name>
+		      
+		<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. 14 (2d8 + 5) bludgeoning damage.</text>
+		      
+		<attack>Slam|+8|2d8+5</attack>
+		      
+	</action>
+	    
+	<description>Elementals are incarnations of the elements that make up the universe: air, earth, fire, and water. Though little more than animated energy on their own planes of existence, they can be called on by spellcasters and powerful beings to take shape and perform tasks.Living Elements. On its home plane, an elemental is a bodiless life force. Its dim consciousness manifests as a physical shape only when focused by the power of magic. A wild spirit of elemental force has no desire except to course through the element of its native plane. Like beasts of the Material Plane, these elemental spirits have no society or culture, and little sense of being.Conjured by Magic. Certain spells and magic items can conjure an elemental, summoning it from the Inner Planes to the Material Plane. Elementals instinctively resent being pulled from their native planes and bound into service. A creature that summons an elemental must assert force of will to control it.Bound and Shaped. Powerful magic can bind an elemental spirit into a material template that defines a specific use and function. Invisible stalkers are air elementals bound to a specific form, in the same way that water elementals can be shaped into water weirds.Elemental Nature. An elemental doesn't require air, food, drink, or sleep.Source: Monster Manual p. 124, Princes of the Apocalypse, Rise of Tiamat, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Mythic Odysseys of Theros, Tasha's Cauldron of Everything</description>
+	    
+	<environment>underdark</environment>
+	    
+</monster>

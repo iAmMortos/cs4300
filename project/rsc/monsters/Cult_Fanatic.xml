@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Cult Fanatic</name>
+	    
+	<size>M</size>
+	    
+	<type>humanoid (any race)</type>
+	    
+	<alignment>Any Non-Good Alignment</alignment>
+	    
+	<ac>13 (leather armor)</ac>
+	    
+	<hp>33 (6d8+6)</hp>
+	    
+	<speed>walk 30 ft.</speed>
+	    
+	<str>11</str>
+	    
+	<dex>14</dex>
+	    
+	<con>12</con>
+	    
+	<int>10</int>
+	    
+	<wis>13</wis>
+	    
+	<cha>14</cha>
+	    
+	<save/>
+	    
+	<skill>Deception +4, Persuasion +4, Religion +2</skill>
+	    
+	<passive>11</passive>
+	    
+	<languages>any one language (usually Common)</languages>
+	    
+	<cr>2</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Dark Devotion</name>
+		      
+		<text>The fanatic has advantage on saving throws against being charmed or frightened.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The fanatic makes two melee attacks.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Dagger</name>
+		      
+		<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one creature. 4 (1d4 + 2) piercing damage.</text>
+		      
+		<attack>Dagger|+4|1d4+2</attack>
+		      
+	</action>
+	    
+	<trait>
+		        
+		<name>Spellcasting</name>
+		      
+		<text>The fanatic is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The fanatic has the following cleric spells prepared:</text>
+		      
+		<text>Cantrips (at will): light, sacred flame, thaumaturgy</text>
+		      
+		<text>• 1st level (4 slots): command, inflict wounds, shield of faith</text>
+		      
+		<text>• 2nd level (3 slots): hold person, spiritual weapon</text>
+		      
+	</trait>
+	    
+	<slots>4, 3</slots>
+	    
+	<spells>light, sacred flame, thaumaturgy, command, inflict wounds, shield of faith, hold person, spiritual weapon</spells>
+	    
+	<description>Fanatics are often part of a cult's leadership, using their charisma and dogma to influence and prey on those of weak will. Most are interested in personal power above all elseSource: Monster Manual p. 345, Curse of Strahd, Princes of the Apocalypse, Rise of Tiamat, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Essentials Kit: Divine Contention, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything</description>
+	    
+	<environment/>
+	    
+</monster>

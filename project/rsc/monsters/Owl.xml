@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Owl</name>
+	    
+	<size>T</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>11</ac>
+	    
+	<hp>1 (1d4-1)</hp>
+	    
+	<speed>walk 5 ft., fly 60 ft.</speed>
+	    
+	<str>3</str>
+	    
+	<dex>13</dex>
+	    
+	<con>8</con>
+	    
+	<int>2</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>7</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +3, Stealth +3</skill>
+	    
+	<passive>13</passive>
+	    
+	<languages/>
+	    
+	<cr>0</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 120 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Flyby</name>
+		      
+		<text>The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Keen Hearing and Sight</name>
+		      
+		<text>The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Talons</name>
+		      
+		<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 1 slashing damage.</text>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 333, Rise of Tiamat, Infernal Machine Rebuild, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment>forest, arctic</environment>
+	    
+</monster>

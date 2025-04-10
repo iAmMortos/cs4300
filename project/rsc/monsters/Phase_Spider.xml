@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Phase Spider</name>
+	    
+	<size>L</size>
+	    
+	<type>monstrosity</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>13 (natural armor)</ac>
+	    
+	<hp>32 (5d10+5)</hp>
+	    
+	<speed>walk 30 ft., climb 30 ft.</speed>
+	    
+	<str>15</str>
+	    
+	<dex>15</dex>
+	    
+	<con>12</con>
+	    
+	<int>6</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>6</cha>
+	    
+	<save/>
+	    
+	<skill>Stealth +6</skill>
+	    
+	<passive>10</passive>
+	    
+	<languages/>
+	    
+	<cr>3</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Ethereal Jaunt</name>
+		      
+		<text>As a bonus action, the spider can magically shift from the Material Plane to the Ethereal Plane, or vice versa.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Spider Climb</name>
+		      
+		<text>The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Web Walker</name>
+		      
+		<text>The spider ignores movement restrictions caused by webbing.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 7 (1d10 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 18 (4d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
+		      
+		<attack>Bite|+4|1d10+2</attack>
+		      
+		<attack>Bite||4d8</attack>
+		      
+	</action>
+	    
+	<description>A phase spider possesses the magical ability to phase in and out of the Ethereal Plane. It seems to appear out of nowhere and quickly vanishes after attacking. Its movement on the Ethereal Plane before coming back to the Material Plane makes it seem like it can teleport.Source: Monster Manual p. 334, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Sleeping Dragon's Wake, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment>underdark, grassland, forest, hill, urban, desert</environment>
+	    
+</monster>

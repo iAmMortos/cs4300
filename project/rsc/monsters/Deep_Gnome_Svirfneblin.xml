@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Deep Gnome (Svirfneblin)</name>
+	    
+	<size>S</size>
+	    
+	<type>humanoid (gnome)</type>
+	    
+	<alignment>Neutral Good</alignment>
+	    
+	<ac>15 (chain shirt)</ac>
+	    
+	<hp>16 (3d6+6)</hp>
+	    
+	<speed>walk 20 ft.</speed>
+	    
+	<str>15</str>
+	    
+	<dex>14</dex>
+	    
+	<con>14</con>
+	    
+	<int>12</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>9</cha>
+	    
+	<save/>
+	    
+	<skill>Investigation +3, Perception +2, Stealth +4</skill>
+	    
+	<passive>12</passive>
+	    
+	<languages>Gnomish, Terran, Undercommon</languages>
+	    
+	<cr>1/2</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 120 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Stone Camouflage</name>
+		      
+		<text>The gnome has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Gnome Cunning</name>
+		      
+		<text>The gnome has advantage on Intelligence, Wisdom, and Charisma saving throws against magic.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>War Pick</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) piercing damage.</text>
+		      
+		<attack>War Pick|+4|1d8+2</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Poisoned Dart</name>
+		      
+		<text>Ranged Weapon Attack: +4 to hit, range 30/120 ft., one creature. 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success</text>
+		      
+		<attack>Poisoned Dart|+4|1d4+2</attack>
+		      
+	</action>
+	    
+	<trait>
+		        
+		<name>Innate Spellcasting</name>
+		      
+		<text>The gnome's innate spellcasting ability is Intelligence (spell save DC 11). It can innately cast the following spells, requiring no material components:</text>
+		      
+		<text>At will: nondetection (self only)</text>
+		      
+		<text>1/day each: blindness/deafness, blur, disguise self</text>
+		      
+	</trait>
+	    
+	<spells>nondetection, blindness/deafness, blur, disguise self</spells>
+	    
+	<description>Deep gnomes, or svirfneblin, live far below the world's surface in twisting warrens and sculpted caverns. They survive by virtue of their stealth, cleverness, and tenacity. Their gray skin allows them to blend in with surrounding stonework. They are also surprisingly heavy and strong for their size. An average adult weighs 100 to 120 pounds and stands 3 feet tall.A typical svirfneblin enclave contains several hundred deep gnomes and is strongly fortified. Secret tunnels lead to and from the settlement, and the deep gnomes use these as evacuation routes when the enclave comes under attack.Established Gender Roles. Male svirfneblin are bald, while females have stringy gray hair. Traditionally, females run the enclaves while males scour the outskirts in search of enemies and deposits of precious gemstones.Gemstone Harvesters. Svirfneblin cherish fine gemstones, especially rubies, which they harvest from mines deep in the Underdark. The hunt for gems often brings them into conflict with beholders, drow, kuo-toa, duergar, and mind flayers. Of all their natural enemies, deep gnomes fear and despise the murderous, demon worshiping drow the most.Earth Friends. Deep gnomes are often encountered in the company of creatures from the Elemental Plane of Earth. Some svirfneblin can summon such creatures. Earth creatures guard svirfneblin settlements, especially xorn enticed to service with the promise of gems to feed on.Source: Monster Manual p. 164, Princes of the Apocalypse, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage</description>
+	    
+	<environment>underdark</environment>
+	    
+</monster>

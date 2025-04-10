@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Assassin</name>
+	    
+	<size>M</size>
+	    
+	<type>humanoid (any race)</type>
+	    
+	<alignment>Any Non-Good Alignment</alignment>
+	    
+	<ac>15 (studded leather armor)</ac>
+	    
+	<hp>78 (12d8+24)</hp>
+	    
+	<speed>walk 30 ft.</speed>
+	    
+	<str>11</str>
+	    
+	<dex>16</dex>
+	    
+	<con>14</con>
+	    
+	<int>13</int>
+	    
+	<wis>11</wis>
+	    
+	<cha>10</cha>
+	    
+	<save>Dex +6, Int +4</save>
+	    
+	<skill>Acrobatics +6, Deception +3, Perception +3, Stealth +9</skill>
+	    
+	<passive>13</passive>
+	    
+	<languages>Thieves' cant plus any two languages</languages>
+	    
+	<cr>8</cr>
+	    
+	<resist>poison</resist>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Assassinate</name>
+		      
+		<text>During its first turn, the assassin has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the assassin scores against a surprised creature is a critical hit.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Evasion</name>
+		      
+		<text>If the assassin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the assassin instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Sneak Attack (1/Turn)</name>
+		      
+		<text>The assassin deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the assassin that isn't incapacitated and the assassin doesn't have disadvantage on the attack roll.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The assassin makes two shortsword attacks.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Shortsword</name>
+		      
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.</text>
+		      
+		<attack>Shortsword|+6|1d6+3</attack>
+		      
+		<attack>Shortsword||7d6</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Light Crossbow</name>
+		      
+		<text>Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. 7 (1d8 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.</text>
+		      
+		<attack>Light Crossbow|+6|1d8+3</attack>
+		      
+		<attack>Light Crossbow||7d6</attack>
+		      
+	</action>
+	    
+	<description>Trained in the use of poison, assassins are remorseless killers who work for nobles, guildmasters, sovereigns, and anyone else who can afford them.Source: Monster Manual p. 343, Curse of Strahd, Hoard of the Dragon Queen, Princes of the Apocalypse, Rise of Tiamat, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything</description>
+	    
+	<environment/>
+	    
+</monster>

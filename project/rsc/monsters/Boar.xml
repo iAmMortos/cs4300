@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Boar</name>
+	    
+	<size>M</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>11 (natural armor)</ac>
+	    
+	<hp>11 (2d8+2)</hp>
+	    
+	<speed>walk 40 ft.</speed>
+	    
+	<str>13</str>
+	    
+	<dex>11</dex>
+	    
+	<con>12</con>
+	    
+	<int>2</int>
+	    
+	<wis>9</wis>
+	    
+	<cha>5</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>9</passive>
+	    
+	<languages/>
+	    
+	<cr>1/4</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Charge</name>
+		      
+		<text>If the boar moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 3 (1d6) slashing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Relentless (Recharges after a Short or Long Rest)</name>
+		      
+		<text>If the boar takes 7 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Tusk</name>
+		      
+		<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 4 (1d6 + 1) slashing damage.</text>
+		      
+		<attack>Tusk|+3|1d6+1</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 319, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Essentials Kit: Dragon of Icespire Peak, Mythic Odysseys of Theros</description>
+	    
+	<environment>grassland, forest, hill</environment>
+	    
+</monster>

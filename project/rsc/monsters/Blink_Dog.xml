@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Blink Dog</name>
+	    
+	<size>M</size>
+	    
+	<type>fey</type>
+	    
+	<alignment>Lawful Good</alignment>
+	    
+	<ac>13</ac>
+	    
+	<hp>22 (4d8+4)</hp>
+	    
+	<speed>walk 40 ft.</speed>
+	    
+	<str>12</str>
+	    
+	<dex>17</dex>
+	    
+	<con>12</con>
+	    
+	<int>10</int>
+	    
+	<wis>13</wis>
+	    
+	<cha>11</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +3, Stealth +5</skill>
+	    
+	<passive>10</passive>
+	    
+	<languages>Blink Dog, understands Sylvan but can't speak it</languages>
+	    
+	<cr>1/4</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Keen Hearing and Smell</name>
+		      
+		<text>The dog has advantage on Wisdom (Perception) checks that rely on hearing or smell.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 4 (1d6 + 1) piercing damage.</text>
+		      
+		<attack>Bite|+3|1d6+1</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Teleport (Recharge 4-6)</name>
+		      
+		<text>The dog magically teleports, along with any equipment it is wearing or carrying, up to 40 feet to an unoccupied space it can see. Before or after teleporting, the dog can make one bite attack.</text>
+		      
+	</action>
+	    
+	<description>A blink dog takes its name from its ability to blink in and out of existence, a talent it uses to aid its attacks and to avoid harm. Blink dogs harbor a long-standing hatred for displacer beasts and attack them on sight.Source: Monster Manual p. 318, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Eberron: Rising from the Last War, Mythic Odysseys of Theros, Tasha's Cauldron of Everything</description>
+	    
+	<environment>forest</environment>
+	    
+</monster>

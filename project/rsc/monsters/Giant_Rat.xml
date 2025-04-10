@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Giant Rat</name>
+	    
+	<size>S</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>7 (2d6)</hp>
+	    
+	<speed>walk 30 ft.</speed>
+	    
+	<str>7</str>
+	    
+	<dex>15</dex>
+	    
+	<con>11</con>
+	    
+	<int>2</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>4</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>10</passive>
+	    
+	<languages/>
+	    
+	<cr>1/8</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Keen Smell</name>
+		      
+		<text>The rat has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Pack Tactics</name>
+		      
+		<text>The rat has advantage on an attack roll against a creature if at least one of the rat's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage.</text>
+		      
+		<attack>Bite|+4|1d4+2</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Variant: Diseased Giant Rats</name>
+		      
+		<text>Some giant rats carry vile diseases that they spread with their bites.</text>
+		      
+		<text>Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 10 Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 (1d6) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies.</text>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 327, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Essentials Kit: Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment>underdark, forest, swamp, urban</environment>
+	    
+</monster>

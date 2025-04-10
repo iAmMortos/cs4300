@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Commoner</name>
+	    
+	<size>M</size>
+	    
+	<type>humanoid (any race)</type>
+	    
+	<alignment>Any alignment</alignment>
+	    
+	<ac>10</ac>
+	    
+	<hp>4 (1d8)</hp>
+	    
+	<speed>walk 30 ft.</speed>
+	    
+	<str>10</str>
+	    
+	<dex>10</dex>
+	    
+	<con>10</con>
+	    
+	<int>10</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>10</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>10</passive>
+	    
+	<languages>any one language (usually Common)</languages>
+	    
+	<cr>0</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<action>
+		        
+		<name>Club</name>
+		      
+		<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 2 (1d4) bludgeoning damage.</text>
+		      
+		<attack>Club|+2|1d4</attack>
+		      
+	</action>
+	    
+	<description>Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits.Source: Monster Manual p. 345, Curse of Strahd, Hoard of the Dragon Queen, Lost Mine of Phandelver, Princes of the Apocalypse, Rise of Tiamat, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Essentials Kit: Divine Contention, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, The Lost Dungeon of Rickedness: Big Rick Energy, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything</description>
+	    
+	<environment>arctic, desert, coastal, grassland, hill, urban, forest</environment>
+	    
+</monster>

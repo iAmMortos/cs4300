@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Thug</name>
+	    
+	<size>M</size>
+	    
+	<type>humanoid (any race)</type>
+	    
+	<alignment>Any Non-Good Alignment</alignment>
+	    
+	<ac>11 (leather armor)</ac>
+	    
+	<hp>32 (5d8+10)</hp>
+	    
+	<speed>walk 30 ft.</speed>
+	    
+	<str>15</str>
+	    
+	<dex>11</dex>
+	    
+	<con>14</con>
+	    
+	<int>10</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>11</cha>
+	    
+	<save/>
+	    
+	<skill>Intimidation +2</skill>
+	    
+	<passive>10</passive>
+	    
+	<languages>any one language (usually Common)</languages>
+	    
+	<cr>1/2</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Pack Tactics</name>
+		      
+		<text>The thug has advantage on an attack roll against a creature if at least one of the thug's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The thug makes two melee attacks.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Mace</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 5 (1d6 + 2) bludgeoning damage.</text>
+		      
+		<attack>Mace|+4|1d6+2</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Heavy Crossbow</name>
+		      
+		<text>Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. 5 (1d10) piercing damage.</text>
+		      
+		<attack>Heavy Crossbow|+2|1d10</attack>
+		      
+	</action>
+	    
+	<description>Thugs are ruthless enforcers skilled at intimidation and violence. They work for money and have few scruples.Source: Monster Manual p. 350, Princes of the Apocalypse, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything</description>
+	    
+	<environment/>
+	    
+</monster>

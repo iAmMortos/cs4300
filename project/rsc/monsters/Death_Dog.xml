@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Death Dog</name>
+	    
+	<size>M</size>
+	    
+	<type>monstrosity</type>
+	    
+	<alignment>Neutral Evil</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>39 (6d8+12)</hp>
+	    
+	<speed>walk 40 ft.</speed>
+	    
+	<str>15</str>
+	    
+	<dex>14</dex>
+	    
+	<con>14</con>
+	    
+	<int>3</int>
+	    
+	<wis>13</wis>
+	    
+	<cha>6</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +5, Stealth +4</skill>
+	    
+	<passive>15</passive>
+	    
+	<languages/>
+	    
+	<cr>1</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 120 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Two-Headed</name>
+		      
+		<text>The dog has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The dog makes two bite attacks.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw against disease or become poisoned until the disease is cured. Every 24 hours that elapse, the creature must repeat the saving throw, reducing its hit point maximum by 5 (1d10) on a failure. This reduction lasts until the disease is cured. The creature dies if the disease reduces its hit point maximum to 0.</text>
+		      
+		<attack>Bite|+4|1d6+2</attack>
+		      
+	</action>
+	    
+	<description>A death dog is an ugly two-headed hound that roams plains, deserts, and the Underdark. Hate burns in a death dog's heart, and a taste for humanoid flesh drives it to attack travelers and explorers. Death dog saliva carries a foul disease that causes a victim's flesh to slowly rot off the bone.Source: Monster Manual p. 321, Storm King's Thunder, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Mythic Odysseys of Theros</description>
+	    
+	<environment>desert</environment>
+	    
+</monster>

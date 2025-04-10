@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Giant Elk</name>
+	    
+	<size>H</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>14 (natural armor)</ac>
+	    
+	<hp>42 (5d12+10)</hp>
+	    
+	<speed>walk 60 ft.</speed>
+	    
+	<str>19</str>
+	    
+	<dex>16</dex>
+	    
+	<con>14</con>
+	    
+	<int>7</int>
+	    
+	<wis>14</wis>
+	    
+	<cha>10</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +4</skill>
+	    
+	<passive>14</passive>
+	    
+	<languages>Giant Elk, understands Common, Elvish, Sylvan but can't speak them</languages>
+	    
+	<cr>2</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Charge</name>
+		      
+		<text>If the elk moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Ram</name>
+		      
+		<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. 11 (2d6 + 4) bludgeoning damage.</text>
+		      
+		<attack>Ram|+6|2d6+4</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Hooves</name>
+		      
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one prone creature. 22 (4d8 + 4) bludgeoning damage.</text>
+		      
+		<attack>Hooves|+6|4d8+4</attack>
+		      
+	</action>
+	    
+	<description>The majestic giant elk is rare to the point that its appearance is often taken as a foreshadowing of an important event, such as the birth of a king. Legends tell of gods that take the form of giant elk when visiting the Material Plane. Many cultures therefore believe that to hunt these creatures is to invite divine wrath.Source: Monster Manual p. 325, Storm King's Thunder</description>
+	    
+	<environment>mountain, grassland, forest, hill</environment>
+	    
+</monster>

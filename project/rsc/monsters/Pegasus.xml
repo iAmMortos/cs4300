@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Pegasus</name>
+	    
+	<size>L</size>
+	    
+	<type>celestial</type>
+	    
+	<alignment>Chaotic Good</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>59 (7d10+21)</hp>
+	    
+	<speed>walk 60 ft., fly 90 ft.</speed>
+	    
+	<str>18</str>
+	    
+	<dex>15</dex>
+	    
+	<con>16</con>
+	    
+	<int>10</int>
+	    
+	<wis>15</wis>
+	    
+	<cha>13</cha>
+	    
+	<save>Dex +4, Wis +4, Cha +3</save>
+	    
+	<skill>Perception +6</skill>
+	    
+	<passive>16</passive>
+	    
+	<languages>understands Celestial, Common, Elvish, and Sylvan but can't speak</languages>
+	    
+	<cr>2</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<action>
+		        
+		<name>Hooves</name>
+		      
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 11 (2d6 + 4) bludgeoning damage.</text>
+		      
+		<attack>Hooves|+6|2d6+4</attack>
+		      
+	</action>
+	    
+	<description>The white winged horses known as pegasi soar through the skies, a vision of grace and majesty. When they touch down on solid ground, they linger only for a moment, drinking from mountain springs and pristine lakes. Any sound or sign of another creature startles them, sending them off to fly once more among the clouds.Noble Mounts. Pegasi are highly prized as swift and reliable steeds, being faster and less temperamental than griffons, hippogriffs, and wyverns. However, these wild and shy creatures are as intelligent as humanoids, and so can't be traditionally broken and tamed. A pegasus must be persuaded to serve a good-aligned creature as a mount, but when it does so, it forges a lifelong bond with its new companion.Born of the Planes. Pegasi trace their origins to the Olympian Glades of Arborea, where they soar through the skies of that plane and serve as faithful mounts to the Seldarine, the pantheon of elven gods. These gods have been known to send pegasi to the Material Plane to aid those in need.Pegasi Nests. Pegasi mate for life, build their nests in hard-to-reach locations, and give birth to live young.Source: Monster Manual p. 250, Eberron: Rising from the Last War, Mythic Odysseys of Theros</description>
+	    
+	<environment>grassland, forest, hill</environment>
+	    
+</monster>

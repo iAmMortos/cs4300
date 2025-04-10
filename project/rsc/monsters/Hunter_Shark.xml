@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Hunter Shark</name>
+	    
+	<size>L</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>12 (natural armor)</ac>
+	    
+	<hp>45 (6d10+12)</hp>
+	    
+	<speed>swim 40 ft.</speed>
+	    
+	<str>18</str>
+	    
+	<dex>13</dex>
+	    
+	<con>15</con>
+	    
+	<int>1</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>4</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +2</skill>
+	    
+	<passive>12</passive>
+	    
+	<languages/>
+	    
+	<cr>2</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 30 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Blood Frenzy</name>
+		      
+		<text>The shark has advantage on melee attack rolls against any creature that doesn't have all its hit points.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Water Breathing</name>
+		      
+		<text>The shark can breathe only underwater.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 13 (2d8 + 4) piercing damage.</text>
+		      
+		<attack>Bite|+6|2d8+4</attack>
+		      
+	</action>
+	    
+	<description>Smaller than a giant shark but larger and fiercer than a reef shark, a hunter shark haunts deep waters. It usually hunts alone, but multiple hunter sharks might feed in the same area. A fully grown hunter shark is 15 to 20 feet long.Source: Monster Manual p. 330, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Ghosts of Saltmarsh, Essentials Kit: Dragon of Icespire Peak, Explorer's Guide to Wildemount</description>
+	    
+	<environment>underwater</environment>
+	    
+</monster>

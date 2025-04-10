@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Allosaurus</name>
+	    
+	<size>L</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>13 (natural armor)</ac>
+	    
+	<hp>51 (6d10+18)</hp>
+	    
+	<speed>walk 60 ft.</speed>
+	    
+	<str>19</str>
+	    
+	<dex>13</dex>
+	    
+	<con>17</con>
+	    
+	<int>2</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>5</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +5</skill>
+	    
+	<passive>15</passive>
+	    
+	<languages/>
+	    
+	<cr>2</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Pounce</name>
+		      
+		<text>If the allosaurus moves at least 30 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the allosaurus can make one bite attack against it as a bonus action.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 15 (2d10 + 4) piercing damage.</text>
+		      
+		<attack>Bite|+6|2d10+4</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Claw</name>
+		      
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 8 (1d8 + 4) slashing damage.</text>
+		      
+		<attack>Claw|+6|1d8+4</attack>
+		      
+	</action>
+	    
+	<description>The allosaurus is a predator possessing great size, strength, and speed. It can run down almost any prey over open ground, pouncing to pull creatures down with its wicked claws.Dinosaurs. Dinosaurs, or behemoths, are among the oldest reptiles in the world. Predatory dinosaurs are savage, territorial hunters. Herbivorous dinosaurs are less aggressive, but they might attack to defend their young, or if startled or harassed.Dinosaurs come in many sizes and shapes. Larger varieties often have drab coloration, while smaller dinosaurs have colorful markings akin to birds. Dinosaurs roam rugged and isolated areas that humanoids seldom visit, including remote mountain valleys, inaccessible plateaus, tropical islands, and deep fens.Source: Monster Manual p. 79, Tomb of Annihilation, Waterdeep: Dragon Heist</description>
+	    
+	<environment>grassland</environment>
+	    
+</monster>

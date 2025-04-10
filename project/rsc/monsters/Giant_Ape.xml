@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Giant Ape</name>
+	    
+	<size>H</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>157 (15d12+60)</hp>
+	    
+	<speed>walk 40 ft., climb 40 ft.</speed>
+	    
+	<str>23</str>
+	    
+	<dex>14</dex>
+	    
+	<con>18</con>
+	    
+	<int>7</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>7</cha>
+	    
+	<save/>
+	    
+	<skill>Athletics +9, Perception +4</skill>
+	    
+	<passive>14</passive>
+	    
+	<languages/>
+	    
+	<cr>7</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The ape makes two fist attacks.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Fist</name>
+		      
+		<text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. 22 (3d10 + 6) bludgeoning damage.</text>
+		      
+		<attack>Fist|+9|3d10+6</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Rock</name>
+		      
+		<text>Ranged Weapon Attack: +9 to hit, range 50/100 ft., one target. 30 (7d6 + 6) bludgeoning damage.</text>
+		      
+		<attack>Rock|+9|7d6+6</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 323, Ghosts of Saltmarsh</description>
+	    
+	<environment>forest</environment>
+	    
+</monster>

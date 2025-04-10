@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Bat</name>
+	    
+	<size>T</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>1 (1d4-1)</hp>
+	    
+	<speed>walk 5 ft., fly 30 ft.</speed>
+	    
+	<str>2</str>
+	    
+	<dex>15</dex>
+	    
+	<con>8</con>
+	    
+	<int>2</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>4</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>11</passive>
+	    
+	<languages/>
+	    
+	<cr>0</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Echolocation</name>
+		      
+		<text>The bat can't use its blindsight while deafened.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Keen Hearing</name>
+		      
+		<text>The bat has advantage on Wisdom (Perception) checks that rely on hearing.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. 1 piercing damage.</text>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 318, Curse of Strahd, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment/>
+	    
+</monster>

@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Giant Hyena</name>
+	    
+	<size>L</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>45 (6d10+12)</hp>
+	    
+	<speed>walk 50 ft.</speed>
+	    
+	<str>16</str>
+	    
+	<dex>14</dex>
+	    
+	<con>14</con>
+	    
+	<int>2</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>7</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +3</skill>
+	    
+	<passive>13</passive>
+	    
+	<languages/>
+	    
+	<cr>1</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Rampage</name>
+		      
+		<text>When the hyena reduces a creature to 0 hit points with a melee attack on its turn, the hyena can take a bonus action to move up to half its speed and make a bite attack.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 10 (2d6 + 3) piercing damage.</text>
+		      
+		<attack>Bite|+5|2d6+3</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 326, Tales from the Yawning Portal, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus</description>
+	    
+	<environment>grassland, forest, hill, desert</environment>
+	    
+</monster>

@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Giant Constrictor Snake</name>
+	    
+	<size>H</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>60 (8d12+8)</hp>
+	    
+	<speed>walk 30 ft., swim 30 ft.</speed>
+	    
+	<str>19</str>
+	    
+	<dex>14</dex>
+	    
+	<con>12</con>
+	    
+	<int>1</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>3</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +2</skill>
+	    
+	<passive>12</passive>
+	    
+	<languages/>
+	    
+	<cr>2</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 10 ft.</senses>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. 11 (2d6 + 4) piercing damage.</text>
+		      
+		<attack>Bite|+6|2d6+4</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Constrict</name>
+		      
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. 13 (2d8 + 4) bludgeoning damage, and the target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the snake can't constrict another target.</text>
+		      
+		<attack>Constrict|+6|2d8+4</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 324, Tomb of Annihilation, Ghosts of Saltmarsh, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath, Explorer's Guide to Wildemount</description>
+	    
+	<environment>underwater, underdark, forest, swamp, desert</environment>
+	    
+</monster>

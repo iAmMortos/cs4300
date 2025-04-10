@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Spider</name>
+	    
+	<size>T</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>1 (1d4-1)</hp>
+	    
+	<speed>walk 20 ft., climb 20 ft.</speed>
+	    
+	<str>2</str>
+	    
+	<dex>14</dex>
+	    
+	<con>8</con>
+	    
+	<int>1</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>2</cha>
+	    
+	<save/>
+	    
+	<skill>Stealth +4</skill>
+	    
+	<passive>10</passive>
+	    
+	<languages/>
+	    
+	<cr>0</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 30 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Spider Climb</name>
+		      
+		<text>The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Web Sense</name>
+		      
+		<text>While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Web Walker</name>
+		      
+		<text>The spider ignores movement restrictions caused by webbing.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 2 (1d4) poison damage.</text>
+		      
+		<attack>Bite|+4|1d4</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 337, Princes of the Apocalypse, Waterdeep: Dungeon of the Mad Mage</description>
+	    
+	<environment/>
+	    
+</monster>

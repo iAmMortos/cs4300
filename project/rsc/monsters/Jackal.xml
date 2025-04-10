@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Jackal</name>
+	    
+	<size>S</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>3 (1d6)</hp>
+	    
+	<speed>walk 40 ft.</speed>
+	    
+	<str>8</str>
+	    
+	<dex>15</dex>
+	    
+	<con>11</con>
+	    
+	<int>3</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>6</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +3</skill>
+	    
+	<passive>13</passive>
+	    
+	<languages/>
+	    
+	<cr>0</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Keen Hearing and Smell</name>
+		      
+		<text>The jackal has advantage on Wisdom (Perception) checks that rely on hearing or smell.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Pack Tactics</name>
+		      
+		<text>The jackal has advantage on an attack roll against a creature if at least one of the jackal's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. 1 (1d4 - 1) piercing damage.</text>
+		      
+		<attack>Bite|+1|1d4-1</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 331, Ghosts of Saltmarsh</description>
+	    
+	<environment>grassland, desert</environment>
+	    
+</monster>

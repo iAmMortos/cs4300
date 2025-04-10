@@ -1,0 +1,140 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Empyrean</name>
+	    
+	<size>H</size>
+	    
+	<type>celestial (titan)</type>
+	    
+	<alignment>Chaotic Good (75%) Neutral Evil (25%)</alignment>
+	    
+	<ac>22 (natural armor)</ac>
+	    
+	<hp>313 (19d12+190)</hp>
+	    
+	<speed>walk 50 ft., fly 50 ft., swim 50 ft.</speed>
+	    
+	<str>30</str>
+	    
+	<dex>21</dex>
+	    
+	<con>30</con>
+	    
+	<int>21</int>
+	    
+	<wis>22</wis>
+	    
+	<cha>27</cha>
+	    
+	<save>Str +17, Int +12, Wis +13, Cha +15</save>
+	    
+	<skill>Insight +13, Persuasion +15</skill>
+	    
+	<passive>16</passive>
+	    
+	<languages>all</languages>
+	    
+	<cr>23</cr>
+	    
+	<resist/>
+	    
+	<immune>bludgeoning, piercing, slashing from nonmagical attacks</immune>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>truesight 120 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Legendary Resistance (3/Day)</name>
+		      
+		<text>If the empyrean fails a saving throw, it can choose to succeed instead.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Magic Resistance</name>
+		      
+		<text>The empyrean has advantage on saving throws against spells and other magical effects.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Magic Weapons</name>
+		      
+		<text>The empyrean's weapon attacks are magical.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Maul</name>
+		      
+		<text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. 31 (6d6 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or be stunned until the end of the empyrean's next turn.</text>
+		      
+		<attack>Maul|+17|6d6+10</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Bolt</name>
+		      
+		<text>Ranged Spell Attack: +15 to hit, range 600 ft., one target. 24 (7d6) damage of one of the following types (empyrean's choice): acid, cold, fire, force, lightning, radiant, or thunder.</text>
+		      
+	</action>
+	    
+	<legendary>
+		        
+		<text>The celestial (titan) can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The celestial (titan) regains spent legendary actions at the start of its turn.</text>
+		      
+	</legendary>
+	    
+	<legendary>
+		        
+		<name>Attack</name>
+		      
+		<text>The empyrean makes one attack.</text>
+		      
+	</legendary>
+	    
+	<legendary>
+		        
+		<name>Bolster</name>
+		      
+		<text>The empyrean bolsters all nonhostile creatures within 120 feet of it until the end of its next turn. Bolstered creatures can't be charmed or frightened, and they gain advantage on ability checks and saving throws until the end of the empyrean's next turn.</text>
+		      
+	</legendary>
+	    
+	<legendary>
+		        
+		<name>Trembling Strike (Costs 2 Actions)</name>
+		      
+		<text>The empyrean strikes the ground with its maul, triggering an earth tremor. All other creatures on the ground within 60 feet of the empyrean must succeed on a DC 25 Strength saving throw or be knocked prone.</text>
+		      
+	</legendary>
+	    
+	<trait>
+		        
+		<name>Innate Spellcasting</name>
+		      
+		<text>The empyrean's innate spellcasting ability is Charisma (spell save DC 23, +15 to hit with spell attacks). It can innately cast the following spells, requiring no material components:</text>
+		      
+		<text>At will: greater restoration, pass without trace, water breathing, water walk</text>
+		      
+		<text>1/day each: commune, dispel evil and good, earthquake, fire storm, plane shift (self only)</text>
+		      
+	</trait>
+	    
+	<spells>greater restoration, pass without trace, water breathing, water walk, commune, dispel evil and good, earthquake, fire storm, plane shift</spells>
+	    
+	<description>Empyreans are the celestial children of the gods of the Upper Planes. They are universally beautiful, statuesque, and self-assured.Manifest Emotion. An empyrean can experience deity-like fits of serenity or rage. It can affect the environment around it by its mood. When an empyrean is unhappy, the clouds might cry tears of salt water, the wildflowers in surrounding meadows might wilt, dead fish might wash ashore in lakes or rivers, or a nearby forest might lose the leaves from its trees. When an empyrean is jubilant, sunlight follows it everywhere, small animals frolic in its footsteps, and birds fill the sky with their pleasing songs.Evil Empyreans. A few empyreans have turned to evil after venturing to the Lower Planes and becoming corrupted, or as the result of being cursed by evil gods. An evil empyrean can't survive long on the Upper Planes and usually retreats to the Material Plane, where it can rule over a kingdom of mortals as an indomitable tyrant.Immortal Titans. Empyreans don't age but can be slain. Because few empyreans can imagine their own demise, they fight fearlessly when drawn into battle, refusing to believe that the end is upon them even when standing at death's door. When an empyrean dies, its spirit returns to its home plane. There, one of the fallen empyrean's parents resurrects the empyrean unless he or she has a good reason not to.Source: Monster Manual p. 130, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Mythic Odysseys of Theros</description>
+	    
+	<environment/>
+	    
+</monster>

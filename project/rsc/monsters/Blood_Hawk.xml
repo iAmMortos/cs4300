@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Blood Hawk</name>
+	    
+	<size>S</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>7 (2d6)</hp>
+	    
+	<speed>walk 10 ft., fly 60 ft.</speed>
+	    
+	<str>6</str>
+	    
+	<dex>14</dex>
+	    
+	<con>10</con>
+	    
+	<int>3</int>
+	    
+	<wis>14</wis>
+	    
+	<cha>5</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +4</skill>
+	    
+	<passive>14</passive>
+	    
+	<languages/>
+	    
+	<cr>1/8</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Keen Sight</name>
+		      
+		<text>The hawk has advantage on Wisdom (Perception) checks that rely on sight.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Pack Tactics</name>
+		      
+		<text>The hawk has advantage on an attack roll against a creature if at least one of the hawk's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Beak</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage.</text>
+		      
+		<attack>Beak|+4|1d4+2</attack>
+		      
+	</action>
+	    
+	<description>Taking its name from its crimson feathers and aggressive nature, the blood hawk fearlessly attacks almost any animal, stabbing it with its daggerlike beak. Blood hawks flock together in large numbers, attacking as a pack to take down prey.Source: Monster Manual p. 319, Princes of the Apocalypse, Storm King's Thunder, Ghosts of Saltmarsh, Explorer's Guide to Wildemount</description>
+	    
+	<environment>mountain, grassland, forest, hill, coastal, arctic</environment>
+	    
+</monster>

@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Sea Horse</name>
+	    
+	<size>T</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>11</ac>
+	    
+	<hp>1 (1d4-1)</hp>
+	    
+	<speed>swim 20 ft.</speed>
+	    
+	<str>1</str>
+	    
+	<dex>12</dex>
+	    
+	<con>8</con>
+	    
+	<int>1</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>2</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>10</passive>
+	    
+	<languages/>
+	    
+	<cr>0</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Water Breathing</name>
+		      
+		<text>The sea horse can breathe only underwater.</text>
+		      
+	</trait>
+	    
+	<description>Source: Monster Manual p. 337</description>
+	    
+	<environment/>
+	    
+</monster>

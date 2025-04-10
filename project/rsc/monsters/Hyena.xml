@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Hyena</name>
+	    
+	<size>M</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>11</ac>
+	    
+	<hp>5 (1d8+1)</hp>
+	    
+	<speed>walk 50 ft.</speed>
+	    
+	<str>11</str>
+	    
+	<dex>13</dex>
+	    
+	<con>12</con>
+	    
+	<int>2</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>5</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +3</skill>
+	    
+	<passive>13</passive>
+	    
+	<languages/>
+	    
+	<cr>0</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Pack Tactics</name>
+		      
+		<text>The hyena has advantage on an attack roll against a creature if at least one of the hyena's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 3 (1d6) piercing damage.</text>
+		      
+		<attack>Bite|+2|1d6</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 331, Princes of the Apocalypse</description>
+	    
+	<environment>grassland, forest, hill, desert</environment>
+	    
+</monster>

@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Giant Spider</name>
+	    
+	<size>L</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>14 (natural armor)</ac>
+	    
+	<hp>26 (4d10+4)</hp>
+	    
+	<speed>walk 30 ft., climb 30 ft.</speed>
+	    
+	<str>14</str>
+	    
+	<dex>16</dex>
+	    
+	<con>12</con>
+	    
+	<int>2</int>
+	    
+	<wis>11</wis>
+	    
+	<cha>4</cha>
+	    
+	<save/>
+	    
+	<skill>Stealth +7</skill>
+	    
+	<passive>10</passive>
+	    
+	<languages/>
+	    
+	<cr>1</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 10 ft., darkvision 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Spider Climb</name>
+		      
+		<text>The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Web Sense</name>
+		      
+		<text>While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Web Walker</name>
+		      
+		<text>The spider ignores movement restrictions caused by webbing.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. 7 (1d8 + 3) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
+		      
+		<attack>Bite|+5|1d8+3</attack>
+		      
+		<attack>Bite||2d8</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Web (Recharge 5-6)</name>
+		      
+		<text>Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).</text>
+		      
+	</action>
+	    
+	<description>To snare its prey, a giant spider spins elaborate webs or shoots sticky strands of webbing from its abdomen. Giant spiders are most commonly found underground, making their lairs on ceilings or in dark, web-filled crevices. Such lairs are often festooned with web cocoons holding past victims.Source: Monster Manual p. 328, Curse of Strahd, Hoard of the Dragon Queen, Lost Mine of Phandelver, Rise of Tiamat, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Essentials Kit: Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, The Lost Dungeon of Rickedness: Big Rick Energy, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Tasha's Cauldron of Everything</description>
+	    
+	<environment>underdark, forest, swamp, urban, desert</environment>
+	    
+</monster>

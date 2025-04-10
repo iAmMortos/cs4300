@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Panther</name>
+	    
+	<size>M</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>13 (3d8)</hp>
+	    
+	<speed>walk 50 ft., climb 40 ft.</speed>
+	    
+	<str>14</str>
+	    
+	<dex>15</dex>
+	    
+	<con>10</con>
+	    
+	<int>3</int>
+	    
+	<wis>14</wis>
+	    
+	<cha>7</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +4, Stealth +6</skill>
+	    
+	<passive>14</passive>
+	    
+	<languages/>
+	    
+	<cr>1/4</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Keen Smell</name>
+		      
+		<text>The panther has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Pounce</name>
+		      
+		<text>If the panther moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target is prone, the panther can make one bite attack against it as a bonus action.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage.</text>
+		      
+		<attack>Bite|+4|1d6+2</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Claw</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) slashing damage.</text>
+		      
+		<attack>Claw|+4|1d4+2</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 333, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist</description>
+	    
+	<environment>grassland, forest, hill</environment>
+	    
+</monster>

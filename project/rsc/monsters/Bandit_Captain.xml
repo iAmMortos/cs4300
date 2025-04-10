@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Bandit Captain</name>
+	    
+	<size>M</size>
+	    
+	<type>humanoid (any race)</type>
+	    
+	<alignment>Any Non-Lawful Alignment</alignment>
+	    
+	<ac>15 (studded leather armor)</ac>
+	    
+	<hp>65 (10d8+20)</hp>
+	    
+	<speed>walk 30 ft.</speed>
+	    
+	<str>15</str>
+	    
+	<dex>16</dex>
+	    
+	<con>14</con>
+	    
+	<int>14</int>
+	    
+	<wis>11</wis>
+	    
+	<cha>14</cha>
+	    
+	<save>Str +4, Dex +5, Wis +2</save>
+	    
+	<skill>Athletics +4, Deception +4</skill>
+	    
+	<passive>10</passive>
+	    
+	<languages>any two languages</languages>
+	    
+	<cr>2</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The captain makes three melee attacks: two with its scimitar and one with its dagger. Or the captain makes two ranged attacks with its daggers.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Scimitar</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) slashing damage.</text>
+		      
+		<attack>Scimitar|+5|1d6+3</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Dagger</name>
+		      
+		<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d4 + 3) piercing damage.</text>
+		      
+		<attack>Dagger|+5|1d4+3</attack>
+		      
+	</action>
+	    
+	<reaction>
+		        
+		<name>Parry</name>
+		      
+		<text>The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon.</text>
+		      
+	</reaction>
+	    
+	<description>It takes a strong personality, ruthless cunning, and a silver tongue to keep a gang of bandits in line. The bandit captain has these qualities in spades.In addition to managing a crew of selfish malcontents, the pirate captain is a variation of the bandit captain, with a ship to protect and command. To keep the crew in line, the captain must mete out rewards and punishment on a regular basis.More than treasure, a bandit captain or pirate captain craves infamy. A prisoner who appeals to the captain's vanity or ego is more likely to be treated fairly than a prisoner who does not or claims not to know anything of the captain's colorful reputation.Source: Monster Manual p. 344, Princes of the Apocalypse, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Essentials Kit: Divine Contention, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment/>
+	    
+</monster>

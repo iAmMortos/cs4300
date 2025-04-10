@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Elk</name>
+	    
+	<size>L</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>10</ac>
+	    
+	<hp>13 (2d10+2)</hp>
+	    
+	<speed>walk 50 ft.</speed>
+	    
+	<str>16</str>
+	    
+	<dex>10</dex>
+	    
+	<con>12</con>
+	    
+	<int>2</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>6</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>10</passive>
+	    
+	<languages/>
+	    
+	<cr>1/4</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Charge</name>
+		      
+		<text>If the elk moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Ram</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) bludgeoning damage.</text>
+		      
+		<attack>Ram|+5|1d6+3</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Hooves</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one prone creature. 8 (2d4 + 3) bludgeoning damage.</text>
+		      
+		<attack>Hooves|+5|2d4+3</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 322, Hoard of the Dragon Queen, Princes of the Apocalypse, Storm King's Thunder, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment>grassland, forest, hill</environment>
+	    
+</monster>

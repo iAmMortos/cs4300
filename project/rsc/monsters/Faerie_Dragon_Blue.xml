@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Faerie Dragon (Blue)</name>
+	    
+	<size>T</size>
+	    
+	<type>dragon</type>
+	    
+	<alignment>Chaotic Good</alignment>
+	    
+	<ac>15</ac>
+	    
+	<hp>14 (4d4+4)</hp>
+	    
+	<speed>walk 10 ft., fly 60 ft.</speed>
+	    
+	<str>3</str>
+	    
+	<dex>20</dex>
+	    
+	<con>13</con>
+	    
+	<int>14</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>16</cha>
+	    
+	<save/>
+	    
+	<skill>Arcana +4, Perception +3, Stealth +7</skill>
+	    
+	<passive>13</passive>
+	    
+	<languages>Draconic, Sylvan</languages>
+	    
+	<cr>2</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>The Colors of Age</name>
+		      
+		<text>A faerie dragon's scales change hue as it ages, moving through all the colors of the rainbow. All faerie dragons have innate spellcasting ability, gaining new spells as they mature.</text>
+		      
+		<text>Red—5 years or less</text>
+		      
+		<text>Orange—6–10 years</text>
+		      
+		<text>Yellow—11–20 years</text>
+		      
+		<text>Green—21–30 years</text>
+		      
+		<text>Blue—31–40 years</text>
+		      
+		<text>Indigo—41–50 years</text>
+		      
+		<text>Violet—51 years or more</text>
+		      
+		<text>A green or older faerie dragon's CR increases to 2.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Superior Invisibility</name>
+		      
+		<text>As a bonus action, the dragon can magically turn invisible until its concentration ends (as if concentrating on a spell). Any equipment the dragon wears or carries is invisible with it.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Limited Telepathy</name>
+		      
+		<text>Using telepathy, the dragon can magically communicate with any other faerie dragon within 60 feet of it.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Magic Resistance</name>
+		      
+		<text>The faerie dragon has advantage on saving throws against spells and other magical effects.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. 1 piercing damage.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Euphoria Breath (Recharge 5-6)</name>
+		      
+		<text>The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target must succeed on a DC 11 Wisdom saving throw, or for 1 minute, the target can't take reactions and must roll a d6 at the start of each of its turns to determine its behavior during the turn:</text>
+		      
+		<text>1–4. The target takes no action or bonus action and uses all of its movement to move in a random direction.</text>
+		      
+		<text>5–6. The target doesn't move, and the only thing it can do on its turn is make a DC 11 Wisdom saving throw, ending the effect on itself on a success.</text>
+		      
+	</action>
+	    
+	<trait>
+		        
+		<name>Innate Spellcasting</name>
+		      
+		<text>The dragon's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast a number of spells, requiring no material components:</text>
+		      
+		<text>1/day each: color spray, dancing lights, mage hand, major image, minor illusion, mirror image, suggestion</text>
+		      
+	</trait>
+	    
+	<spells>color spray, dancing lights, mage hand, major image, minor illusion, mirror image, suggestion</spells>
+	    
+	<description>A faerie dragon is a cat-sized dragon with butterfly wings. It wears a sharp-toothed grin and expresses its delight by the twitching of its tail, its merriment fading only if it is attacked.Invisible Tricksters. The only warning of a faerie dragon's presence is a stifled giggle. The dragon stays out of sight, watching invisibly as its victims contend with its pranks. When its fun is done, the dragon might reveal itself, depending on the disposition of its &quot;prey.&quot;Friendly and Bright. A faerie dragon has a sharp mind, a fondness for treasure and good company, and a puckish sense of humor. Travelers can play to a faerie dragon's draconic nature by offering it &quot;treasure&quot; in the form of sweets, baked goods, and baubles in exchange for information or safe passage through its territory.The Colors of Age. A faerie dragon's scales change hue as it ages, moving through all the colors of the rainbow. All faerie dragons have innate spellcasting ability, gaining new spells as they mature.Dragon Color | Age RangeRed | 5 years or lessOrange | 6–10 yearsYellow | 11–20 yearsGreen | 21–30 yearsBlue | 31–40 yearsIndigo | 41–50 yearsViolet | 51 years or moreCR 1 (200 XP) For a red, orange, or yellow faerie dragon; 2 (450 XP) for a green, blue, indigo, or violet faerie dragonSource: Monster Manual p. 133</description>
+	    
+	<environment>forest</environment>
+	    
+</monster>

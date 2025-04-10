@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Shrieker</name>
+	    
+	<size>M</size>
+	    
+	<type>plant</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>5</ac>
+	    
+	<hp>13 (3d8)</hp>
+	    
+	<speed>walk 0 ft.</speed>
+	    
+	<str>1</str>
+	    
+	<dex>1</dex>
+	    
+	<con>10</con>
+	    
+	<int>1</int>
+	    
+	<wis>3</wis>
+	    
+	<cha>1</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>6</passive>
+	    
+	<languages/>
+	    
+	<cr>0</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune>blinded, deafened, frightened</conditionImmune>
+	    
+	<senses>blindsight 30 ft. (blind beyond this radius)</senses>
+	    
+	<trait>
+		        
+		<name>False Appearance</name>
+		      
+		<text>While the shrieker remains motionless, it is indistinguishable from an ordinary fungus.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Shriek</name>
+		      
+		<text>When bright light or a creature is within 30 feet of the shrieker, it emits a shriek audible within 300 feet of it. The shrieker continues to shriek until the disturbance moves out of range and for 1d4 of the shrieker's turns afterward.</text>
+		      
+	</action>
+	    
+	<description>A shrieker is a human-sized mushroom that emits a piercing screech to drive off creatures that disturb it. Other creatures use the fungi as an alarm to signal the approach of prey, and various intelligent races of the Underdark cultivate shriekers on the outskirts of their communities to discourage trespassers.Fungi. With its sky of jagged stone and perpetual night, the Underdark is home to all manner of fungi. Taking the place of plants in the subterranean realm, fungi are vital to the survival of many underground species, providing nourishment and shelter in the unforgiving darkness.Fungi spawn in organic matter, then break that matter down to consume it, feeding on filth and corpses. As they mature, fungi eject spores that drift on the lightest breeze to spawn new fungi.Not needing sunlight or warmth to grow, fungi thrive in every corner and crevice of the Underdark. Transformed by the magic that permeates that underground realm, Underdark fungi often develop potent defensive mechanisms or abilities of mimicry and attack. The largest specimens can spread to create vast subterranean forests in which countless creatures live and feed.Source: Monster Manual p. 138, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh</description>
+	    
+	<environment>underdark</environment>
+	    
+</monster>

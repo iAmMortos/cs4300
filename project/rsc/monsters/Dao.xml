@@ -1,0 +1,136 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Dao</name>
+	    
+	<size>L</size>
+	    
+	<type>elemental</type>
+	    
+	<alignment>Neutral Evil</alignment>
+	    
+	<ac>18 (natural armor)</ac>
+	    
+	<hp>187 (15d10+105)</hp>
+	    
+	<speed>walk 30 ft., burrow 30 ft., fly 30 ft.</speed>
+	    
+	<str>23</str>
+	    
+	<dex>12</dex>
+	    
+	<con>24</con>
+	    
+	<int>12</int>
+	    
+	<wis>13</wis>
+	    
+	<cha>14</cha>
+	    
+	<save>Int +5, Wis +5, Cha +6</save>
+	    
+	<skill/>
+	    
+	<passive>11</passive>
+	    
+	<languages>Terran</languages>
+	    
+	<cr>11</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune>petrified</conditionImmune>
+	    
+	<senses>darkvision 120 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Earth Glide</name>
+		      
+		<text>The dao can burrow through nonmagical, unworked earth and stone. While doing so, the dao doesn't disturb the material it moves through.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Elemental Demise</name>
+		      
+		<text>If the dao dies, its body disintegrates into crystalline powder, leaving behind only equipment the dao was wearing or carrying.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Sure-Footed</name>
+		      
+		<text>The dao has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The Dao makes two fist attacks or two maul attacks.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Fist</name>
+		      
+		<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. 15 (2d8 + 6) bludgeoning damage.</text>
+		      
+		<attack>Fist|+10|2d8+6</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Maul</name>
+		      
+		<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. 20 (4d6 + 6) bludgeoning damage. If the target is a Huge or smaller creature, it must succeed on a DC 18 Strength check or be knocked prone.</text>
+		      
+		<attack>Maul|+10|4d6+6</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Variant: Genie Powers</name>
+		      
+		<text>Genies have a variety of magical capabilities, including spells. A few have even greater powers that allow them to alter their appearance or the nature of reality.</text>
+		      
+		<text>Disguises. Some genies can veil themselves in illusion to pass as other similarly shaped creatures. Such genies can innately cast the disguise self spell at will, often with a longer duration than is normal for that spell. Mightier genies can cast the true polymorph spell one to three times per day, possibly with a longer duration than normal. Such genies can change only their own shape, but a rare few can use the spell on other creatures and objects as well.</text>
+		      
+		<text>Wishes. The genie power to grant wishes is legendary among mortals. Only the most potent genies, such as those among the nobility, can do so. A particular genie that has this power can grant one to three wishes to a creature that isn't a genie. Once a genie has granted its limit of wishes, it can't grant wishes again for some amount of time (usually 1 year), and cosmic law dictates that the same genie can expend its limit of wishes on a specific creature only once in that creature's existence.</text>
+		      
+		<text>To be granted a wish, a creature within 60 feet of the genie states a desired effect to it. The genie can then cast the wish spell on the creature's behalf to bring about the effect. Depending on the genie's nature, the genie might try to pervert the intent of the wish by exploiting the wish's poor wording. The perversion of the wording is usually crafted to be to the genie's benefit.</text>
+		      
+	</action>
+	    
+	<trait>
+		        
+		<name>Innate Spellcasting</name>
+		      
+		<text>The dao's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components:</text>
+		      
+		<text>At will: detect evil and good, detect magic, stone shape</text>
+		      
+		<text>3/day each: passwall, move earth, tongues</text>
+		      
+		<text>1/day each: conjure elemental (earth elemental only), gaseous form, invisibility, phantasmal killer, plane shift, wall of stone</text>
+		      
+	</trait>
+	    
+	<spells>detect evil and good, detect magic, stone shape, passwall, move earth, tongues, conjure elemental, gaseous form, invisibility, phantasmal killer, plane shift, wall of stone</spells>
+	    
+	<description>Dao are greedy, malicious genies from the Elemental Plane of Earth. They adorn themselves with jewelry crafted from precious gems and rare metals, and when they fly, their lower bodies become columns of swirling sand. A dao isn't happy unless it is the envy of other dao.All That Glitters. The dao dwell in complexes of twisting tunnels and glittering ore-veined caverns on the Elemental Plane of Earth. These maze works are continually expanding as the dao delve into and reshape the rock around them. Dao care nothing for the poverty or misfortune of others. A dao might grind powdered gems and gold dust over its food to heighten the experience of eating, devouring its wealth as mortals consume a precious spice.Lords of the Earth. A dao never assists a mortal unless the genie has something to gain, preferably treasure. Among the genies, dao are on speaking and trading terms with the efreet, but they have nothing but scorn for djinn and marids. Other races native to the Elemental Plane of Earth avoid the dao, which are always seeking new slaves to mine the maze works of their floating earth islands.Proud Slavers. The dao trade for the finest slaves that money can buy, forcing them to work in dangerous subterranean realms that rumble with earthquakes. As much as they enjoy enslaving others, the dao hate being enslaved. Powerful wizards have been known to lure dao to the Material Plane and trap them in the confines of magic gemstones or iron flasks. Unfortunately for the dao, their greed makes it relatively easy for mages to cozen them into service.Genies. Genies are rare elemental creatures out of story and legend. Only a few can be found on the Material Plane. The rest reside on the Elemental Planes, where they rule from lavish palaces and are attended by worshipful slaves.Genies are as brilliant as they are mighty, as proud as they are majestic. Haughty and decadent, they have a profound sense of entitlement that stems from the knowledge that few creatures except the gods and other genies can challenge their power.Creatures of the Elements.  A genie is born when the soul of a sentient living creature melds with the primordial matter of an elemental plane. Only under rare circumstances does such an elemental-infused soul coalesce into a manifest form and create a genie.A genie usually retains no connection to the soul that gave it form. That life force is a building block that determines the genie's form and apparent gender, as well as one or two key personality traits. Although they resemble humanoid beings, genies are elemental spirits given physical form. They don't mate with other genies or produce genie offspring, as all new genies are born out of the same mysterious fusion of spirit energy and elemental power. A genie with a stronger connection to its mortal soul might choose to sire a child with a mortal, although such offspring are rare.When a genie perishes, it leaves nothing behind except what it was wearing or carrying, along with a small trace of its native element: a pile of dust, a gust of wind, a flash of fire and smoke, or a burst of water and foam.In contrast to their love of slaves, most genies loathe being bound to service themselves. A genie obeys the will of another only when bribed or compelled by magic. All genies command the power of their native element, but a rare few also possess the power to grant wishes. For both these reasons, mortal mages often seek to bind genies into service.Noble genies cultivate the jealousy and envy of other genies, asserting their superiority at every opportunity. Other genies respect the influence of the noble genies, knowing how unwise it is to defy a creature that can alter reality at a whim. A genie isn't beholden to any noble genie, however, and will sometimes choose to defy a noble genie's will and risk the consequences.Their miraculous powers, the grandeur of their abodes, and the numbers of their slaves allow some genies to deceive themselves into believing they are as powerful as the gods. Some go so far as to demand that mortals of other realms-even whole continents or worlds-bow down before them.Rule or Be Ruled.  Mortal slaves serve to validate a genie's power and high self-opinion. A hundred flattering voices are music to a genie's ears, while two hundred mortal slaves prostrated at its feet are proof that it is lord and master. Genies view slaves as living property, and a genie without property amounts to nothing among its own kind. As a result, many genies treasure their slaves, treating them as honored members of their households. Evil genies freely threaten and abuse their slaves, but never to the extent that the slaves are no longer of use.Decadent Nobility.  Noble genies are the rarest of their kind. They are used to getting what they want, and have learned to trade their ability to grant wishes to attain the objects of their desire. This constant indulgence has made them decadent, while their supreme power over reality makes them haughty and arrogant. Their vast palaces overflow with wonders and sensory delights beyond imagination.The Power of Worship.  Genies acknowledge the gods as powerful entities but have no desire to court or worship them. They find the endless fawning and mewling of religious devotees tiresome-except as it is directed toward them by their worshipful slaves.Source: Monster Manual p. 143, Princes of the Apocalypse, Rise of Tiamat, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything</description>
+	    
+	<environment>underdark</environment>
+	    
+</monster>

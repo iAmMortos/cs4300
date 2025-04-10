@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Rat</name>
+	    
+	<size>T</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>10</ac>
+	    
+	<hp>1 (1d4-1)</hp>
+	    
+	<speed>walk 20 ft.</speed>
+	    
+	<str>2</str>
+	    
+	<dex>11</dex>
+	    
+	<con>9</con>
+	    
+	<int>2</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>4</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>10</passive>
+	    
+	<languages/>
+	    
+	<cr>0</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 30 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Keen Smell</name>
+		      
+		<text>The rat has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. 1 piercing damage.</text>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 335, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment>swamp, urban</environment>
+	    
+</monster>

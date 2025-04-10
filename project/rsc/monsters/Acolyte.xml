@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Acolyte</name>
+	    
+	<size>M</size>
+	    
+	<type>humanoid (any race)</type>
+	    
+	<alignment>Any alignment</alignment>
+	    
+	<ac>10</ac>
+	    
+	<hp>9 (2d8)</hp>
+	    
+	<speed>walk 30 ft.</speed>
+	    
+	<str>10</str>
+	    
+	<dex>10</dex>
+	    
+	<con>10</con>
+	    
+	<int>10</int>
+	    
+	<wis>14</wis>
+	    
+	<cha>11</cha>
+	    
+	<save/>
+	    
+	<skill>Medicine +4, Religion +2</skill>
+	    
+	<passive>12</passive>
+	    
+	<languages>any one language (usually Common)</languages>
+	    
+	<cr>1/4</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<action>
+		        
+		<name>Club</name>
+		      
+		<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 2 (1d4) bludgeoning damage.</text>
+		      
+		<attack>Club|+2|1d4</attack>
+		      
+	</action>
+	    
+	<trait>
+		        
+		<name>Spellcasting</name>
+		      
+		<text>The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared:</text>
+		      
+		<text>Cantrips (at will): light, sacred flame, thaumaturgy</text>
+		      
+		<text>• 1st level (3 slots): bless, cure wounds, sanctuary</text>
+		      
+	</trait>
+	    
+	<slots>3</slots>
+	    
+	<spells>light, sacred flame, thaumaturgy, bless, cure wounds, sanctuary</spells>
+	    
+	<description>Acolytes are junior members of a clergy, usually answerable to a priest. They perform a variety of functions in a temple and are granted minor spellcasting power by their deities.Source: Monster Manual p. 342, Curse of Strahd, Hoard of the Dragon Queen, Princes of the Apocalypse, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment/>
+	    
+</monster>

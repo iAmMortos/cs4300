@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Killer Whale</name>
+	    
+	<size>H</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>12 (natural armor)</ac>
+	    
+	<hp>90 (12d12+12)</hp>
+	    
+	<speed>swim 60 ft.</speed>
+	    
+	<str>19</str>
+	    
+	<dex>10</dex>
+	    
+	<con>13</con>
+	    
+	<int>3</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>7</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +3</skill>
+	    
+	<passive>13</passive>
+	    
+	<languages/>
+	    
+	<cr>3</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 120 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Echolocation</name>
+		      
+		<text>The whale can't use its blindsight while deafened.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Hold Breath</name>
+		      
+		<text>The whale can hold its breath for 30 minutes</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Keen Hearing</name>
+		      
+		<text>The whale has advantage on Wisdom (Perception) checks that rely on hearing.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 21 (5d6 + 4) piercing damage.</text>
+		      
+		<attack>Bite|+6|5d6+4</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 331, Storm King's Thunder, Ghosts of Saltmarsh, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment>underwater</environment>
+	    
+</monster>

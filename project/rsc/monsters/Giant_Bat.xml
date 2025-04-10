@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Giant Bat</name>
+	    
+	<size>L</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>13</ac>
+	    
+	<hp>22 (4d10)</hp>
+	    
+	<speed>walk 10 ft., fly 60 ft.</speed>
+	    
+	<str>15</str>
+	    
+	<dex>16</dex>
+	    
+	<con>11</con>
+	    
+	<int>2</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>6</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>11</passive>
+	    
+	<languages/>
+	    
+	<cr>1/4</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Echolocation</name>
+		      
+		<text>The bat can't use its blindsight while deafened.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Keen Hearing</name>
+		      
+		<text>The bat has advantage on Wisdom (Perception) checks that rely on hearing.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 5 (1d6 + 2) piercing damage.</text>
+		      
+		<attack>Bite|+4|1d6+2</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 323, Princes of the Apocalypse, Waterdeep: Dungeon of the Mad Mage, Mythic Odysseys of Theros, Tasha's Cauldron of Everything</description>
+	    
+	<environment>underdark, forest</environment>
+	    
+</monster>

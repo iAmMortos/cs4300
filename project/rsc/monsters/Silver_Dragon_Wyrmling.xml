@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Silver Dragon Wyrmling</name>
+	    
+	<size>M</size>
+	    
+	<type>dragon</type>
+	    
+	<alignment>Lawful Good</alignment>
+	    
+	<ac>17 (natural armor)</ac>
+	    
+	<hp>45 (6d8+18)</hp>
+	    
+	<speed>walk 30 ft., fly 60 ft.</speed>
+	    
+	<str>19</str>
+	    
+	<dex>10</dex>
+	    
+	<con>17</con>
+	    
+	<int>12</int>
+	    
+	<wis>11</wis>
+	    
+	<cha>15</cha>
+	    
+	<save>Dex +2, Con +5, Wis +2, Cha +4</save>
+	    
+	<skill>Perception +4, Stealth +2</skill>
+	    
+	<passive>14</passive>
+	    
+	<languages>Draconic</languages>
+	    
+	<cr>2</cr>
+	    
+	<resist/>
+	    
+	<immune>cold</immune>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 10 ft., darkvision 60 ft.</senses>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 9 (1d10 + 4) piercing damage.</text>
+		      
+		<attack>Bite|+6|1d10+4</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Breath Weapons (Recharge 5-6)</name>
+		      
+		<text>The dragon uses one of the following breath weapons.</text>
+		      
+		<text>• Cold Breath. The dragon exhales an icy blast in a 15-foot cone. Each creature in that area must make a DC 13 Constitution saving throw, taking 18 (4d8) cold damage on a failed save, or half as much damage on a successful one.</text>
+		      
+		<attack>Breath Weapons (Recharge 5-6)||4d8</attack>
+		      
+		<text>• Paralyzing Breath. The dragon exhales paralyzing gas in a 15-foot cone. Each creature in that area must succeed on a DC 13 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		      
+	</action>
+	    
+	<description>True dragons are winged reptiles of ancient lineage and fearsome power. They are known and feared for their predatory cunning and greed, with the oldest dragons accounted as some of the most powerful creatures in the world. Dragons are also magical creatures whose innate power fuels their dreaded breath weapons and other preternatural abilities.Many creatures, including wyverns and dragon turtles, have draconic blood. However, true dragons fall into the two broad categories of chromatic and metallic dragons. The black, blue, green, red, and white dragons are selfish, evil, and feared by all. The brass, bronze, copper, gold, and silver dragons are noble, good, and highly respected by the wise.Though their goals and ideals vary tremendously, all true dragons covet wealth, hoarding mounds of coins and gathering gems, jewels, and magic items. Dragons with large hoards are loath to leave them for long, venturing out of their lairs only to patrol or feed.True dragons pass through four distinct stages of life, from lowly wyrmlings to ancient dragons, which can live for over a thousand years. In that time, their might can become unrivaled and their hoards can grow beyond price.Dragon Age CategoriesCategory | Size | Age RangeWyrmling | Medium | 5 years or lessYoung | Large | 6–100 yearsAdult | Huge | 101–800 yearsAncient | Gargantuan | 801 years or moreSource: Monster Manual p. 118, Storm King's Thunder, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment/>
+	    
+</monster>

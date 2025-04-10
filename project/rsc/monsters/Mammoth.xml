@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Mammoth</name>
+	    
+	<size>H</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>13 (natural armor)</ac>
+	    
+	<hp>126 (11d12+55)</hp>
+	    
+	<speed>walk 40 ft.</speed>
+	    
+	<str>24</str>
+	    
+	<dex>9</dex>
+	    
+	<con>21</con>
+	    
+	<int>3</int>
+	    
+	<wis>11</wis>
+	    
+	<cha>6</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>10</passive>
+	    
+	<languages/>
+	    
+	<cr>6</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Trampling Charge</name>
+		      
+		<text>If the mammoth moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 18 Strength saving throw or be knocked prone. If the target is prone, the mammoth can make one stomp attack against it as a bonus action.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Gore</name>
+		      
+		<text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. 25 (4d8 + 7) piercing damage.</text>
+		      
+		<attack>Gore|+10|4d8+7</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Stomp</name>
+		      
+		<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one prone creature. 29 (4d10 + 7) bludgeoning damage.</text>
+		      
+		<attack>Stomp|+10|4d10+7</attack>
+		      
+	</action>
+	    
+	<description>A mammoth is an elephantine creature with thick fur and long tusks. Stockier and fiercer than normal elephants, mammoths inhabit a wide range of climes, from subarctic to subtropical.Source: Monster Manual p. 332, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment>arctic</environment>
+	    
+</monster>

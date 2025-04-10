@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Giant Wolf Spider</name>
+	    
+	<size>M</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>13</ac>
+	    
+	<hp>11 (2d8+2)</hp>
+	    
+	<speed>walk 40 ft., climb 40 ft.</speed>
+	    
+	<str>12</str>
+	    
+	<dex>16</dex>
+	    
+	<con>13</con>
+	    
+	<int>3</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>4</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +3, Stealth +7</skill>
+	    
+	<passive>13</passive>
+	    
+	<languages/>
+	    
+	<cr>1/4</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 10 ft., darkvision 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Spider Climb</name>
+		      
+		<text>The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Web Sense</name>
+		      
+		<text>While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Web Walker</name>
+		      
+		<text>The spider ignores movement restrictions caused by webbing.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. 4 (1d6 + 1) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 7 (2d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
+		      
+		<attack>Bite|+3|1d6+1</attack>
+		      
+		<attack>Bite||2d6</attack>
+		      
+	</action>
+	    
+	<description>Smaller than a giant spider, a giant wolf spider hunts prey across open ground or hides in a burrow or crevice, or in a hidden cavity beneath debris.Source: Monster Manual p. 330, Curse of Strahd, Tales from the Yawning Portal, Tomb of Annihilation, Ghosts of Saltmarsh, Tasha's Cauldron of Everything</description>
+	    
+	<environment>grassland, forest, hill, desert, coastal</environment>
+	    
+</monster>

@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Giant Owl</name>
+	    
+	<size>L</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Neutral</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>19 (3d10+3)</hp>
+	    
+	<speed>walk 5 ft., fly 60 ft.</speed>
+	    
+	<str>13</str>
+	    
+	<dex>15</dex>
+	    
+	<con>12</con>
+	    
+	<int>8</int>
+	    
+	<wis>13</wis>
+	    
+	<cha>10</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +5, Stealth +4</skill>
+	    
+	<passive>15</passive>
+	    
+	<languages>Giant Owl, understands Common, Elvish, and Sylvan but can't speak them</languages>
+	    
+	<cr>1/4</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 120 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Flyby</name>
+		      
+		<text>The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Keen Hearing and Sight</name>
+		      
+		<text>The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Talons</name>
+		      
+		<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 8 (2d6 + 1) slashing damage.</text>
+		      
+		<attack>Talons|+3|2d6+1</attack>
+		      
+	</action>
+	    
+	<description>Giant owls often befriend fey and other sylvan creatures and are guardians of their woodland realms.Source: Monster Manual p. 327, Storm King's Thunder, Eberron: Rising from the Last War, Infernal Machine Rebuild, Explorer's Guide to Wildemount</description>
+	    
+	<environment>forest, hill, arctic</environment>
+	    
+</monster>

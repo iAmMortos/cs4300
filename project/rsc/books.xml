@@ -1,0 +1,18 @@
+<library>
+    <book>
+        <title>Clean Code</title>
+        <author>Robert C. Martin</author>
+        <year>2008</year>
+    </book>
+    <book>
+        <title>The Pragmatic Programmer</title>
+        <author>Andrew Hunt</author>
+        <year>1999</year>
+    </book>
+    <book>
+        <title>Refactoring</title>
+        <author>Martin Fowler</author>
+        <year>1999</year>
+    </book>
+</library>
+

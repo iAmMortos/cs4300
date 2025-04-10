@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Wolf</name>
+	    
+	<size>M</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>13 (natural armor)</ac>
+	    
+	<hp>11 (2d8+2)</hp>
+	    
+	<speed>walk 40 ft.</speed>
+	    
+	<str>12</str>
+	    
+	<dex>15</dex>
+	    
+	<con>12</con>
+	    
+	<int>3</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>6</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +3, Stealth +4</skill>
+	    
+	<passive>13</passive>
+	    
+	<languages/>
+	    
+	<cr>1/4</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Keen Hearing and Smell</name>
+		      
+		<text>The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Pack Tactics</name>
+		      
+		<text>The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</text>
+		      
+		<attack>Bite|+4|2d4+2</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 341, Curse of Strahd, Hoard of the Dragon Queen, Lost Mine of Phandelver, Princes of the Apocalypse, Rise of Tiamat, Storm King's Thunder, Ghosts of Saltmarsh, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything</description>
+	    
+	<environment>grassland, forest, hill</environment>
+	    
+</monster>

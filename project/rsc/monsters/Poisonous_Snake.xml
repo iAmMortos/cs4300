@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Poisonous Snake</name>
+	    
+	<size>T</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>13</ac>
+	    
+	<hp>2 (1d4)</hp>
+	    
+	<speed>walk 30 ft., swim 30 ft.</speed>
+	    
+	<str>2</str>
+	    
+	<dex>16</dex>
+	    
+	<con>11</con>
+	    
+	<int>1</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>3</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>10</passive>
+	    
+	<languages/>
+	    
+	<cr>1/8</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 10 ft.</senses>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 1 piercing damage, and the target must make a DC 10 Constitution saving throw, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one.</text>
+		      
+		<attack>Bite|+5|2d4</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 334, Tales from the Yawning Portal, Tomb of Annihilation, Ghosts of Saltmarsh, Infernal Machine Rebuild</description>
+	    
+	<environment>grassland, forest, swamp, hill, desert, coastal</environment>
+	    
+</monster>

@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Archmage</name>
+	    
+	<size>M</size>
+	    
+	<type>humanoid (any race)</type>
+	    
+	<alignment>Any alignment</alignment>
+	    
+	<ac>12 (15 with mage armor)</ac>
+	    
+	<hp>99 (18d8+18)</hp>
+	    
+	<speed>walk 30 ft.</speed>
+	    
+	<str>10</str>
+	    
+	<dex>14</dex>
+	    
+	<con>12</con>
+	    
+	<int>20</int>
+	    
+	<wis>15</wis>
+	    
+	<cha>16</cha>
+	    
+	<save>Int +9, Wis +6</save>
+	    
+	<skill>Arcana +13, History +13</skill>
+	    
+	<passive>12</passive>
+	    
+	<languages>any six languages</languages>
+	    
+	<cr>12</cr>
+	    
+	<resist>damage from spells; nonmagical bludgeoning, piercing, slashing (from stoneskin)</resist>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Magic Resistance</name>
+		      
+		<text>The archmage has advantage on saving throws against spells and other magical effects.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Dagger</name>
+		      
+		<text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2) piercing damage.</text>
+		      
+		<attack>Dagger|+6|1d4+2</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Variant: Familiars</name>
+		      
+		<text>Any spellcaster that can cast the find familiar spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a crawling claw, imp, pseudodragon, or quasit.</text>
+		      
+	</action>
+	    
+	<trait>
+		        
+		<name>Spellcasting</name>
+		      
+		<text>The archmage is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The archmage can cast disguise self and invisibility at will and has the following wizard spells prepared:</text>
+		      
+		<text>At will: disguise self, invisibility</text>
+		      
+		<text>Cantrips (at will): fire bolt, light, mage hand, prestidigitation, shocking grasp</text>
+		      
+		<text>• 1st level (4 slots): detect magic, identify, mage armor*, magic missile</text>
+		      
+		<text>• 2nd level (3 slots): detect thoughts, mirror image, misty step</text>
+		      
+		<text>• 3rd level (3 slots): counterspell, fly, lightning bolt</text>
+		      
+		<text>• 4th level (3 slots): banishment, fire shield, stoneskin*</text>
+		      
+		<text>• 5th level (3 slots): cone of cold, scrying, wall of force</text>
+		      
+		<text>• 6th level (1 slots): globe of invulnerability</text>
+		      
+		<text>• 7th level (1 slots): teleport</text>
+		      
+		<text>• 8th level (1 slots): mind blank*</text>
+		      
+		<text>• 9th level (1 slots): time stop</text>
+		      
+		<text>*The archmage casts these spells on itself before combat.</text>
+		      
+	</trait>
+	    
+	<slots>4, 3, 3, 3, 3, 1, 1, 1, 1</slots>
+	    
+	<spells>disguise self, invisibility, fire bolt, light, mage hand, prestidigitation, shocking grasp, detect magic, identify, mage armor, magic missile, detect thoughts, mirror image, misty step, counterspell, fly, lightning bolt, banishment, fire shield, stoneskin, cone of cold, scrying, wall of force, globe of invulnerability, teleport, mind blank, time stop</spells>
+	    
+	<description>Archmages are powerful (and usually quite old) spellcasters dedicated to the study of the arcane arts. Benevolent ones counsel kings and queens, while evil ones rule as tyrants and pursue lichdom. Those who are neither good nor evil sequester themselves in remote towers to practice their magic without interruption.An archmage typically has one or more apprentice mages, and an archmage's abode has numerous magical wards and guardians to discourage interlopers.Source: Monster Manual p. 342, Curse of Strahd, Storm King's Thunder, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment/>
+	    
+</monster>

@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Hippogriff</name>
+	    
+	<size>L</size>
+	    
+	<type>monstrosity</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>11</ac>
+	    
+	<hp>19 (3d10+3)</hp>
+	    
+	<speed>walk 40 ft., fly 60 ft.</speed>
+	    
+	<str>17</str>
+	    
+	<dex>13</dex>
+	    
+	<con>13</con>
+	    
+	<int>2</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>8</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +5</skill>
+	    
+	<passive>15</passive>
+	    
+	<languages/>
+	    
+	<cr>1</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Keen Sight</name>
+		      
+		<text>The hippogriff has advantage on Wisdom (Perception) checks that rely on sight.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The hippogriff makes two attacks: one with its beak and one with its claws.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Beak</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 8 (1d10 + 3) piercing damage.</text>
+		      
+		<attack>Beak|+5|1d10+3</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Claws</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 10 (2d6 + 3) slashing damage.</text>
+		      
+		<attack>Claws|+5|2d6+3</attack>
+		      
+	</action>
+	    
+	<description>A beast whose magical origins are lost to history, a hippogriff possesses the wings and forelimbs of an eagle, the hindquarters of a horse, and a head that combines the features of both animals.Reclusive and omnivorous, hippogriffs mate for life and seldom venture more than a few miles from their nest. When defending its mate or its young, a hippogriff fights to the death. Hippogriffs don't lay eggs but give birth to live young.Dragons, griffons, and wyverns have a taste forhippogriff meat and frequently prey on these creatures.Flying Mounts. A hippogriff raised in captivity can be trained to be a faithful companion and mount. Of all the creatures that can serve as flying mounts, hippogriffs are among the easiest to train and the most loyal once trained properly.Source: Monster Manual p. 184, Princes of the Apocalypse, Storm King's Thunder, Waterdeep: Dragon Heist, Eberron: Rising from the Last War, Explorer's Guide to Wildemount</description>
+	    
+	<environment>mountain, grassland, hill</environment>
+	    
+</monster>

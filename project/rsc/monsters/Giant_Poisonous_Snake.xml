@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Giant Poisonous Snake</name>
+	    
+	<size>M</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>14</ac>
+	    
+	<hp>11 (2d8+2)</hp>
+	    
+	<speed>walk 30 ft., swim 30 ft.</speed>
+	    
+	<str>10</str>
+	    
+	<dex>18</dex>
+	    
+	<con>13</con>
+	    
+	<int>2</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>3</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +2</skill>
+	    
+	<passive>12</passive>
+	    
+	<languages/>
+	    
+	<cr>1/4</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 10 ft.</senses>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. 6 (1d4 + 4) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</text>
+		      
+		<attack>Bite|+6|1d4+4</attack>
+		      
+		<attack>Bite||3d6</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 327, Curse of Strahd, Storm King's Thunder, Tomb of Annihilation, Ghosts of Saltmarsh, Mythic Odysseys of Theros, Tasha's Cauldron of Everything</description>
+	    
+	<environment>underdark, grassland, forest, swamp, urban, desert</environment>
+	    
+</monster>

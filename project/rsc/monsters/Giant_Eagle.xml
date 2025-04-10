@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Giant Eagle</name>
+	    
+	<size>L</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Neutral Good</alignment>
+	    
+	<ac>13</ac>
+	    
+	<hp>26 (4d10+4)</hp>
+	    
+	<speed>walk 10 ft., fly 80 ft.</speed>
+	    
+	<str>16</str>
+	    
+	<dex>17</dex>
+	    
+	<con>13</con>
+	    
+	<int>8</int>
+	    
+	<wis>14</wis>
+	    
+	<cha>10</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +4</skill>
+	    
+	<passive>14</passive>
+	    
+	<languages>Giant Eagle, understands Common and Auran but can't speak them</languages>
+	    
+	<cr>1</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Keen Sight</name>
+		      
+		<text>The eagle has advantage on Wisdom (Perception) checks that rely on sight.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The eagle makes two attacks: one with its beak and one with its talons.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Beak</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage.</text>
+		      
+		<attack>Beak|+5|1d6+3</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Talons</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 10 (2d6 + 3) slashing damage.</text>
+		      
+		<attack>Talons|+5|2d6+3</attack>
+		      
+	</action>
+	    
+	<description>A giant eagle is a noble creature that speaks its own language and understands speech in the Common tongue. A mated pair of giant eagles typically has up to four eggs or young in their nest (treat the young as normal eagles).Source: Monster Manual p. 324, Ghosts of Saltmarsh</description>
+	    
+	<environment>mountain, grassland, hill, coastal</environment>
+	    
+</monster>

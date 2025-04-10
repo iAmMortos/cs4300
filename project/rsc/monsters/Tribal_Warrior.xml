@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Tribal Warrior</name>
+	    
+	<size>M</size>
+	    
+	<type>humanoid (any race)</type>
+	    
+	<alignment>Any alignment</alignment>
+	    
+	<ac>12 (hide armor)</ac>
+	    
+	<hp>11 (2d8+2)</hp>
+	    
+	<speed>walk 30 ft.</speed>
+	    
+	<str>13</str>
+	    
+	<dex>11</dex>
+	    
+	<con>12</con>
+	    
+	<int>8</int>
+	    
+	<wis>11</wis>
+	    
+	<cha>8</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>10</passive>
+	    
+	<languages>any one language</languages>
+	    
+	<cr>1/8</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Pack Tactics</name>
+		      
+		<text>The warrior has advantage on an attack roll against a creature if at least one of the warrior's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Spear</name>
+		      
+		<text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.</text>
+		      
+		<attack>Spear|+3|1d6+1</attack>
+		      
+	</action>
+	    
+	<description>Tribal warriors live beyond civilization, most often subsisting on fishing and hunting. Each tribe acts in accordance with the wishes of its chief, who is the greatest or oldest warrior of the tribe or a tribe member blessed by the gods.Source: Monster Manual p. 350, Princes of the Apocalypse, Rise of Tiamat, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Ghosts of Saltmarsh, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment/>
+	    
+</monster>

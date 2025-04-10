@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Scarecrow</name>
+	    
+	<size>M</size>
+	    
+	<type>construct</type>
+	    
+	<alignment>Chaotic Evil</alignment>
+	    
+	<ac>11</ac>
+	    
+	<hp>36 (8d8)</hp>
+	    
+	<speed>walk 30 ft.</speed>
+	    
+	<str>11</str>
+	    
+	<dex>13</dex>
+	    
+	<con>11</con>
+	    
+	<int>10</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>13</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>10</passive>
+	    
+	<languages>understands the languages of its creator but can't speak</languages>
+	    
+	<cr>1</cr>
+	    
+	<resist>bludgeoning, piercing, slashing from nonmagical attacks</resist>
+	    
+	<immune>poison</immune>
+	    
+	<vulnerable>fire</vulnerable>
+	    
+	<conditionImmune>charmed, exhaustion, frightened, paralyzed, poisoned, unconscious</conditionImmune>
+	    
+	<senses>darkvision 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>False Appearance</name>
+		      
+		<text>While the scarecrow remains motionless, it is indistinguishable from an ordinary, inanimate scarecrow.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The scarecrow makes two claw attacks.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Claw</name>
+		      
+		<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 6 (2d4 + 1) slashing damage. If the target is a creature, it must succeed on a DC 11 Wisdom saving throw or be frightened until the end of the scarecrow's next turn.</text>
+		      
+		<attack>Claw|+3|2d4+1</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Terrifying Glare</name>
+		      
+		<text>The scarecrow targets one creature it can see within 30 feet of it. If the target can see the scarecrow, the target must succeed on a DC 11 Wisdom saving throw or be magically frightened until the end of the scarecrow's next turn. The frightened target is paralyzed.</text>
+		      
+	</action>
+	    
+	<description>At harvest time, when death revisits the twilit world and summer's blossoms bow their withered heads, eerie scarecrows loom in silent vigil over empty fields. With immortal patience, these stoic sentinels hold their posts through wind, storm, and flood, bound to their master's command, eager to terrify prey with its sackcloth visage and rend victims with its razor-sharp claws.Spirit-Powered Constructs.  A scarecrow is animated by the bound spirit of a slain evil creature, granting it purpose and mobility. It is this uncanny presence from beyond death that allows a scarecrow to inspire fear in those it gazes upon. Hags and witches often bind scarecrows with the spirits of demons, but any evil spirit will do. Although aspects of the spirit's personality might surface, a scarecrow's spirit doesn't recall the memories it had as a creature, and its will is focused solely on serving its creator. If its creator dies, the spirit inhabiting a scarecrow either continues to follow its last commands, seeks revenge for its creator's death, or destroys itself.Source: Monster Manual p. 268, Curse of Strahd, Waterdeep: Dragon Heist</description>
+	    
+	<environment>grassland</environment>
+	    
+</monster>

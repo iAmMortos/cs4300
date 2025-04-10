@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Giant Scorpion</name>
+	    
+	<size>L</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>15 (natural armor)</ac>
+	    
+	<hp>52 (7d10+14)</hp>
+	    
+	<speed>walk 40 ft.</speed>
+	    
+	<str>15</str>
+	    
+	<dex>13</dex>
+	    
+	<con>15</con>
+	    
+	<int>1</int>
+	    
+	<wis>9</wis>
+	    
+	<cha>3</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>9</passive>
+	    
+	<languages/>
+	    
+	<cr>3</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 60 ft.</senses>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The scorpion makes three attacks: two with its claws and one with its sting.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Claw</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) bludgeoning damage, and the target is grappled (escape DC 12). The scorpion has two claws, each of which can grapple only one target.</text>
+		      
+		<attack>Claw|+4|1d8+2</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Sting</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 7 (1d10 + 2) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 22 (4d10) poison damage on a failed save, or half as much damage on a successful one.</text>
+		      
+		<attack>Sting|+4|1d10+2</attack>
+		      
+		<attack>Sting||4d10</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 327, Tales from the Yawning Portal, Tomb of Annihilation, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount</description>
+	    
+	<environment>desert</environment>
+	    
+</monster>

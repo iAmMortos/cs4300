@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Giant Shark</name>
+	    
+	<size>H</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>13 (natural armor)</ac>
+	    
+	<hp>126 (11d12+55)</hp>
+	    
+	<speed>swim 50 ft.</speed>
+	    
+	<str>23</str>
+	    
+	<dex>11</dex>
+	    
+	<con>21</con>
+	    
+	<int>1</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>5</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +3</skill>
+	    
+	<passive>13</passive>
+	    
+	<languages/>
+	    
+	<cr>5</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Blood Frenzy</name>
+		      
+		<text>The shark has advantage on melee attack rolls against any creature that doesn't have all its hit points.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Water Breathing</name>
+		      
+		<text>The shark can breathe only underwater.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. 22 (3d10 + 6) piercing damage.</text>
+		      
+		<attack>Bite|+9|3d10+6</attack>
+		      
+	</action>
+	    
+	<description>A giant shark is 30 feet long and normally found in deep oceans. Utterly fearless, it preys on anything that crosses its path, including whales and ships.Source: Monster Manual p. 328, Storm King's Thunder, Tomb of Annihilation, Ghosts of Saltmarsh, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Sleeping Dragon's Wake, Locathah Rising, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment>underwater</environment>
+	    
+</monster>

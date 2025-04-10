@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Young Blue Dragon</name>
+	    
+	<size>L</size>
+	    
+	<type>dragon</type>
+	    
+	<alignment>Lawful Evil</alignment>
+	    
+	<ac>18 (natural armor)</ac>
+	    
+	<hp>152 (16d10+64)</hp>
+	    
+	<speed>walk 40 ft., burrow 40 ft., fly 80 ft.</speed>
+	    
+	<str>21</str>
+	    
+	<dex>10</dex>
+	    
+	<con>19</con>
+	    
+	<int>14</int>
+	    
+	<wis>13</wis>
+	    
+	<cha>17</cha>
+	    
+	<save>Dex +4, Con +8, Wis +5, Cha +7</save>
+	    
+	<skill>Perception +9, Stealth +4</skill>
+	    
+	<passive>19</passive>
+	    
+	<languages>Common, Draconic</languages>
+	    
+	<cr>9</cr>
+	    
+	<resist/>
+	    
+	<immune>lightning</immune>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 30 ft., darkvision 120 ft.</senses>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The dragon makes three attacks: one with its bite and two with its claws.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. 16 (2d10 + 5) piercing damage plus 5 (1d10) lightning damage.</text>
+		      
+		<attack>Bite|+9|2d10+5</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Claw</name>
+		      
+		<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. 12 (2d6 + 5) slashing damage.</text>
+		      
+		<attack>Claw|+9|2d6+5</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Lightning Breath (Recharge 5-6)</name>
+		      
+		<text>The dragon exhales lightning in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 16 Dexterity saving throw, taking 55 (10d10) lightning damage on a failed save, or half as much damage on a successful one.</text>
+		      
+		<attack>Lightning Breath (Recharge 5-6)||10d10</attack>
+		      
+	</action>
+	    
+	<description>True dragons are winged reptiles of ancient lineage and fearsome power. They are known and feared for their predatory cunning and greed, with the oldest dragons accounted as some of the most powerful creatures in the world. Dragons are also magical creatures whose innate power fuels their dreaded breath weapons and other preternatural abilities.Many creatures, including wyverns and dragon turtles, have draconic blood. However, true dragons fall into the two broad categories of chromatic and metallic dragons. The black, blue, green, red, and white dragons are selfish, evil, and feared by all. The brass, bronze, copper, gold, and silver dragons are noble, good, and highly respected by the wise.Though their goals and ideals vary tremendously, all true dragons covet wealth, hoarding mounds of coins and gathering gems, jewels, and magic items. Dragons with large hoards are loath to leave them for long, venturing out of their lairs only to patrol or feed.True dragons pass through four distinct stages of life, from lowly wyrmlings to ancient dragons, which can live for over a thousand years. In that time, their might can become unrivaled and their hoards can grow beyond price.Dragon Age CategoriesCategory | Size | Age RangeWyrmling | Medium | 5 years or lessYoung | Large | 6–100 yearsAdult | Huge | 101–800 yearsAncient | Gargantuan | 801 years or moreSource: Monster Manual p. 91, Curse of Strahd, Rise of Tiamat, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Mythic Odysseys of Theros</description>
+	    
+	<environment>desert, coastal</environment>
+	    
+</monster>

@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Tiger</name>
+	    
+	<size>L</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>37 (5d10+10)</hp>
+	    
+	<speed>walk 40 ft.</speed>
+	    
+	<str>17</str>
+	    
+	<dex>15</dex>
+	    
+	<con>14</con>
+	    
+	<int>3</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>8</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +3, Stealth +6</skill>
+	    
+	<passive>13</passive>
+	    
+	<languages/>
+	    
+	<cr>1</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Keen Smell</name>
+		      
+		<text>The tiger has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Pounce</name>
+		      
+		<text>If the tiger moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the tiger can make one bite attack against it as a bonus action.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 8 (1d10 + 3) piercing damage.</text>
+		      
+		<attack>Bite|+5|1d10+3</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Claw</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) slashing damage.</text>
+		      
+		<attack>Claw|+5|1d8+3</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 339, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Mythic Odysseys of Theros</description>
+	    
+	<environment>grassland, forest</environment>
+	    
+</monster>

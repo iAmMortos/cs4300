@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Eagle</name>
+	    
+	<size>S</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>3 (1d6)</hp>
+	    
+	<speed>walk 10 ft., fly 60 ft.</speed>
+	    
+	<str>6</str>
+	    
+	<dex>15</dex>
+	    
+	<con>10</con>
+	    
+	<int>2</int>
+	    
+	<wis>14</wis>
+	    
+	<cha>7</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +4</skill>
+	    
+	<passive>14</passive>
+	    
+	<languages/>
+	    
+	<cr>0</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Keen Sight</name>
+		      
+		<text>The eagle has advantage on Wisdom (Perception) checks that rely on sight.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Talons</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) slashing damage.</text>
+		      
+		<attack>Talons|+4|1d4+2</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 322</description>
+	    
+	<environment>mountain, grassland, hill, coastal</environment>
+	    
+</monster>

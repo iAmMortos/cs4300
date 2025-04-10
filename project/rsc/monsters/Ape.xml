@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Ape</name>
+	    
+	<size>M</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>19 (3d8+6)</hp>
+	    
+	<speed>walk 30 ft., climb 30 ft.</speed>
+	    
+	<str>16</str>
+	    
+	<dex>14</dex>
+	    
+	<con>14</con>
+	    
+	<int>6</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>7</cha>
+	    
+	<save/>
+	    
+	<skill>Athletics +5, Perception +3</skill>
+	    
+	<passive>13</passive>
+	    
+	<languages/>
+	    
+	<cr>1/2</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The ape makes two fist attacks.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Fist</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) bludgeoning damage.</text>
+		      
+		<attack>Fist|+5|1d6+3</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Rock</name>
+		      
+		<text>Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. 6 (1d6 + 3) bludgeoning damage.</text>
+		      
+		<attack>Rock|+5|1d6+3</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 317, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Ghosts of Saltmarsh</description>
+	    
+	<environment>forest</environment>
+	    
+</monster>

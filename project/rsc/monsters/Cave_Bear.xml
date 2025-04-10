@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Cave Bear</name>
+	    
+	<size>L</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>12 (natural armor)</ac>
+	    
+	<hp>42 (5d10+15)</hp>
+	    
+	<speed>walk 40 ft., swim 30 ft.</speed>
+	    
+	<str>20</str>
+	    
+	<dex>10</dex>
+	    
+	<con>16</con>
+	    
+	<int>2</int>
+	    
+	<wis>13</wis>
+	    
+	<cha>7</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +3</skill>
+	    
+	<passive>13</passive>
+	    
+	<languages/>
+	    
+	<cr>2</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Keen Smell</name>
+		      
+		<text>The bear has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The bear makes two attacks: one with its bite and one with its claws.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 9 (1d8 + 5) piercing damage.</text>
+		      
+		<attack>Bite|+7|1d8+5</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Claws</name>
+		      
+		<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 12 (2d6 + 5) slashing damage.</text>
+		      
+		<attack>Claws|+7|2d6+5</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 334, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage</description>
+	    
+	<environment>forest</environment>
+	    
+</monster>

@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Warhorse</name>
+	    
+	<size>L</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>11</ac>
+	    
+	<hp>19 (3d10+3)</hp>
+	    
+	<speed>walk 60 ft.</speed>
+	    
+	<str>18</str>
+	    
+	<dex>12</dex>
+	    
+	<con>13</con>
+	    
+	<int>2</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>7</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>11</passive>
+	    
+	<languages/>
+	    
+	<cr>1/2</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Trampling Charge</name>
+		      
+		<text>If the horse moves at least 20 feet straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the horse can make another attack with its hooves against it as a bonus action.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Hooves</name>
+		      
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 11 (2d6 + 4) bludgeoning damage.</text>
+		      
+		<attack>Hooves|+6|2d6+4</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Variant: Warhorse Armor</name>
+		      
+		<text>An armored warhorse has an AC based on the type of barding worn (see the Player's Handbook for more information on barding). The horse's AC includes its Dexterity modifier, where applicable. Barding doesn't alter the horse's challenge rating.</text>
+		      
+		<text>AC | Barding</text>
+		      
+		<text>12 | Leather barding</text>
+		      
+		<text>13 | Studded leather barding</text>
+		      
+		<text>14 | Ring mail barding</text>
+		      
+		<text>15 | Scale mail barding</text>
+		      
+		<text>16 | Chain mail barding</text>
+		      
+		<text>17 | Splint barding</text>
+		      
+		<text>18 | Plate barding</text>
+		      
+		<text/>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 340, Curse of Strahd, Princes of the Apocalypse, Rise of Tiamat, Storm King's Thunder, Tomb of Annihilation, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount</description>
+	    
+	<environment>urban</environment>
+	    
+</monster>

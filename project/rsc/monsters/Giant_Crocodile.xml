@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Giant Crocodile</name>
+	    
+	<size>H</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>14 (natural armor)</ac>
+	    
+	<hp>85 (9d12+27)</hp>
+	    
+	<speed>walk 30 ft., swim 50 ft.</speed>
+	    
+	<str>21</str>
+	    
+	<dex>9</dex>
+	    
+	<con>17</con>
+	    
+	<int>2</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>7</cha>
+	    
+	<save/>
+	    
+	<skill>Stealth +5</skill>
+	    
+	<passive>10</passive>
+	    
+	<languages/>
+	    
+	<cr>5</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Hold Breath</name>
+		      
+		<text>The crocodile can hold its breath for 30 minutes.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The crocodile makes two attacks: one with its bite and one with its tail.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 21 (3d10 + 5) piercing damage, and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the crocodile can't bite another target.</text>
+		      
+		<attack>Bite|+8|3d10+5</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Tail</name>
+		      
+		<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target not grappled by the crocodile. 14 (2d8 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone.</text>
+		      
+		<attack>Tail|+8|2d8+5</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 324, Princes of the Apocalypse, Tomb of Annihilation, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath</description>
+	    
+	<environment>swamp</environment>
+	    
+</monster>

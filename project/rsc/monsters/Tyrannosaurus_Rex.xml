@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Tyrannosaurus Rex</name>
+	    
+	<size>H</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>13 (natural armor)</ac>
+	    
+	<hp>136 (13d12+52)</hp>
+	    
+	<speed>walk 50 ft.</speed>
+	    
+	<str>25</str>
+	    
+	<dex>10</dex>
+	    
+	<con>19</con>
+	    
+	<int>2</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>9</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +4</skill>
+	    
+	<passive>14</passive>
+	    
+	<languages/>
+	    
+	<cr>8</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The tyrannosaurus makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. 33 (4d12 + 7) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the tyrannosaurus can't bite another target.</text>
+		      
+		<attack>Bite|+10|4d12+7</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Tail</name>
+		      
+		<text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. 20 (3d8 + 7) bludgeoning damage.</text>
+		      
+		<attack>Tail|+10|3d8+7</attack>
+		      
+	</action>
+	    
+	<description>This enormous predator terrorizes all other creatures in its territory. Despite its size and weight, a tyrannosaurus is a swift runner. It chases anything it thinks it can eat, and there are few creatures it won't try to devour whole. While prowling for substantial prey, a tyrannosaurus subsists on carrion, and on any smaller creatures that try to dart in to steal its meal.Dinosaurs. Dinosaurs, or behemoths, are among the oldest reptiles in the world. Predatory dinosaurs are savage, territorial hunters. Herbivorous dinosaurs are less aggressive, but they might attack to defend their young, or if startled or harassed.Dinosaurs come in many sizes and shapes. Larger varieties often have drab coloration, while smaller dinosaurs have colorful markings akin to birds. Dinosaurs roam rugged and isolated areas that humanoids seldom visit, including remote mountain valleys, inaccessible plateaus, tropical islands, and deep fens.Source: Monster Manual p. 80, Tomb of Annihilation, Explorer's Guide to Wildemount</description>
+	    
+	<environment>grassland</environment>
+	    
+</monster>

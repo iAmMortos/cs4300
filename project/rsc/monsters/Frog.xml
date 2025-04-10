@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Frog</name>
+	    
+	<size>T</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>11</ac>
+	    
+	<hp>1 (1d4-1)</hp>
+	    
+	<speed>walk 20 ft., swim 20 ft.</speed>
+	    
+	<str>1</str>
+	    
+	<dex>13</dex>
+	    
+	<con>8</con>
+	    
+	<int>1</int>
+	    
+	<wis>8</wis>
+	    
+	<cha>3</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +1, Stealth +3</skill>
+	    
+	<passive>11</passive>
+	    
+	<languages/>
+	    
+	<cr>0</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 30 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Amphibious</name>
+		      
+		<text>The frog can breathe air and water</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Standing Leap</name>
+		      
+		<text>The frog's long jump is up to 10 feet and its high jump is up to 5 feet, with or without a running start.</text>
+		      
+	</trait>
+	    
+	<description>A frog has no effective attacks. It feeds on small insects and typically dwells near water, in trees, or underground. The frog's statistics can also be used to represent a toad.Source: Monster Manual p. 322, Tomb of Annihilation</description>
+	    
+	<environment/>
+	    
+</monster>

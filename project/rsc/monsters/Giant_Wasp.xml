@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Giant Wasp</name>
+	    
+	<size>M</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>13 (3d8)</hp>
+	    
+	<speed>walk 10 ft., fly 50 ft.</speed>
+	    
+	<str>10</str>
+	    
+	<dex>14</dex>
+	    
+	<con>10</con>
+	    
+	<int>1</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>3</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>10</passive>
+	    
+	<languages/>
+	    
+	<cr>1/2</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<action>
+		        
+		<name>Sting</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 5 (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
+		      
+		<attack>Sting|+4|1d6+2</attack>
+		      
+		<attack>Sting||3d6</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 329, Tomb of Annihilation, Ghosts of Saltmarsh, Explorer's Guide to Wildemount</description>
+	    
+	<environment>grassland, forest, urban</environment>
+	    
+</monster>

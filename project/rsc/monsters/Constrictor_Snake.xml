@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Constrictor Snake</name>
+	    
+	<size>L</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>13 (2d10+2)</hp>
+	    
+	<speed>walk 30 ft., swim 30 ft.</speed>
+	    
+	<str>15</str>
+	    
+	<dex>14</dex>
+	    
+	<con>12</con>
+	    
+	<int>1</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>3</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>10</passive>
+	    
+	<languages/>
+	    
+	<cr>1/4</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 10 ft.</senses>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 5 (1d6 + 2) piercing damage.</text>
+		      
+		<attack>Bite|+4|1d6+2</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Constrict</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 6 (1d8 + 2) bludgeoning damage, and the target is grappled (escape DC 14). Until this grapple ends, the creature is restrained, and the snake can't constrict another target.</text>
+		      
+		<attack>Constrict|+4|1d8+2</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 320, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage</description>
+	    
+	<environment>underwater, forest, swamp, desert</environment>
+	    
+</monster>

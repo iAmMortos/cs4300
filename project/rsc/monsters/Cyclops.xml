@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Cyclops</name>
+	    
+	<size>H</size>
+	    
+	<type>giant</type>
+	    
+	<alignment>Chaotic Neutral</alignment>
+	    
+	<ac>14 (natural armor)</ac>
+	    
+	<hp>138 (12d12+60)</hp>
+	    
+	<speed>walk 30 ft.</speed>
+	    
+	<str>22</str>
+	    
+	<dex>11</dex>
+	    
+	<con>20</con>
+	    
+	<int>8</int>
+	    
+	<wis>6</wis>
+	    
+	<cha>10</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>8</passive>
+	    
+	<languages>Giant</languages>
+	    
+	<cr>6</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Poor Depth Perception</name>
+		      
+		<text>The cyclops has disadvantage on any attack roll against a target more than 30 feet away.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The cyclops makes two greatclub attacks.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Greatclub</name>
+		      
+		<text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. 19 (3d8 + 6) bludgeoning damage.</text>
+		      
+		<attack>Greatclub|+9|3d8+6</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Rock</name>
+		      
+		<text>Ranged Weapon Attack: +9 to hit, range 30/120 ft., one target. 28 (4d10 + 6) bludgeoning damage.</text>
+		      
+		<attack>Rock|+9|4d10+6</attack>
+		      
+	</action>
+	    
+	<description>Cyclopes are one-eyed giants that eke out a meager existence in wild lands. Isolationists by nature, they avoid contact with other races and try to drive away strangers in their territory.Nonreligious. Legends claim that the cyclopes are the spawn of one of the gods of the giants, but these creatures pay little heed to any deities. They see little benefit in prayer and dislike ritual, which they perceive as complex and foreign. However, a cyclops that gains direct benefit from some site of divine power, or which is threatened by a supernatural force or creature, will pay homage as long as the benefit or threat remains.Unsophisticated. Though they are reasonably intelligent, cyclopes live simple, reclusive lives, keeping herds of animals for food. They prefer to dwell alone or in small family groups, lairing in caves, ruins, or rough structures of dry stone construction they build themselves. A cyclops keeps its herd animals with it at night, sealing the entrance to its home with boulders to let it serve double duty as a barn.A cyclops lairs within a day's journey of other cyclopes, so that they can meet to trade goods or seek mates. They craft weapons and tools of wood and stone, but will use metal when they can find it. Although cyclopes understand the Giant tongue, they write nothing and speak little, using grunts and gestures for their interactions with each other. Cyclopes don't use money for trade, but they value gold, shells, and other glittering and colorful objects as jewelry. A cyclops might wear a necklace strung with feathers and silver coins, but also with pewter goblets, cutlery, and other bits of ruined metal.Unwise. Cyclopes aren't great thinkers or strategists. Slow to learn and bound to their traditional ways, they find innovation difficult. Although they are a terrifying threat in combat due to their size and strength, they can often be tricked by clever foes. Cyclopes can be cowed and awed by obvious displays of magic. Rustics with little exposure to magic, they can be deceived into mistaking a warlock, cleric, or other caster for a powerful divine figure. However, their sense of pride causes them to react with vengeful, bloodthirsty violence once they learn that the individual they assumed was a &quot;god&quot; is a mere mortal.Source: Monster Manual p. 45, Rise of Tiamat, Tomb of Annihilation, Ghosts of Saltmarsh, Explorer's Guide to Wildemount, Mythic Odysseys of Theros</description>
+	    
+	<environment>underdark, mountain, grassland, hill, desert, coastal</environment>
+	    
+</monster>

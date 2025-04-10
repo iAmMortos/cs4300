@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Raven</name>
+	    
+	<size>T</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>1 (1d4-1)</hp>
+	    
+	<speed>walk 10 ft., fly 50 ft.</speed>
+	    
+	<str>2</str>
+	    
+	<dex>14</dex>
+	    
+	<con>8</con>
+	    
+	<int>2</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>6</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +3</skill>
+	    
+	<passive>13</passive>
+	    
+	<languages/>
+	    
+	<cr>0</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Mimicry</name>
+		      
+		<text>The raven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Beak</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 1 piercing damage.</text>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 335, Curse of Strahd, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment>swamp, hill, urban</environment>
+	    
+</monster>

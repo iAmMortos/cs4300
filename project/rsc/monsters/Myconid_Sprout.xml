@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Myconid Sprout</name>
+	    
+	<size>S</size>
+	    
+	<type>plant</type>
+	    
+	<alignment>Lawful Neutral</alignment>
+	    
+	<ac>10</ac>
+	    
+	<hp>7 (2d6)</hp>
+	    
+	<speed>walk 10 ft.</speed>
+	    
+	<str>8</str>
+	    
+	<dex>10</dex>
+	    
+	<con>10</con>
+	    
+	<int>8</int>
+	    
+	<wis>11</wis>
+	    
+	<cha>5</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>10</passive>
+	    
+	<languages/>
+	    
+	<cr>0</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 120 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Distress Spores</name>
+		      
+		<text>When the myconid takes damage, all other myconids within 240 feet of it can sense its pain.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Sun Sickness</name>
+		      
+		<text>While in sunlight, the myconid has disadvantage on ability checks, attack rolls, and saving throws. The myconid dies if it spends more than 1 hour in direct sunlight.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Fist</name>
+		      
+		<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. 1 (1d4 - 1) bludgeoning damage plus 2 (1d4) poison damage.</text>
+		      
+		<attack>Fist|+1|1d4-1</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Rapport Spores (3/Day)</name>
+		      
+		<text>A 10-foot radius of spores extends from the myconid. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour.</text>
+		      
+	</action>
+	    
+	<description>Myconids are intelligent, ambulatory fungi that live in the Underdark, seek enlightenment, and deplore violence. If approached peacefully, myconids gladly provide shelter or allow safe passage through their colonies.Circles and Melds. The largest myconid in a colony is its sovereign, which presides over one or more social groups called circles. A circle consists of twenty or more myconids that work, live, and meld together.A meld is a form of communal meditation that allows myconids to transcend their dull subterranean existence. The myconids' rapport spores bind the participants into a group consciousness. Hallucination spores then induce a shared dream that provides entertainment and social interaction. Myconids consider melding to be the purpose of their existence. They use it in the pursuit of higher consciousness, collective union, and spiritual apotheosis. Myconids also use their rapport spores to communicate telepathically with other sentient creatures.Myconid Reproduction. Like other fungi, myconids reproduce by mundane sporing. They carefully control their spores' release to avoid overpopulation.Source: Monster Manual p. 230, Waterdeep: Dungeon of the Mad Mage</description>
+	    
+	<environment>underdark</environment>
+	    
+</monster>

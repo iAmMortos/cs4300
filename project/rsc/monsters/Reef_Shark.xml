@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Reef Shark</name>
+	    
+	<size>M</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>12 (natural armor)</ac>
+	    
+	<hp>22 (4d8+4)</hp>
+	    
+	<speed>swim 40 ft.</speed>
+	    
+	<str>14</str>
+	    
+	<dex>13</dex>
+	    
+	<con>13</con>
+	    
+	<int>1</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>4</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +2</skill>
+	    
+	<passive>12</passive>
+	    
+	<languages/>
+	    
+	<cr>1/2</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 30 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Pack Tactics</name>
+		      
+		<text>The shark has advantage on an attack roll against a creature if at least one of the shark's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Water Breathing</name>
+		      
+		<text>The shark can breathe only underwater.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) piercing damage.</text>
+		      
+		<attack>Bite|+4|1d8+2</attack>
+		      
+	</action>
+	    
+	<description>Smaller than giant sharks and hunter sharks, reef sharks inhabit shallow waters and coral reefs, gathering in small packs to hunt. A full-grown specimen measures 6 to 10 feet long.Source: Monster Manual p. 336, Tomb of Annihilation, Ghosts of Saltmarsh, Explorer's Guide to Wildemount</description>
+	    
+	<environment>underwater</environment>
+	    
+</monster>

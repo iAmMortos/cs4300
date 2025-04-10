@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Giant Badger</name>
+	    
+	<size>M</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>10</ac>
+	    
+	<hp>13 (2d8+4)</hp>
+	    
+	<speed>walk 30 ft., burrow 10 ft.</speed>
+	    
+	<str>13</str>
+	    
+	<dex>10</dex>
+	    
+	<con>15</con>
+	    
+	<int>2</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>5</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>11</passive>
+	    
+	<languages/>
+	    
+	<cr>1/4</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 30 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Keen Smell</name>
+		      
+		<text>The badger has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The badger makes two attacks: one with its bite and one with its claws.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 4 (1d6 + 1) piercing damage.</text>
+		      
+		<attack>Bite|+3|1d6+1</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Claws</name>
+		      
+		<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 6 (2d4 + 1) slashing damage.</text>
+		      
+		<attack>Claws|+3|2d4+1</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 323, Waterdeep: Dungeon of the Mad Mage</description>
+	    
+	<environment>forest</environment>
+	    
+</monster>

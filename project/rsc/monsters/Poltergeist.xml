@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Poltergeist</name>
+	    
+	<size>M</size>
+	    
+	<type>undead</type>
+	    
+	<alignment>Chaotic Evil</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>22 (5d8)</hp>
+	    
+	<speed>walk 0 ft., fly 50 ft.</speed>
+	    
+	<str>1</str>
+	    
+	<dex>14</dex>
+	    
+	<con>11</con>
+	    
+	<int>10</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>11</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>10</passive>
+	    
+	<languages>understands all languages it knew in life but can't speak</languages>
+	    
+	<cr>2</cr>
+	    
+	<resist>acid, cold, fire, lightning, thunder; bludgeoning, piercing, slashing from nonmagical attacks</resist>
+	    
+	<immune>necrotic, poison</immune>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune>charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
+	    
+	<senses>darkvision 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Incorporeal Movement</name>
+		      
+		<text>The poltergeist can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Sunlight Sensitivity</name>
+		      
+		<text>While in sunlight, the poltergeist has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Invisibility</name>
+		      
+		<text>The poltergeist is invisible.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Forceful Slam</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 10 (3d6) force damage.</text>
+		      
+		<attack>Forceful Slam|+4|3d6</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Telekinetic Thrust</name>
+		      
+		<text>The poltergeist targets a creature or unattended object within 30 feet of it. A creature must be Medium or smaller to be affected by this magic, and an object can weigh up to 150 pounds.</text>
+		      
+		<text>If the target is a creature, the poltergeist makes a Charisma check contested by the target's Strength check. If the poltergeist wins the contest, the poltergeist hurls the target up to 30 feet in any direction, including upward. If the target then comes into contact with a hard surface or heavy object, the target takes 1d6 damage per 10 feet moved.</text>
+		      
+		<text>If the target is an object that isn't being worn or carried, the poltergeist hurls it up to 30 feet in any direction. The poltergeist can use the object as a ranged weapon, attacking one creature along the object's path (+4 to hit) and dealing 5 (2d4) bludgeoning damage on a hit.</text>
+		      
+		<attack>Telekinetic Thrust|+4|2d4</attack>
+		      
+	</action>
+	    
+	<description>A poltergeist is the confused, invisible spirit of an individual with no sense of how he or she died. A poltergeist expresses its rage by hurling creatures and objects using the power of its shattered psyche.Source: Monster Manual p. 279, Curse of Strahd, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment>underdark, urban</environment>
+	    
+</monster>

@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Mimic</name>
+	    
+	<size>M</size>
+	    
+	<type>monstrosity (shapechanger)</type>
+	    
+	<alignment>Neutral</alignment>
+	    
+	<ac>12 (natural armor)</ac>
+	    
+	<hp>58 (9d8+18)</hp>
+	    
+	<speed>walk 15 ft.</speed>
+	    
+	<str>17</str>
+	    
+	<dex>12</dex>
+	    
+	<con>15</con>
+	    
+	<int>5</int>
+	    
+	<wis>13</wis>
+	    
+	<cha>8</cha>
+	    
+	<save/>
+	    
+	<skill>Stealth +5</skill>
+	    
+	<passive>11</passive>
+	    
+	<languages/>
+	    
+	<cr>2</cr>
+	    
+	<resist/>
+	    
+	<immune>acid</immune>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune>prone</conditionImmune>
+	    
+	<senses>darkvision 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Shapechanger</name>
+		      
+		<text>The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Adhesive (Object Form Only)</name>
+		      
+		<text>The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also grappled by it (escape DC 13). Ability checks made to escape this grapple have disadvantage.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>False Appearance (Object Form Only)</name>
+		      
+		<text>While the mimic remains motionless, it is indistinguishable from an ordinary object.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Grappler</name>
+		      
+		<text>The mimic has advantage on attack rolls against any creature grappled by it.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Pseudopod</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait.</text>
+		      
+		<attack>Pseudopod|+5|1d8+3</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) piercing damage plus 4 (1d8) acid damage.</text>
+		      
+		<attack>Bite|+5|1d8+3</attack>
+		      
+	</action>
+	    
+	<description>Mimics are shapeshifting predators able to take on the form of inanimate objects to lure creatures to their doom. In dungeons, these cunning creatures most often take the form of doors and chests, having learned that such forms attract a steady stream of prey.Imitative Predators. Mimics can alter their outward texture to resemble wood, stone, and other basic materials, and they have evolved to assume the appearance of objects that other creatures are likely to come into contact with. A mimic in its altered form is nearly unrecognizable until potential prey blunders into its reach, whereupon the monster sprouts pseudopods and attacks.When it changes shape, a mimic excretes an adhesive that helps it seize prey and weapons that touch it. The adhesive is absorbed when the mimic assumes its amorphous form and on parts the mimic uses to move itself.Cunning Hunters. Mimics live and hunt alone, though they occasionally share their feeding grounds with other creatures. Although most mimics have only predatory intelligence, a rare few evolve greater cunning and the ability to carry on simple conversations in Common or Undercommon. Such mimics might allow safe passage through their domains or provide useful information in exchange for food.Source: Monster Manual p. 220, Curse of Strahd, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Essentials Kit: Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, The Lost Dungeon of Rickedness: Big Rick Energy, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment>underdark, urban</environment>
+	    
+</monster>

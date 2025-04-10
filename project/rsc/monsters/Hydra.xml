@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Hydra</name>
+	    
+	<size>H</size>
+	    
+	<type>monstrosity</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>15 (natural armor)</ac>
+	    
+	<hp>172 (15d12+75)</hp>
+	    
+	<speed>walk 30 ft., swim 30 ft.</speed>
+	    
+	<str>20</str>
+	    
+	<dex>12</dex>
+	    
+	<con>20</con>
+	    
+	<int>2</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>7</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +6</skill>
+	    
+	<passive>16</passive>
+	    
+	<languages/>
+	    
+	<cr>8</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Hold Breath</name>
+		      
+		<text>The hydra can hold its breath for 1 hour.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Multiple Heads</name>
+		      
+		<text>The hydra has five heads. While it has more than one head, the hydra has advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.</text>
+		      
+		<text>Whenever the hydra takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the hydra dies.</text>
+		      
+		<text>At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken fire damage since its last turn. The hydra regains 10 hit points for each head regrown in this way.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Reactive Heads</name>
+		      
+		<text>For each head the hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Wakeful</name>
+		      
+		<text>While the hydra sleeps, at least one of its heads is awake.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The hydra makes as many bite attacks as it has heads.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. 10 (1d10 + 5) piercing damage.</text>
+		      
+		<attack>Bite|+8|1d10+5</attack>
+		      
+	</action>
+	    
+	<description>The hydra is a reptilian horror with a crocodilian body and multiple heads on long, serpentine necks. Although its heads can be severed, the hydra magically regrows them in short order. A typical specimen has five heads. At the dawn of time, Tiamat, the Queen of Evil Dragons, slew a rival dragon god named Lernaea and cast her blood across the multiverse. Each drop that fell upon a world spawned a multi-headed hydra consumed by a hunger as great as the fallen god's hatred. Great champions are known to test their mettle against these fearsome creatures.Everlasting Hunger. A rapacious and gluttonous monster, a hydra snatches and tears apart its prey in a frenzy of feeding. When a hydra has cleared a territory of food and driven off any creatures smart enough to avoid it, it moves on to seek its meals elsewhere. A hydra's hunger is so great that if it can't feed, it might turn against itself, its heads attacking each other as the creature eats itself alive.Hardy Water Dwellers. Hydras are natural swimmers, dwelling in rivers, along lakeshores, in ocean shallows, and in wetland bogs. A hydra rarely requires shelter from the elements, so it doesn't normally have a lair. Only in colder climes are hydras drawn to the protection of sheltered caverns and ruins. When a hydra sleeps, at least one of its heads remains awake and alert, making the creature difficult to catch by surprise.Source: Monster Manual p. 190, Princes of the Apocalypse, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment>swamp</environment>
+	    
+</monster>

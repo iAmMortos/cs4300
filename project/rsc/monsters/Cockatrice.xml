@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Cockatrice</name>
+	    
+	<size>S</size>
+	    
+	<type>monstrosity</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>11</ac>
+	    
+	<hp>27 (6d6+6)</hp>
+	    
+	<speed>walk 20 ft., fly 40 ft.</speed>
+	    
+	<str>6</str>
+	    
+	<dex>12</dex>
+	    
+	<con>12</con>
+	    
+	<int>2</int>
+	    
+	<wis>13</wis>
+	    
+	<cha>5</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>11</passive>
+	    
+	<languages/>
+	    
+	<cr>1/2</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 60 ft.</senses>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. 3 (1d4 + 1) piercing damage, and the target must succeed on a DC 11 Constitution saving throw against being magically petrified. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified for 24 hours.</text>
+		      
+		<attack>Bite|+3|1d4+1</attack>
+		      
+	</action>
+	    
+	<description>The cockatrice looks like a hideous hybrid of lizard, bird, and bat, and it is infamous for its ability to turn flesh to stone. These omnivores have a diet that consists of berries, nuts, flowers, and small animals such as insects, mice, and frogs-things they can swallow whole. They would be no threat to anything else if not for their fierce and frenzied response to even a hint of danger. A cockatrice flies into the face of any threat, squawking and madly beating its wings as its head darts out to peck. The smallest scratch from a cockatrice's beak can spell doom as its victim slowly turns to stone from the injury.Source: Monster Manual p. 42, Tales from the Yawning Portal, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Mythic Odysseys of Theros</description>
+	    
+	<environment>grassland</environment>
+	    
+</monster>

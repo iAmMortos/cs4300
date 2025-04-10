@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Flying Snake</name>
+	    
+	<size>T</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>14</ac>
+	    
+	<hp>5 (2d4)</hp>
+	    
+	<speed>walk 30 ft., fly 60 ft., swim 30 ft.</speed>
+	    
+	<str>4</str>
+	    
+	<dex>18</dex>
+	    
+	<con>11</con>
+	    
+	<int>2</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>5</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>11</passive>
+	    
+	<languages/>
+	    
+	<cr>1/8</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 10 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Flyby</name>
+		      
+		<text>The snake doesn't provoke opportunity attacks when it flies out of an enemy's reach.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 1 piercing damage plus 7 (3d4) poison damage.</text>
+		      
+		<attack>Bite|+6|3d4</attack>
+		      
+	</action>
+	    
+	<description>A flying snake is a brightly colored, winged serpent found in remote jungles. Tribespeople and cultists sometimes domesticate flying snakes to serve as messengers that deliver scrolls wrapped in their coils.Source: Monster Manual p. 322, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment>grassland, forest, urban, desert</environment>
+	    
+</monster>

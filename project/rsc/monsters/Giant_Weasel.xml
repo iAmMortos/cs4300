@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Giant Weasel</name>
+	    
+	<size>M</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>13</ac>
+	    
+	<hp>9 (2d8)</hp>
+	    
+	<speed>walk 40 ft.</speed>
+	    
+	<str>11</str>
+	    
+	<dex>16</dex>
+	    
+	<con>10</con>
+	    
+	<int>4</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>5</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +3, Stealth +5</skill>
+	    
+	<passive>13</passive>
+	    
+	<languages/>
+	    
+	<cr>1/8</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Keen Hearing and Smell</name>
+		      
+		<text>The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 5 (1d4 + 3) piercing damage.</text>
+		      
+		<attack>Bite|+5|1d4+3</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 329, Tales from the Yawning Portal, Ghosts of Saltmarsh</description>
+	    
+	<environment>grassland, forest, hill</environment>
+	    
+</monster>

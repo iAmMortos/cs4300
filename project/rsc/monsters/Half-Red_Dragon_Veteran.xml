@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Half-Red Dragon Veteran</name>
+	    
+	<size>M</size>
+	    
+	<type>humanoid (human)</type>
+	    
+	<alignment>Any alignment</alignment>
+	    
+	<ac>18 (plate armor)</ac>
+	    
+	<hp>65 (10d8+20)</hp>
+	    
+	<speed>walk 30 ft.</speed>
+	    
+	<str>16</str>
+	    
+	<dex>13</dex>
+	    
+	<con>14</con>
+	    
+	<int>10</int>
+	    
+	<wis>11</wis>
+	    
+	<cha>10</cha>
+	    
+	<save/>
+	    
+	<skill>Athletics +6, Perception +3</skill>
+	    
+	<passive>12</passive>
+	    
+	<languages>Common, Draconic</languages>
+	    
+	<cr>5</cr>
+	    
+	<resist>fire</resist>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 10 ft., darkvision 60 ft.</senses>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The veteran makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Longsword</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.</text>
+		      
+		<attack>Longsword|+5|1d8+3</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Shortsword</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage.</text>
+		      
+		<attack>Shortsword|+5|1d6+3</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Heavy Crossbow</name>
+		      
+		<text>Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. 6 (1d10 + 1) piercing damage.</text>
+		      
+		<attack>Heavy Crossbow|+3|1d10+1</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Fire Breath (Recharge 5-6)</name>
+		      
+		<text>The veteran exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 24 (7d6) fire damage on a failed save, or half as much damage on a successful one.</text>
+		      
+		<attack>Fire Breath (Recharge 5-6)||7d6</attack>
+		      
+	</action>
+	    
+	<description>When a dragon in polymorphed form mates with another creature, the union sometimes produces half dragon offspring. A creature might also transform into a half-dragon as a result of a mad wizard's spell or a ritual bath in dragon's blood. In all these cases, the result is a creature that combines the essence of a dragon with the form of its original race. Regardless of their origins, all half-dragons have similar features and appearance, gaining special senses, resistance to destructive energy, and a breath weapon.Draconic Nature. Half-dragons are incapable of having natural born offspring. Those that wish to propagate must find other ways to do so, almost always involving magic. By way of compensation, half dragons are blessed with long life. Barring unforeseen misfortune, a typical half-dragon's life expectancy is twice that of its no draconic line, so that a half-dragon human might live more than a century and a half.Half-dragons inherit personality traits common to their draconic heritage, so that half-gold dragons are often shy and secretive, while half-copper dragons are impish and playful. Half-green dragons are deceitful, while half-white dragons are often dim-witted brutes. These traits are tempered by a half-dragon's other lineage, but greed, arrogance, and paranoia are qualities that even good-aligned half-dragons often possess.Challenge. To avoid recalculating the creature's challenge rating, apply the template only to a creature that meets the optional prerequisite in the Breath Weapon table below. Otherwise, use the guidelines in the Dungeon Master's Guide to recalculate the rating after you apply the template.Senses. The half-dragon gains blindsight with a radius of 10 feet and darkvision with a radius of 60 feet.Resistances. The half-dragon gains resistance to a type of damage based on its color.Color | Damage ResistanceBlack or copper | AcidBlue or bronze | LightningBrass, gold, or red | FireGreen | PoisonSilver or white | ColdLanguages. The half-dragon speaks Draconic in addition to any other languages it knows.New Action: Breath Weapon. The half-dragon has the breath weapon of its dragon half. The half-dragon's size determines how this action functions.Size | Breath Weapon | Optional PrerequisiteLarge or smaller | As a wyrmling | Challenge 2 or higherHuge | As a young dragon | Challenge 7 or higherGargantuan | As an adult dragon | Challenge 8 or higherSample Half-DragonHere the half-dragon template has been applied to a human veteran to create a half-red dragon veteran. Splint armor has been replaced with plate armor.Source: Monster Manual p. 180, Rise of Tiamat, Ghosts of Saltmarsh, Essentials Kit: Storm Lord's Wrath, Infernal Machine Rebuild</description>
+	    
+	<environment/>
+	    
+</monster>

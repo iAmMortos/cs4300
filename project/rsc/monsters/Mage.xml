@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Mage</name>
+	    
+	<size>M</size>
+	    
+	<type>humanoid (any race)</type>
+	    
+	<alignment>Any alignment</alignment>
+	    
+	<ac>12 (15 with mage armor)</ac>
+	    
+	<hp>40 (9d8)</hp>
+	    
+	<speed>walk 30 ft.</speed>
+	    
+	<str>9</str>
+	    
+	<dex>14</dex>
+	    
+	<con>11</con>
+	    
+	<int>17</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>11</cha>
+	    
+	<save>Int +6, Wis +4</save>
+	    
+	<skill>Arcana +6, History +6</skill>
+	    
+	<passive>11</passive>
+	    
+	<languages>any four languages</languages>
+	    
+	<cr>6</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<action>
+		        
+		<name>Dagger</name>
+		      
+		<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2) piercing damage.</text>
+		      
+		<attack>Dagger|+5|1d4+2</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Variant: Familiars</name>
+		      
+		<text>Any spellcaster that can cast the find familiar spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a crawling claw, imp, pseudodragon, or quasit.</text>
+		      
+	</action>
+	    
+	<trait>
+		        
+		<name>Spellcasting</name>
+		      
+		<text>The mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The mage has the following wizard spells prepared:</text>
+		      
+		<text>Cantrips (at will): fire bolt, light, mage hand, prestidigitation</text>
+		      
+		<text>• 1st level (4 slots): detect magic, mage armor, magic missile, shield</text>
+		      
+		<text>• 2nd level (3 slots): misty step, suggestion</text>
+		      
+		<text>• 3rd level (3 slots): counterspell, fireball, fly</text>
+		      
+		<text>• 4th level (3 slots): greater invisibility, ice storm</text>
+		      
+		<text>• 5th level (1 slots): cone of cold</text>
+		      
+	</trait>
+	    
+	<slots>4, 3, 3, 3, 1</slots>
+	    
+	<spells>fire bolt, light, mage hand, prestidigitation, detect magic, mage armor, magic missile, shield, misty step, suggestion, counterspell, fireball, fly, greater invisibility, ice storm, cone of cold</spells>
+	    
+	<description>Mages spend their lives in the study and practice of magic. Good-aligned mages offer counsel to nobles and others in power, while evil mages dwell in isolated sites to perform unspeakable experiments without interference.Source: Monster Manual p. 347, Curse of Strahd, Hoard of the Dragon Queen, Princes of the Apocalypse, Rise of Tiamat, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Essentials Kit: Divine Contention, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath, Essentials Kit: Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything</description>
+	    
+	<environment/>
+	    
+</monster>

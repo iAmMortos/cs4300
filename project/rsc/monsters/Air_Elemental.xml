@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Air Elemental</name>
+	    
+	<size>L</size>
+	    
+	<type>elemental</type>
+	    
+	<alignment>Neutral</alignment>
+	    
+	<ac>15</ac>
+	    
+	<hp>90 (12d10+24)</hp>
+	    
+	<speed>fly 90 ft.</speed>
+	    
+	<str>14</str>
+	    
+	<dex>20</dex>
+	    
+	<con>14</con>
+	    
+	<int>6</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>6</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>10</passive>
+	    
+	<languages>Auran</languages>
+	    
+	<cr>5</cr>
+	    
+	<resist>lightning, thunder; bludgeoning, piercing, slashing from nonmagical attacks</resist>
+	    
+	<immune>poison</immune>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
+	    
+	<senses>darkvision 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Air Form</name>
+		      
+		<text>The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The elemental makes two slam attacks.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Slam</name>
+		      
+		<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 14 (2d8 + 5) bludgeoning damage.</text>
+		      
+		<attack>Slam|+8|2d8+5</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Whirlwind (Recharge 4-6)</name>
+		      
+		<text>Each creature in the elemental's space must make a DC 13 Strength saving throw. On a failure, a target takes 15 (3d8 + 2) bludgeoning damage and is flung up 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone.</text>
+		      
+		<attack>Whirlwind (Recharge 4-6)||3d8+2</attack>
+		      
+		<text>If the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked prone.</text>
+		      
+	</action>
+	    
+	<description>Elementals are incarnations of the elements that make up the universe: air, earth, fire, and water. Though little more than animated energy on their own planes of existence, they can be called on by spellcasters and powerful beings to take shape and perform tasks.Living Elements. On its home plane, an elemental is a bodiless life force. Its dim consciousness manifests as a physical shape only when focused by the power of magic. A wild spirit of elemental force has no desire except to course through the element of its native plane. Like beasts of the Material Plane, these elemental spirits have no society or culture, and little sense of being.Conjured by Magic. Certain spells and magic items can conjure an elemental, summoning it from the Inner Planes to the Material Plane. Elementals instinctively resent being pulled from their native planes and bound into service. A creature that summons an elemental must assert force of will to control it.Bound and Shaped. Powerful magic can bind an elemental spirit into a material template that defines a specific use and function. Invisible stalkers are air elementals bound to a specific form, in the same way that water elementals can be shaped into water weirds.Elemental Nature. An elemental doesn't require air, food, drink, or sleep.Source: Monster Manual p. 124, Hoard of the Dragon Queen, Princes of the Apocalypse, Rise of Tiamat, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath, Eberron: Rising from the Last War, Infernal Machine Rebuild, Mythic Odysseys of Theros, Tasha's Cauldron of Everything</description>
+	    
+	<environment>mountain, desert</environment>
+	    
+</monster>

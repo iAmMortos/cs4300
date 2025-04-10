@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Fire Elemental</name>
+	    
+	<size>L</size>
+	    
+	<type>elemental</type>
+	    
+	<alignment>Neutral</alignment>
+	    
+	<ac>13</ac>
+	    
+	<hp>102 (12d10+36)</hp>
+	    
+	<speed>walk 50 ft.</speed>
+	    
+	<str>10</str>
+	    
+	<dex>17</dex>
+	    
+	<con>16</con>
+	    
+	<int>6</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>7</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>10</passive>
+	    
+	<languages>Ignan</languages>
+	    
+	<cr>5</cr>
+	    
+	<resist>bludgeoning, piercing, slashing from nonmagical attacks</resist>
+	    
+	<immune>fire, poison</immune>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
+	    
+	<senses>darkvision 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Fire Form</name>
+		      
+		<text>The elemental can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the elemental or hits it with a melee attack while within 5 feet of it takes 5 (1d10) fire damage. In addition, the elemental can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 5 (1d10) fire damage and catches fire; until someone takes an action to douse the fire, the creature takes 5 (1d10) fire damage at the start of each of its turns.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Illumination</name>
+		      
+		<text>The elemental sheds bright light in a 30-foot radius and dim light in an additional 30 ft..</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Water Susceptibility</name>
+		      
+		<text>For every 5 feet the elemental moves in water, or for every gallon of water splashed on it, it takes 1 cold damage.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The elemental makes two touch attacks.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Touch</name>
+		      
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 10 (2d6 + 3) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 (1d10) fire damage at the start of each of its turns.</text>
+		      
+		<attack>Touch|+6|2d6+3</attack>
+		      
+	</action>
+	    
+	<description>Elementals are incarnations of the elements that make up the universe: air, earth, fire, and water. Though little more than animated energy on their own planes of existence, they can be called on by spellcasters and powerful beings to take shape and perform tasks.Living Elements. On its home plane, an elemental is a bodiless life force. Its dim consciousness manifests as a physical shape only when focused by the power of magic. A wild spirit of elemental force has no desire except to course through the element of its native plane. Like beasts of the Material Plane, these elemental spirits have no society or culture, and little sense of being.Conjured by Magic. Certain spells and magic items can conjure an elemental, summoning it from the Inner Planes to the Material Plane. Elementals instinctively resent being pulled from their native planes and bound into service. A creature that summons an elemental must assert force of will to control it.Bound and Shaped. Powerful magic can bind an elemental spirit into a material template that defines a specific use and function. Invisible stalkers are air elementals bound to a specific form, in the same way that water elementals can be shaped into water weirds.Elemental Nature. An elemental doesn't require air, food, drink, or sleep.Source: Monster Manual p. 125, Princes of the Apocalypse, Rise of Tiamat, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Tasha's Cauldron of Everything</description>
+	    
+	<environment>desert</environment>
+	    
+</monster>

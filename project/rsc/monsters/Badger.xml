@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Badger</name>
+	    
+	<size>T</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>10</ac>
+	    
+	<hp>3 (1d4+1)</hp>
+	    
+	<speed>walk 20 ft., burrow 5 ft.</speed>
+	    
+	<str>4</str>
+	    
+	<dex>11</dex>
+	    
+	<con>12</con>
+	    
+	<int>2</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>5</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>11</passive>
+	    
+	<languages/>
+	    
+	<cr>0</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 30 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Keen Smell</name>
+		      
+		<text>The badger has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 1 piercing damage.</text>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 318</description>
+	    
+	<environment>forest</environment>
+	    
+</monster>

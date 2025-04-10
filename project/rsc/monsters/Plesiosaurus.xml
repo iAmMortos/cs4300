@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Plesiosaurus</name>
+	    
+	<size>L</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>13 (natural armor)</ac>
+	    
+	<hp>68 (8d10+24)</hp>
+	    
+	<speed>walk 20 ft., swim 40 ft.</speed>
+	    
+	<str>18</str>
+	    
+	<dex>15</dex>
+	    
+	<con>16</con>
+	    
+	<int>2</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>5</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +3, Stealth +4</skill>
+	    
+	<passive>13</passive>
+	    
+	<languages/>
+	    
+	<cr>2</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Hold Breath</name>
+		      
+		<text>The plesiosaurus can hold its breath for 1 hour.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. 14 (3d6 + 4) piercing damage.</text>
+		      
+		<attack>Bite|+6|3d6+4</attack>
+		      
+	</action>
+	    
+	<description>A plesiosaurus is a marine dinosaur whose compact body is driven by powerful flippers. Predatory and aggressive, it attacks any creature it encounters. Its flexible neck accounts for a third of its total length, letting it twist in any direction to deliver a powerful bite.Dinosaurs. Dinosaurs, or behemoths, are among the oldest reptiles in the world. Predatory dinosaurs are savage, territorial hunters. Herbivorous dinosaurs are less aggressive, but they might attack to defend their young, or if startled or harassed.Dinosaurs come in many sizes and shapes. Larger varieties often have drab coloration, while smaller dinosaurs have colorful markings akin to birds. Dinosaurs roam rugged and isolated areas that humanoids seldom visit, including remote mountain valleys, inaccessible plateaus, tropical islands, and deep fens.Source: Monster Manual p. 80, Tomb of Annihilation, Ghosts of Saltmarsh, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment>underwater, coastal</environment>
+	    
+</monster>

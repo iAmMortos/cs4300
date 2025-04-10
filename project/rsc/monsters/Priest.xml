@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Priest</name>
+	    
+	<size>M</size>
+	    
+	<type>humanoid (any race)</type>
+	    
+	<alignment>Any alignment</alignment>
+	    
+	<ac>13 (chain shirt)</ac>
+	    
+	<hp>27 (5d8+5)</hp>
+	    
+	<speed>walk 30 ft.</speed>
+	    
+	<str>10</str>
+	    
+	<dex>10</dex>
+	    
+	<con>12</con>
+	    
+	<int>13</int>
+	    
+	<wis>16</wis>
+	    
+	<cha>13</cha>
+	    
+	<save/>
+	    
+	<skill>Medicine +7, Persuasion +3, Religion +5</skill>
+	    
+	<passive>13</passive>
+	    
+	<languages>any two languages</languages>
+	    
+	<cr>2</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Divine Eminence</name>
+		      
+		<text>As a bonus action, the priest can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 (3d6) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If the priest expends a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each level above 1st.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Mace</name>
+		      
+		<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 3 (1d6) bludgeoning damage.</text>
+		      
+		<attack>Mace|+2|1d6</attack>
+		      
+	</action>
+	    
+	<trait>
+		        
+		<name>Spellcasting</name>
+		      
+		<text>The priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The priest has the following cleric spells prepared:</text>
+		      
+		<text>Cantrips (at will): light, sacred flame, thaumaturgy</text>
+		      
+		<text>• 1st level (4 slots): cure wounds, guiding bolt, sanctuary</text>
+		      
+		<text>• 2nd level (3 slots): lesser restoration, spiritual weapon</text>
+		      
+		<text>• 3rd level (2 slots): dispel magic, spirit guardians</text>
+		      
+	</trait>
+	    
+	<slots>4, 3, 2</slots>
+	    
+	<spells>light, sacred flame, thaumaturgy, cure wounds, guiding bolt, sanctuary, lesser restoration, spiritual weapon, dispel magic, spirit guardians</spells>
+	    
+	<description>Priests bring the teachings of their gods to the common folk. They are the spiritual leaders of temples and shrines and often hold positions of influence in their communities. Evil priests might work openly under a tyrant, or they might be the leaders of religious sects hidden in the shadows of good society, overseeing depraved rites. A priest typically has one or more acolytes to help with religious ceremonies and other sacred duties.Source: Monster Manual p. 348, Curse of Strahd, Hoard of the Dragon Queen, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Essentials Kit: Divine Contention, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath, Essentials Kit: Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything</description>
+	    
+	<environment/>
+	    
+</monster>

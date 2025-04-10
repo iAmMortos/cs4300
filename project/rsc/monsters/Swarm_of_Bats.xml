@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Swarm of Bats</name>
+	    
+	<size>M</size>
+	    
+	<type>swarm of Medium beasts</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>22 (5d8)</hp>
+	    
+	<speed>walk 0 ft., fly 30 ft.</speed>
+	    
+	<str>5</str>
+	    
+	<dex>15</dex>
+	    
+	<con>10</con>
+	    
+	<int>2</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>4</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>11</passive>
+	    
+	<languages/>
+	    
+	<cr>1/4</cr>
+	    
+	<resist>bludgeoning, piercing, slashing</resist>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune>charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
+	    
+	<senses>blindsight 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Echolocation</name>
+		      
+		<text>The swarm can't use its blindsight while deafened.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Keen Hearing</name>
+		      
+		<text>The swarm has advantage on Wisdom (Perception) checks that rely on hearing.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Swarm</name>
+		      
+		<text>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can't regain hit points or gain temporary hit points.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bites</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 0 ft., one creature in the swarm's space. 5 (2d4) piercing damage, or 2 (1d4) piercing damage if the swarm has half of its hit points or fewer.</text>
+		      
+		<attack>Bites|+4|2d4</attack>
+		      
+	</action>
+	    
+	<description>The Nature of Swarms. ------The swarms presented here aren't ordinary or benign assemblies of little creatures. They form as a result of some sinister or unwholesome influence. A vampire can summon swarms of bats and rats from the darkest corners of the night, while the very presence of a mummy lord can cause scarab beetles to boil up from the sand-filled depths of its tomb. A hag might have the power to turn swarms of ravens against her enemies, while a yuan-ti abomination might have swarms of poisonous snakes slithering in its wake. Even druids can't charm these swarms, and their aggressiveness is borderline unnatural.------Source: Monster Manual p. 337, Curse of Strahd, Hoard of the Dragon Queen, Princes of the Apocalypse, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Explorer's Guide to Wildemount</description>
+	    
+	<environment>underdark, mountain, hill, urban</environment>
+	    
+</monster>

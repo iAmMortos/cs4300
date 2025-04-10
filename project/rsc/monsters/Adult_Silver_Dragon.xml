@@ -1,0 +1,198 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Adult Silver Dragon</name>
+	    
+	<size>H</size>
+	    
+	<type>dragon</type>
+	    
+	<alignment>Lawful Good</alignment>
+	    
+	<ac>19 (natural armor)</ac>
+	    
+	<hp>243 (18d12+126)</hp>
+	    
+	<speed>walk 40 ft., fly 80 ft.</speed>
+	    
+	<str>27</str>
+	    
+	<dex>10</dex>
+	    
+	<con>25</con>
+	    
+	<int>16</int>
+	    
+	<wis>13</wis>
+	    
+	<cha>21</cha>
+	    
+	<save>Dex +5, Con +12, Wis +6, Cha +10</save>
+	    
+	<skill>Arcana +8, History +8, Perception +11, Stealth +5</skill>
+	    
+	<passive>21</passive>
+	    
+	<languages>Common, Draconic</languages>
+	    
+	<cr>16</cr>
+	    
+	<resist/>
+	    
+	<immune>cold</immune>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 60 ft., darkvision 120 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Legendary Resistance (3/Day)</name>
+		      
+		<text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +13 to hit, reach 10 ft., one target. 19 (2d10 + 8) piercing damage.</text>
+		      
+		<attack>Bite|+13|2d10+8</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Claw</name>
+		      
+		<text>Melee Weapon Attack: +13 to hit, reach 5 ft., one target. 15 (2d6 + 8) slashing damage.</text>
+		      
+		<attack>Claw|+13|2d6+8</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Tail</name>
+		      
+		<text>Melee Weapon Attack: +13 to hit, reach 15 ft., one target. 17 (2d8 + 8) bludgeoning damage.</text>
+		      
+		<attack>Tail|+13|2d8+8</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Frightful Presence</name>
+		      
+		<text>Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Breath Weapons (Recharge 5-6)</name>
+		      
+		<text>The dragon uses one of the following breath weapons.</text>
+		      
+		<text>• Cold Breath. The dragon exhales an icy blast in a 60-foot cone. Each creature in that area must make a DC 20 Constitution saving throw, taking 58 (13d8) cold damage on a failed save, or half as much damage on a successful one.</text>
+		      
+		<attack>Breath Weapons (Recharge 5-6)||13d8</attack>
+		      
+		<text>• Paralyzing Breath. The dragon exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a DC 20 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Change Shape</name>
+		      
+		<text>The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).</text>
+		      
+		<text>In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form.</text>
+		      
+	</action>
+	    
+	<legendary>
+		        
+		<text>The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.</text>
+		      
+	</legendary>
+	    
+	<legendary>
+		        
+		<name>Detect</name>
+		      
+		<text>The dragon makes a Wisdom (Perception) check.</text>
+		      
+	</legendary>
+	    
+	<legendary>
+		        
+		<name>Tail Attack</name>
+		      
+		<text>The dragon makes a tail attack.</text>
+		      
+	</legendary>
+	    
+	<legendary>
+		        
+		<name>Wing Attack (Costs 2 Actions)</name>
+		      
+		<text>The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.</text>
+		      
+	</legendary>
+	    
+	<lair>
+		        
+		<name>Lair Actions</name>
+		      
+	</lair>
+	    
+	<lair>
+		        
+		<text>On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects:</text>
+		      
+		<text>• The dragon creates fog as if it had cast the fog cloud spell. The fog lasts until initiative count 20 on the next round.</text>
+		      
+		<text>• A blisteringly cold wind blows through the lair near the dragon. Each creature within 120 feet of the dragon must succeed on a DC 15 Constitution saving throw or take 5 (1d10) cold damage. Gases and vapors are dispersed by the wind, and unprotected flames are extinguished. Protected flames, such as lanterns, have a 50 percent chance of being extinguished.</text>
+		      
+	</lair>
+	    
+	<lair>
+		        
+		<name>Regional Effects</name>
+		      
+	</lair>
+	    
+	<lair>
+		        
+		<text>The region containing a legendary silver dragon's lair is warped by the dragon's magic, which creates one or more of the following effects.</text>
+		      
+		<text>• Once per day, the dragon can alter the weather in a 6-mile radius centered on its lair. The dragon doesn't need to be outdoors; otherwise the effect is identical to the control weather spell.</text>
+		      
+		<text>• Within 1 mile of the lair, winds buoy non-evil creatures that fall due to no act of the dragon's or its allies. Such creatures descend at a rate of 60 feet per round and take no falling damage.</text>
+		      
+		<text>• Given days or longer to work, the dragon can make clouds and fog within its lair as solid as stone, forming structures and other objects as it wishes.</text>
+		      
+		<text>If the dragon dies, changed weather reverts to normal, as described in the spell, and the other effects fade in 1d10 days.</text>
+		      
+	</lair>
+	    
+	<description>True dragons are winged reptiles of ancient lineage and fearsome power. They are known and feared for their predatory cunning and greed, with the oldest dragons accounted as some of the most powerful creatures in the world. Dragons are also magical creatures whose innate power fuels their dreaded breath weapons and other preternatural abilities.Many creatures, including wyverns and dragon turtles, have draconic blood. However, true dragons fall into the two broad categories of chromatic and metallic dragons. The black, blue, green, red, and white dragons are selfish, evil, and feared by all. The brass, bronze, copper, gold, and silver dragons are noble, good, and highly respected by the wise.Though their goals and ideals vary tremendously, all true dragons covet wealth, hoarding mounds of coins and gathering gems, jewels, and magic items. Dragons with large hoards are loath to leave them for long, venturing out of their lairs only to patrol or feed.True dragons pass through four distinct stages of life, from lowly wyrmlings to ancient dragons, which can live for over a thousand years. In that time, their might can become unrivaled and their hoards can grow beyond price.Dragon Age CategoriesCategory | Size | Age RangeWyrmling | Medium | 5 years or lessYoung | Large | 6–100 yearsAdult | Huge | 101–800 yearsAncient | Gargantuan | 801 years or moreSource: Monster Manual p. 117, Storm King's Thunder, Ghosts of Saltmarsh</description>
+	    
+	<environment>mountain, urban</environment>
+	    
+</monster>

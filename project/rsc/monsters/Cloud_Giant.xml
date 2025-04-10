@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Cloud Giant</name>
+	    
+	<size>H</size>
+	    
+	<type>giant</type>
+	    
+	<alignment>Neutral Good (50%) Neutral Evil (50%)</alignment>
+	    
+	<ac>14 (natural armor)</ac>
+	    
+	<hp>200 (16d12+96)</hp>
+	    
+	<speed>walk 40 ft.</speed>
+	    
+	<str>27</str>
+	    
+	<dex>10</dex>
+	    
+	<con>22</con>
+	    
+	<int>12</int>
+	    
+	<wis>16</wis>
+	    
+	<cha>16</cha>
+	    
+	<save>Con +10, Wis +7, Cha +7</save>
+	    
+	<skill>Insight +7, Perception +7</skill>
+	    
+	<passive>17</passive>
+	    
+	<languages>Common, Giant</languages>
+	    
+	<cr>9</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Keen Smell</name>
+		      
+		<text>The giant has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The giant makes two morningstar attacks.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Morningstar</name>
+		      
+		<text>Melee Weapon Attack: +12 to hit, reach 10 ft., one target. 21 (3d8 + 8) piercing damage.</text>
+		      
+		<attack>Morningstar|+12|3d8+8</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Rock</name>
+		      
+		<text>Ranged Weapon Attack: +12 to hit, range 60/240 ft., one target. 30 (4d10 + 8) bludgeoning damage.</text>
+		      
+		<attack>Rock|+12|4d10+8</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Variant: New Giant Options</name>
+		      
+		<text>Some adult cloud giants have the magical ability to create barriers of gale-force wind around themselves that can deflect incoming missiles. Others like to fling enemies through the air. These abilities are represented by the following action options.</text>
+		      
+		<text>Fling. The giant tries to throw a Small or Medium creature within 10 feet of it. The target must succeed on a DC 20 Dexterity saving throw or be hurled up to 60 feet horizontally in a direction of the giant's choice and land prone, taking 4 (1d8) bludgeoning damage for every 10 feet it was thrown.</text>
+		      
+		<text>Wind Aura. A magical aura of wind surrounds the giant. The aura is a 10-foot-radius sphere that lasts as long as the giant maintains concentration on it (as if concentrating on a spell). While the aura is in effect, the giant gains a +2 bonus to its AC against ranged weapon attacks, and all open flames within the aura are extinguished unless they are magical.</text>
+		      
+	</action>
+	    
+	<trait>
+		        
+		<name>Innate Spellcasting</name>
+		      
+		<text>The giant's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:</text>
+		      
+		<text>At will: detect magic, fog cloud, light</text>
+		      
+		<text>3/day each: feather fall, fly, misty step, telekinesis</text>
+		      
+		<text>1/day each: control weather, gaseous form</text>
+		      
+	</trait>
+	    
+	<spells>detect magic, fog cloud, light, feather fall, fly, misty step, telekinesis, control weather, gaseous form</spells>
+	    
+	<description>Old as LegendIn remote regions of the world, the last remaining plinths, monoliths, and statues of the great giant empires bow their heads in desolate obscurity. Where once those empires sprawled across all lands, now the giants dwell in isolated tribes and clans.Giants are almost as old as dragons, which were still young when the giants' heavy feet first shook the foundations of the world. As they spread across new lands, giants and dragons fought bitter generational wars that nearly brought both sides low. No living giant remembers what started the conflict, but myths and tales of their race's glorious dawn are still sung in their steadings and holdfasts, vilifying the primeval wyrms. Giants and dragons continue to harbor grudges against one another, and it is seldom that they will meet or occupy the same area without a fight.The OrdningEach of the main giant races-the cloud, fire, frost, hill, stone, and storm giants-are related by common elements of history, religion, and culture. They view one another as kindred, keeping any inherent animosity over territory and ambition to a minimum.Giants belong to a caste structure called the ordning. Based on social class and highly organized, the ordning assigns a social rank to each giant. By understanding its place in the ordning, a giant knows which other giants are inferior or superior to it, since no two giants are equal. Each of the giant races analyzes a different combination of skills or qualities to determine the ordning. Giants make excelling in these qualities the purpose of their lives.At the highest level of the ordning, the races of the giants are also ranked according to status. Storm giants are the highest in the ordning, followed by cloud giants, fire giants, frost giants, stone giants, hill giants, and finally giant kin such as fomorians, ettins, and ogres.Regardless of a giant's rank among its own race, the chief of a hill giant tribe is inferior to the most common of stone giants. The lowest ranked giant of any type is superior to the highest ranked giant of an inferior type. It isn't considered evil to disrespect or even betray a giant of another type, merely rude.Giant GodsWhen the giants' ancient empires fell, Annam, father of all giants, forsook his children and the world. He swore never to look upon either again until the giants had returned to their glory and reclaimed their birthright as rulers of the world. As a result, giants pray not to Annam but to his divine children, along with a host of hero-deities and godly villains that make up the giants' pantheon.Chief among these gods are the children of Annam, whose sons represent each type of giant: Stronmaus for storm giants, Memnor for cloud giants, Skoraeus Stonebones for stone giants, Thrym for frost giants, Surtur for fire giants, and Grolantor for hill giants. Not all giants automatically revere their kind's primary deity, however. Many good cloud giants refuse to worship the deceitful Memnor, and a storm giant dwelling in the icy mountains of the north might pay more homage to Thrym than Stronmaus. Other giants feel a stronger connection to Annam's daughters, who include Hiatea, the huntress and home warden; Iallanis, goddess of love and peace; and Diancastra, an impetuous and arrogant trickster.Some giants abandon their own gods and fall prey to demon cults, paying homage to Baphomet or Kostchtchie. To worship them or any other non-giant deity is a great sin against the ordning, and almost certain to make a giant an outcast.Source: Monster Manual p. 154, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Ghosts of Saltmarsh, Mythic Odysseys of Theros</description>
+	    
+	<environment>mountain</environment>
+	    
+</monster>

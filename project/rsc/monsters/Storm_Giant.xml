@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Storm Giant</name>
+	    
+	<size>H</size>
+	    
+	<type>giant</type>
+	    
+	<alignment>Chaotic Good</alignment>
+	    
+	<ac>16 (scale mail)</ac>
+	    
+	<hp>230 (20d12+100)</hp>
+	    
+	<speed>walk 50 ft., swim 50 ft.</speed>
+	    
+	<str>29</str>
+	    
+	<dex>14</dex>
+	    
+	<con>20</con>
+	    
+	<int>16</int>
+	    
+	<wis>18</wis>
+	    
+	<cha>18</cha>
+	    
+	<save>Str +14, Con +10, Wis +9, Cha +9</save>
+	    
+	<skill>Arcana +8, Athletics +14, History +8, Perception +9</skill>
+	    
+	<passive>19</passive>
+	    
+	<languages>Common, Giant</languages>
+	    
+	<cr>13</cr>
+	    
+	<resist>cold</resist>
+	    
+	<immune>lightning, thunder</immune>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Amphibious</name>
+		      
+		<text>The giant can breathe air and water.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The giant makes two greatsword attacks.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Greatsword</name>
+		      
+		<text>Melee Weapon Attack: +14 to hit, reach 10 ft., one target. 30 (6d6 + 9) slashing damage.</text>
+		      
+		<attack>Greatsword|+14|6d6+9</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Rock</name>
+		      
+		<text>Ranged Weapon Attack: +14 to hit, range 60/240 ft., one target. 35 (4d12 + 9) bludgeoning damage.</text>
+		      
+		<attack>Rock|+14|4d12+9</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Lightning Strike (Recharge 5-6)</name>
+		      
+		<text>The giant hurls a magical lightning bolt at a point it can see within 500 feet of it. Each creature within 10 feet of that point must make a DC 17 Dexterity saving throw, taking 54 (12d8) lightning damage on a failed save, or half as much damage on a successful one.</text>
+		      
+		<attack>Lightning Strike (Recharge 5-6)||12d8</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Variant: New Giant Options</name>
+		      
+		<text>Some adult storm giants can channel thunderous power through their bodies and release it with a deafening stomp. This ability is represented by the following action option.</text>
+		      
+		<text>Thunderous Stomp (Recharge 6). The storm giant stomps the ground, triggering a thunderclap. All other creatures within 15 feet of the giant must succeed on a DC 17 Constitution saving throw or take 33 (6d10) thunder damage and be deafened until the start of the giant's next turn. On a successful save, a creature takes half as much damage and isn't deafened. The thunderclap can be heard out to a range of 1,200 feet.</text>
+		      
+	</action>
+	    
+	<trait>
+		        
+		<name>Innate Spellcasting</name>
+		      
+		<text>The giant's innate spellcasting ability is Charisma (spell save DC 17). It can innately cast the following spells, requiring no material components:</text>
+		      
+		<text>At will: detect magic, feather fall, levitate, light</text>
+		      
+		<text>3/day each: control weather, water breathing</text>
+		      
+	</trait>
+	    
+	<spells>detect magic, feather fall, levitate, light, control weather, water breathing</spells>
+	    
+	<description>Old as LegendIn remote regions of the world, the last remaining plinths, monoliths, and statues of the great giant empires bow their heads in desolate obscurity. Where once those empires sprawled across all lands, now the giants dwell in isolated tribes and clans.Giants are almost as old as dragons, which were still young when the giants' heavy feet first shook the foundations of the world. As they spread across new lands, giants and dragons fought bitter generational wars that nearly brought both sides low. No living giant remembers what started the conflict, but myths and tales of their race's glorious dawn are still sung in their steadings and holdfasts, vilifying the primeval wyrms. Giants and dragons continue to harbor grudges against one another, and it is seldom that they will meet or occupy the same area without a fight.The OrdningEach of the main giant races-the cloud, fire, frost, hill, stone, and storm giants-are related by common elements of history, religion, and culture. They view one another as kindred, keeping any inherent animosity over territory and ambition to a minimum.Giants belong to a caste structure called the ordning. Based on social class and highly organized, the ordning assigns a social rank to each giant. By understanding its place in the ordning, a giant knows which other giants are inferior or superior to it, since no two giants are equal. Each of the giant races analyzes a different combination of skills or qualities to determine the ordning. Giants make excelling in these qualities the purpose of their lives.At the highest level of the ordning, the races of the giants are also ranked according to status. Storm giants are the highest in the ordning, followed by cloud giants, fire giants, frost giants, stone giants, hill giants, and finally giant kin such as fomorians, ettins, and ogres.Regardless of a giant's rank among its own race, the chief of a hill giant tribe is inferior to the most common of stone giants. The lowest ranked giant of any type is superior to the highest ranked giant of an inferior type. It isn't considered evil to disrespect or even betray a giant of another type, merely rude.Giant GodsWhen the giants' ancient empires fell, Annam, father of all giants, forsook his children and the world. He swore never to look upon either again until the giants had returned to their glory and reclaimed their birthright as rulers of the world. As a result, giants pray not to Annam but to his divine children, along with a host of hero-deities and godly villains that make up the giants' pantheon.Chief among these gods are the children of Annam, whose sons represent each type of giant: Stronmaus for storm giants, Memnor for cloud giants, Skoraeus Stonebones for stone giants, Thrym for frost giants, Surtur for fire giants, and Grolantor for hill giants. Not all giants automatically revere their kind's primary deity, however. Many good cloud giants refuse to worship the deceitful Memnor, and a storm giant dwelling in the icy mountains of the north might pay more homage to Thrym than Stronmaus. Other giants feel a stronger connection to Annam's daughters, who include Hiatea, the huntress and home warden; Iallanis, goddess of love and peace; and Diancastra, an impetuous and arrogant trickster.Some giants abandon their own gods and fall prey to demon cults, paying homage to Baphomet or Kostchtchie. To worship them or any other non-giant deity is a great sin against the ordning, and almost certain to make a giant an outcast.Source: Monster Manual p. 156, Storm King's Thunder, Tales from the Yawning Portal, Ghosts of Saltmarsh, Mythic Odysseys of Theros</description>
+	    
+	<environment>coastal</environment>
+	    
+</monster>

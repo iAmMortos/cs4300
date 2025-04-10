@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Cat</name>
+	    
+	<size>T</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>2 (1d4)</hp>
+	    
+	<speed>walk 40 ft., climb 30 ft.</speed>
+	    
+	<str>3</str>
+	    
+	<dex>15</dex>
+	    
+	<con>10</con>
+	    
+	<int>3</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>7</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +3, Stealth +4</skill>
+	    
+	<passive>13</passive>
+	    
+	<languages/>
+	    
+	<cr>0</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Keen Smell</name>
+		      
+		<text>The cat has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Claws</name>
+		      
+		<text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. 1 slashing damage.</text>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 320, Curse of Strahd, Hoard of the Dragon Queen, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Infernal Machine Rebuild, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything</description>
+	    
+	<environment>grassland, forest, urban, desert</environment>
+	    
+</monster>

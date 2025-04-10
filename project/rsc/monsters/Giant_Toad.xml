@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Giant Toad</name>
+	    
+	<size>L</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>11</ac>
+	    
+	<hp>39 (6d10+6)</hp>
+	    
+	<speed>walk 20 ft., swim 40 ft.</speed>
+	    
+	<str>15</str>
+	    
+	<dex>13</dex>
+	    
+	<con>13</con>
+	    
+	<int>2</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>3</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>10</passive>
+	    
+	<languages/>
+	    
+	<cr>1</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 30 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Amphibious</name>
+		      
+		<text>The toad can breathe air and water</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Standing Leap</name>
+		      
+		<text>The toad's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 7 (1d10 + 2) piercing damage plus 5 (1d10) poison damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the toad can't bite another target.</text>
+		      
+		<attack>Bite|+4|1d10+2</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Swallow</name>
+		      
+		<text>The toad makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 10 (3d6) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time.</text>
+		      
+		<text>If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.</text>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 329, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Explorer's Guide to Wildemount, Tasha's Cauldron of Everything</description>
+	    
+	<environment>underdark, forest, swamp, desert, coastal</environment>
+	    
+</monster>

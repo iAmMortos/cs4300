@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Grell</name>
+	    
+	<size>M</size>
+	    
+	<type>aberration</type>
+	    
+	<alignment>Neutral Evil</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>55 (10d8+10)</hp>
+	    
+	<speed>walk 10 ft., fly 30 ft.</speed>
+	    
+	<str>15</str>
+	    
+	<dex>14</dex>
+	    
+	<con>13</con>
+	    
+	<int>12</int>
+	    
+	<wis>11</wis>
+	    
+	<cha>9</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +4, Stealth +6</skill>
+	    
+	<passive>14</passive>
+	    
+	<languages>Grell</languages>
+	    
+	<cr>3</cr>
+	    
+	<resist/>
+	    
+	<immune>lightning</immune>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune>blinded, prone</conditionImmune>
+	    
+	<senses>blindsight 60 ft. (blind beyond this radius)</senses>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The grell makes two attacks: one with its tentacles and one with its beak.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Tentacles</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. 7 (1d10 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or be poisoned for 1 minute. The poisoned target is paralyzed, and it can repeat the saving throw at the end of each of its turns, ending the effect on a success.</text>
+		      
+		<attack>Tentacles|+4|1d10+2</attack>
+		      
+		<text>The target is also grappled (escape DC 15). If the target is Medium or smaller, it is also restrained until this grapple ends. While grappling the target, the grell has advantage on attack rolls against it and can 't use this attack against other targets. When the grell moves, any Medium or smaller target it is grappling moves with it.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Beak</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 7 (2d4 + 2) piercing damage.</text>
+		      
+		<attack>Beak|+4|2d4+2</attack>
+		      
+	</action>
+	    
+	<description>A grell resembles a bulbous floating brain with a wide, sharp beak. Its ten long tentacles are made of hundreds of ring-shaped muscles sheathed in tough fibrous hide. Sharp barbs line the tip each tentacle and inject paralytic venom. The grell can partially retract its barbs into its tentacles to handle or manipulate objects it doesn't want to pierce or tear.Grells have no eyes and floats by means of a sort of levitation. They have keen hearing, however, and their skin is sensitive to vibrations and electrical fields, allowing them to detect the presence of creatures and objects in their immediate vicinity. The creature's ability to manipulate electricity to sense and move also allow it to absorb lightning without harm.Although solitary by nature, grells sometimes gather in small groups called covens.Floating Ambushers. A grell prefers to ambush lone creatures or stragglers, hovering silently near the ceiling of a passage or cavern until a suitable target passes below, whereupon it descends quickly and wraps its tentacles around its prey. It then floats away to its lair with the paralyzed creature in its clutches.Alien Devourers. Grell are alien predators that group other creatures into three categories: edibles, inedibles, and Great Eaters (those rare creatures that might prey on a grell). Grells have no compunction about attacking creatures they classify as edible, including humanoids. They tend to avoid bigger creatures that they have little hope of carrying away.A grell will sometimes allow adventurers to wage war on the other monstrous inhabitants of the dungeon complex it calls home, staying out of the adventurers' way as they dispose of larger threats while waiting for the right time to strike.Source: Monster Manual p. 172, Princes of the Apocalypse, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Infernal Machine Rebuild, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment>underdark</environment>
+	    
+</monster>

@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Scorpion</name>
+	    
+	<size>T</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>11 (natural armor)</ac>
+	    
+	<hp>1 (1d4-1)</hp>
+	    
+	<speed>walk 10 ft.</speed>
+	    
+	<str>2</str>
+	    
+	<dex>11</dex>
+	    
+	<con>8</con>
+	    
+	<int>1</int>
+	    
+	<wis>8</wis>
+	    
+	<cha>2</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>9</passive>
+	    
+	<languages/>
+	    
+	<cr>0</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 10 ft.</senses>
+	    
+	<action>
+		        
+		<name>Sting</name>
+		      
+		<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. 1 piercing damage, and the target must make a DC 9 Constitution saving throw, taking 4 (1d8) poison damage on a failed save, or half as much damage on a successful one.</text>
+		      
+		<attack>Sting|+2|1d8</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 337, Waterdeep: Dungeon of the Mad Mage</description>
+	    
+	<environment>desert</environment>
+	    
+</monster>

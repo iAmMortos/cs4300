@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Ghast</name>
+	    
+	<size>M</size>
+	    
+	<type>undead</type>
+	    
+	<alignment>Chaotic Evil</alignment>
+	    
+	<ac>13</ac>
+	    
+	<hp>36 (8d8)</hp>
+	    
+	<speed>walk 30 ft.</speed>
+	    
+	<str>16</str>
+	    
+	<dex>17</dex>
+	    
+	<con>10</con>
+	    
+	<int>11</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>8</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>10</passive>
+	    
+	<languages>Common</languages>
+	    
+	<cr>2</cr>
+	    
+	<resist>necrotic</resist>
+	    
+	<immune>poison</immune>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune>charmed, exhaustion, poisoned</conditionImmune>
+	    
+	<senses>darkvision 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Stench</name>
+		      
+		<text>Any creature that starts its turn within 5 feet of the ghast must succeed on a DC 10 Constitution saving throw or be poisoned until the start of its next turn. On a successful saving throw, the creature is immune to the ghast's Stench for 24 hours.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Turn Defiance</name>
+		      
+		<text>The ghast and any ghouls within 30 feet of it have advantage on saving throws against effects that turn undead.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. 12 (2d8 + 3) piercing damage.</text>
+		      
+		<attack>Bite|+3|2d8+3</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Claws</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 10 (2d6 + 3) slashing damage. If the target is a creature other than an undead, it must succeed on a DC 10 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		      
+		<attack>Claws|+5|2d6+3</attack>
+		      
+	</action>
+	    
+	<description>Ghouls roam the night in packs, driven by an insatiable hunger for humanoid flesh.Devourers of Flesh. Like maggots or carrion beetles, ghouls thrive in places rank with decay and death. A ghoul haunts a place where it can gorge on dead flesh and decomposing organs. When it can't feed on the dead, it pursues living creatures and attempts to make corpses of them. Though they gain no nourishment from the corpses they devour, ghouls are driven by an unending hunger that compels them to consume. A ghoul's undead flesh never rots, and this monster can persist in a crypt or tomb for untold ages without feeding.Abyssal Origins. Ghouls trace their origins to the Abyss. Doresain, the first of their kind, was an elf worshiper of Orcus. Turning against his own people, he feasted on humanoid flesh to honor the Demon Prince of Undeath. As a reward for his service, Orcus transformed Doresain into the first ghoul. Doresain served Orcus faithfully in the Abyss, creating ghouls from the demon lord's other servants until an incursion by Yeenoghu, the demonic Gnoll Lord, robbed Doresain of his abyssal domain. When Orcus would not intervene on his behalf, Doresain turned to the elf gods for salvation, and they took pity on him and helped him escape certain destruction. Since then, elves have been immune to the ghouls' paralytic touch.Ghasts. Orcus sometimes infuses a ghoul with a stronger dose of abyssal energy, making a ghast. Whereas ghouls are little more than savage beasts, a ghast is cunning and can inspire a pack of ghouls to follow its commands.Source: Monster Manual p. 148, Curse of Strahd, Princes of the Apocalypse, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Essentials Kit: Divine Contention, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus</description>
+	    
+	<environment>underdark, swamp, urban</environment>
+	    
+</monster>

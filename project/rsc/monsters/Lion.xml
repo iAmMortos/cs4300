@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Lion</name>
+	    
+	<size>L</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>26 (4d10+4)</hp>
+	    
+	<speed>walk 50 ft.</speed>
+	    
+	<str>17</str>
+	    
+	<dex>15</dex>
+	    
+	<con>13</con>
+	    
+	<int>3</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>8</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +3, Stealth +6</skill>
+	    
+	<passive>13</passive>
+	    
+	<languages/>
+	    
+	<cr>1</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Keen Smell</name>
+		      
+		<text>The lion has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Pack Tactics</name>
+		      
+		<text>The lion has advantage on an attack roll against a creature if at least one of the lion's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Pounce</name>
+		      
+		<text>If the lion moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the lion can make one bite attack against it as a bonus action.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Running Leap</name>
+		      
+		<text>With a 10-foot running start, the lion can long jump up to 25 feet.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) piercing damage.</text>
+		      
+		<attack>Bite|+5|1d8+3</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Claw</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) slashing damage.</text>
+		      
+		<attack>Claw|+5|1d6+3</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 331, Tales from the Yawning Portal, Tomb of Annihilation</description>
+	    
+	<environment>mountain, grassland, hill, desert</environment>
+	    
+</monster>

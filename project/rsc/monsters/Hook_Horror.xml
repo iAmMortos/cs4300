@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Hook Horror</name>
+	    
+	<size>L</size>
+	    
+	<type>monstrosity</type>
+	    
+	<alignment>Neutral</alignment>
+	    
+	<ac>15 (natural armor)</ac>
+	    
+	<hp>75 (10d10+20)</hp>
+	    
+	<speed>walk 30 ft., climb 30 ft.</speed>
+	    
+	<str>18</str>
+	    
+	<dex>10</dex>
+	    
+	<con>15</con>
+	    
+	<int>6</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>7</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +3</skill>
+	    
+	<passive>13</passive>
+	    
+	<languages>Hook Horror</languages>
+	    
+	<cr>3</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 60 ft., darkvision 120 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Echolocation</name>
+		      
+		<text>The hook horror can't use its blindsight while deafened.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Keen Hearing</name>
+		      
+		<text>The hook horror has advantage on Wisdom (Perception) checks that rely on hearing.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The hook horror makes two hook attacks.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Hook</name>
+		      
+		<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. 11 (2d6 + 4) piercing damage.</text>
+		      
+		<attack>Hook|+6|2d6+4</attack>
+		      
+	</action>
+	    
+	<description>A fierce predator of the Underdark, the hook horror aggressively defends its hunting grounds. The subterranean caverns where these creatures dwell echo with the constant clacking and scraping of their hooks as they wend their way up cliffs and along cavern walls. The monstrous hook horror has a head resembling a vulture's and the torso of an enormous beetle, with an exoskeleton studded by sharp, bony protuberances. It gains its name from its long, powerfully built arms and legs, which end in wickedly curved hooked claws.Echoes in the Dark.  Hook horrors communicate by striking their hooks against their exoskeletons or the stone surfaces around them. What sounds to others like random clacking noise is actually a complex language that only hook horrors understand, and which carries for miles through the echoing Underdark.Pack Predators. The omnivorous hook horrors eat lichens, fungi, plants, and any creature they can catch. A hook horror's hooked limbs give it excellent purchase on rock surfaces, and these creatures use their climbing skills to ambush prey from above. They hunt in packs, working together against the largest and most dangerous opponents. If a battle goes poorly, a hook horror quickly climbs a cavern wall to flee.Dedicated Clans. Hook horrors live in extended family groups or clans. Each clan is ruled by the eldest female, who typically places her mate in charge of the clan's hunters. Hook horrors lay eggs, which are clustered in a central, well-defended area of a clan's home caverns.Source: Monster Manual p. 189, Princes of the Apocalypse, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage</description>
+	    
+	<environment>underdark</environment>
+	    
+</monster>

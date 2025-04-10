@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Guard</name>
+	    
+	<size>M</size>
+	    
+	<type>humanoid (any race)</type>
+	    
+	<alignment>Any alignment</alignment>
+	    
+	<ac>16 (chain shirt, shield)</ac>
+	    
+	<hp>11 (2d8+2)</hp>
+	    
+	<speed>walk 30 ft.</speed>
+	    
+	<str>13</str>
+	    
+	<dex>12</dex>
+	    
+	<con>12</con>
+	    
+	<int>10</int>
+	    
+	<wis>11</wis>
+	    
+	<cha>10</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +2</skill>
+	    
+	<passive>12</passive>
+	    
+	<languages>any one language (usually Common)</languages>
+	    
+	<cr>1/8</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<action>
+		        
+		<name>Spear</name>
+		      
+		<text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.</text>
+		      
+		<attack>Spear|+3|1d6+1</attack>
+		      
+	</action>
+	    
+	<description>Guards include members of a city watch, sentries in a citadel or fortified town, and the bodyguards of merchants and nobles.Source: Monster Manual p. 347, Curse of Strahd, Hoard of the Dragon Queen, Princes of the Apocalypse, Rise of Tiamat, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Essentials Kit: Divine Contention, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Mythic Odysseys of Theros</description>
+	    
+	<environment/>
+	    
+</monster>

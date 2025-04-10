@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Cultist</name>
+	    
+	<size>M</size>
+	    
+	<type>humanoid (any race)</type>
+	    
+	<alignment>Any Non-Good Alignment</alignment>
+	    
+	<ac>12 (leather armor)</ac>
+	    
+	<hp>9 (2d8)</hp>
+	    
+	<speed>walk 30 ft.</speed>
+	    
+	<str>11</str>
+	    
+	<dex>12</dex>
+	    
+	<con>10</con>
+	    
+	<int>10</int>
+	    
+	<wis>11</wis>
+	    
+	<cha>10</cha>
+	    
+	<save/>
+	    
+	<skill>Deception +2, Religion +2</skill>
+	    
+	<passive>10</passive>
+	    
+	<languages>any one language (usually Common)</languages>
+	    
+	<cr>1/8</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Dark Devotion</name>
+		      
+		<text>The cultist has advantage on saving throws against being charmed or frightened.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Scimitar</name>
+		      
+		<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. 4 (1d6 + 1) slashing damage.</text>
+		      
+		<attack>Scimitar|+3|1d6+1</attack>
+		      
+	</action>
+	    
+	<description>Cultists swear allegiance to dark powers such as elemental princes, demon lords, or archdevils. Most conceal their loyalties to avoid being ostracized, imprisoned, or executed for their beliefs. Unlike evil acolytes, cultists often show signs of insanity in their beliefs and practices.Source: Monster Manual p. 345, Curse of Strahd, Hoard of the Dragon Queen, Lost Mine of Phandelver, Princes of the Apocalypse, Rise of Tiamat, Storm King's Thunder, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Essentials Kit: Divine Contention, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath, Baldur's Gate: Descent Into Avernus, The Lost Dungeon of Rickedness: Big Rick Energy, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment/>
+	    
+</monster>

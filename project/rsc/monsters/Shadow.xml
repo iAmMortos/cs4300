@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Shadow</name>
+	    
+	<size>M</size>
+	    
+	<type>undead</type>
+	    
+	<alignment>Chaotic Evil</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>16 (3d8+3)</hp>
+	    
+	<speed>walk 40 ft.</speed>
+	    
+	<str>6</str>
+	    
+	<dex>14</dex>
+	    
+	<con>13</con>
+	    
+	<int>6</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>8</cha>
+	    
+	<save/>
+	    
+	<skill>Stealth +4</skill>
+	    
+	<passive>10</passive>
+	    
+	<languages/>
+	    
+	<cr>1/2</cr>
+	    
+	<resist>acid, cold, fire, lightning, thunder; bludgeoning, piercing, slashing from nonmagical attacks</resist>
+	    
+	<immune>necrotic, poison</immune>
+	    
+	<vulnerable>radiant</vulnerable>
+	    
+	<conditionImmune>exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained</conditionImmune>
+	    
+	<senses>darkvision 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Amorphous</name>
+		      
+		<text>The shadow can move through a space as narrow as 1 inch wide without squeezing.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Shadow Stealth</name>
+		      
+		<text>While in dim light or darkness, the shadow can take the Hide action as a bonus action. Its stealth bonus is also improved to +6.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Sunlight Weakness</name>
+		      
+		<text>While in sunlight, the shadow has disadvantage on attack rolls, ability checks, and saving throws.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Strength Drain</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 9 (2d6 + 2) necrotic damage, and the target's Strength score is reduced by 1d4. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest.</text>
+		      
+		<attack>Strength Drain|+4|2d6+2</attack>
+		      
+		<text>If a non-evil humanoid dies from this attack, a new shadow rises from the corpse 1d4 hours later.</text>
+		      
+	</action>
+	    
+	<description>Shadows are undead that resemble dark exaggerations of humanoid shadows.Dark Disposition. From the darkness, the shadow reaches out to feed on living creatures' vitality. They can consume any living creature, but they are especially drawn to creatures untainted by evil. A creature that lives a life of goodness and piety consigns its basest impulses and strongest temptations to the darkness where the shadows hunger. As a shadow drains its victim's strength and physical form, the victim's shadow darkens and begins to move of its own volition. In death, the creature's shadow breaks free, becoming a new undead shadow hungry for more life to consume.If a creature from which a shadow has been created somehow returns to life, its undead shadow senses the return. The shadow might seek its &quot;parent&quot; to vex or slay. Whether the shadow pursues its living counterpart, the creature that birthed the shadow no longer casts one until the monster is destroyed.Undead Nature. A shadow doesn't require air, food, drink, or sleepSource: Monster Manual p. 269, Curse of Strahd, Princes of the Apocalypse, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything</description>
+	    
+	<environment>underdark, urban</environment>
+	    
+</monster>

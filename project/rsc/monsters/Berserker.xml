@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Berserker</name>
+	    
+	<size>M</size>
+	    
+	<type>humanoid (any race)</type>
+	    
+	<alignment>Any Chaotic Alignment</alignment>
+	    
+	<ac>13 (hide armor)</ac>
+	    
+	<hp>67 (9d8+27)</hp>
+	    
+	<speed>walk 30 ft.</speed>
+	    
+	<str>16</str>
+	    
+	<dex>12</dex>
+	    
+	<con>17</con>
+	    
+	<int>9</int>
+	    
+	<wis>11</wis>
+	    
+	<cha>9</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>10</passive>
+	    
+	<languages>any one language (usually Common)</languages>
+	    
+	<cr>2</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Reckless</name>
+		      
+		<text>At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Greataxe</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 9 (1d12 + 3) slashing damage.</text>
+		      
+		<attack>Greataxe|+5|1d12+3</attack>
+		      
+	</action>
+	    
+	<description>Hailing from uncivilized lands, unpredictable berserkers come together in war parties and seek conflict wherever they can find it.Source: Monster Manual p. 344, Curse of Strahd, Hoard of the Dragon Queen, Princes of the Apocalypse, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Essentials Kit: Divine Contention, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment/>
+	    
+</monster>

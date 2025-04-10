@@ -1,0 +1,206 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Ancient Gold Dragon</name>
+	    
+	<size>G</size>
+	    
+	<type>dragon</type>
+	    
+	<alignment>Lawful Good</alignment>
+	    
+	<ac>22 (natural armor)</ac>
+	    
+	<hp>546 (28d20+252)</hp>
+	    
+	<speed>walk 40 ft., fly 80 ft., swim 40 ft.</speed>
+	    
+	<str>30</str>
+	    
+	<dex>14</dex>
+	    
+	<con>29</con>
+	    
+	<int>18</int>
+	    
+	<wis>17</wis>
+	    
+	<cha>28</cha>
+	    
+	<save>Dex +9, Con +16, Wis +10, Cha +16</save>
+	    
+	<skill>Insight +10, Perception +17, Persuasion +16, Stealth +9</skill>
+	    
+	<passive>27</passive>
+	    
+	<languages>Common, Draconic</languages>
+	    
+	<cr>24</cr>
+	    
+	<resist/>
+	    
+	<immune>fire</immune>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 60 ft., darkvision 120 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Amphibious</name>
+		      
+		<text>The dragon can breathe air and water.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Legendary Resistance (3/Day)</name>
+		      
+		<text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +17 to hit, reach 15 ft., one target. 21 (2d10 + 10) piercing damage.</text>
+		      
+		<attack>Bite|+17|2d10+10</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Claw</name>
+		      
+		<text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. 17 (2d6 + 10) slashing damage.</text>
+		      
+		<attack>Claw|+17|2d6+10</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Tail</name>
+		      
+		<text>Melee Weapon Attack: +17 to hit, reach 20 ft., one target. 19 (2d8 + 10) bludgeoning damage.</text>
+		      
+		<attack>Tail|+17|2d8+10</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Frightful Presence</name>
+		      
+		<text>Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 24 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Breath Weapons (Recharge 5-6)</name>
+		      
+		<text>The dragon uses one of the following breath weapons.</text>
+		      
+		<text>• Fire Breath. The dragon exhales fire in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 71 (13d10) fire damage on a failed save, or half as much damage on a successful one.</text>
+		      
+		<attack>Breath Weapons (Recharge 5-6)||13d10</attack>
+		      
+		<text>• Weakening Breath. The dragon exhales gas in a 90-foot cone. Each creature in that area must succeed on a DC 24 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Change Shape</name>
+		      
+		<text>The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).</text>
+		      
+		<text>In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form.</text>
+		      
+	</action>
+	    
+	<legendary>
+		        
+		<text>The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.</text>
+		      
+	</legendary>
+	    
+	<legendary>
+		        
+		<name>Detect</name>
+		      
+		<text>The dragon makes a Wisdom (Perception) check.</text>
+		      
+	</legendary>
+	    
+	<legendary>
+		        
+		<name>Tail Attack</name>
+		      
+		<text>The dragon makes a tail attack.</text>
+		      
+	</legendary>
+	    
+	<legendary>
+		        
+		<name>Wing Attack (Costs 2 Actions)</name>
+		      
+		<text>The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.</text>
+		      
+	</legendary>
+	    
+	<lair>
+		        
+		<name>Lair Actions</name>
+		      
+	</lair>
+	    
+	<lair>
+		        
+		<text>On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:</text>
+		      
+		<text>• The dragon glimpses the future, so it has advantage on attack rolls, ability checks, and saving throws until initiative count 20 on the next round.</text>
+		      
+		<text>• One creature the dragon can see within 120 feet of it must succeed on a DC 15 Charisma saving throw or be banished to a dream plane, a different plane of existence the dragon has imagined into being. To escape, the creature must use its action to make a Charisma check contested by the dragon's. If the creature wins, it escapes the dream plane. Otherwise, the effect ends on initiative count 20 on the next round. When the effect ends, the creature reappears in the space it left or in the nearest unoccupied space if that one is occupied.</text>
+		      
+	</lair>
+	    
+	<lair>
+		        
+		<name>Regional Effects</name>
+		      
+	</lair>
+	    
+	<lair>
+		        
+		<text>The region containing a legendary gold dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:</text>
+		      
+		<text>• Whenever a creature that can understand a language sleeps or enters a state of trance or reverie within 6 miles of the dragon's lair, the dragon can establish telepathic contact with that creature and converse with it in its dreams. The creature remembers its conversation with the dragon upon waking.</text>
+		      
+		<text>• Banks of beautiful, opalescent mist manifest within 6 miles of the dragon's lair. The mist doesn't obscure anything. It assumes haunting forms when evil creatures are near the dragon or other non-evil creatures in the mist, warning such creatures of the danger.</text>
+		      
+		<text>• Gems and pearls within 1 mile of the dragon's lair sparkle and gleam, shedding dim light in a 5-foot radius.</text>
+		      
+		<text>If the dragon dies, these effects end immediately.</text>
+		      
+	</lair>
+	    
+	<description>True dragons are winged reptiles of ancient lineage and fearsome power. They are known and feared for their predatory cunning and greed, with the oldest dragons accounted as some of the most powerful creatures in the world. Dragons are also magical creatures whose innate power fuels their dreaded breath weapons and other preternatural abilities.Many creatures, including wyverns and dragon turtles, have draconic blood. However, true dragons fall into the two broad categories of chromatic and metallic dragons. The black, blue, green, red, and white dragons are selfish, evil, and feared by all. The brass, bronze, copper, gold, and silver dragons are noble, good, and highly respected by the wise.Though their goals and ideals vary tremendously, all true dragons covet wealth, hoarding mounds of coins and gathering gems, jewels, and magic items. Dragons with large hoards are loath to leave them for long, venturing out of their lairs only to patrol or feed.True dragons pass through four distinct stages of life, from lowly wyrmlings to ancient dragons, which can live for over a thousand years. In that time, their might can become unrivaled and their hoards can grow beyond price.Dragon Age CategoriesCategory | Size | Age RangeWyrmling | Medium | 5 years or lessYoung | Large | 6–100 yearsAdult | Huge | 101–800 yearsAncient | Gargantuan | 801 years or moreSource: Monster Manual p. 113</description>
+	    
+	<environment>grassland, forest</environment>
+	    
+</monster>

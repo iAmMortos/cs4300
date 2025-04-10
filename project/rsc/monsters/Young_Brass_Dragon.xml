@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Young Brass Dragon</name>
+	    
+	<size>L</size>
+	    
+	<type>dragon</type>
+	    
+	<alignment>Chaotic Good</alignment>
+	    
+	<ac>17 (natural armor)</ac>
+	    
+	<hp>110 (13d10+39)</hp>
+	    
+	<speed>walk 40 ft., burrow 20 ft., fly 80 ft.</speed>
+	    
+	<str>19</str>
+	    
+	<dex>10</dex>
+	    
+	<con>17</con>
+	    
+	<int>12</int>
+	    
+	<wis>11</wis>
+	    
+	<cha>15</cha>
+	    
+	<save>Dex +3, Con +6, Wis +3, Cha +5</save>
+	    
+	<skill>Perception +6, Persuasion +5, Stealth +3</skill>
+	    
+	<passive>16</passive>
+	    
+	<languages>Common, Draconic</languages>
+	    
+	<cr>6</cr>
+	    
+	<resist/>
+	    
+	<immune>fire</immune>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 30 ft., darkvision 120 ft.</senses>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The dragon makes three attacks: one with its bite and two with its claws.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. 15 (2d10 + 4) piercing damage.</text>
+		      
+		<attack>Bite|+7|2d10+4</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Claw</name>
+		      
+		<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 11 (2d6 + 4) slashing damage.</text>
+		      
+		<attack>Claw|+7|2d6+4</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Breath Weapons (Recharge 5-6)</name>
+		      
+		<text>The dragon uses one of the following breath weapons.</text>
+		      
+		<text>• Fire Breath. The dragon exhales fire in a 40-foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 42 (12d6) fire damage on a failed save, or half as much damage on a successful one.</text>
+		      
+		<attack>Breath Weapons (Recharge 5-6)||12d6</attack>
+		      
+		<text>• Sleep Breath. The dragon exhales sleep gas in a 30-foot cone. Each creature in that area must succeed on a DC 14 Constitution saving throw or fall unconscious for 5 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</text>
+		      
+	</action>
+	    
+	<description>True dragons are winged reptiles of ancient lineage and fearsome power. They are known and feared for their predatory cunning and greed, with the oldest dragons accounted as some of the most powerful creatures in the world. Dragons are also magical creatures whose innate power fuels their dreaded breath weapons and other preternatural abilities.Many creatures, including wyverns and dragon turtles, have draconic blood. However, true dragons fall into the two broad categories of chromatic and metallic dragons. The black, blue, green, red, and white dragons are selfish, evil, and feared by all. The brass, bronze, copper, gold, and silver dragons are noble, good, and highly respected by the wise.Though their goals and ideals vary tremendously, all true dragons covet wealth, hoarding mounds of coins and gathering gems, jewels, and magic items. Dragons with large hoards are loath to leave them for long, venturing out of their lairs only to patrol or feed.True dragons pass through four distinct stages of life, from lowly wyrmlings to ancient dragons, which can live for over a thousand years. In that time, their might can become unrivaled and their hoards can grow beyond price.Dragon Age CategoriesCategory | Size | Age RangeWyrmling | Medium | 5 years or lessYoung | Large | 6–100 yearsAdult | Huge | 101–800 yearsAncient | Gargantuan | 801 years or moreSource: Monster Manual p. 105, Storm King's Thunder</description>
+	    
+	<environment>desert</environment>
+	    
+</monster>

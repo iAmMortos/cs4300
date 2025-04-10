@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Scout</name>
+	    
+	<size>M</size>
+	    
+	<type>humanoid (any race)</type>
+	    
+	<alignment>Any alignment</alignment>
+	    
+	<ac>13 (leather armor)</ac>
+	    
+	<hp>16 (3d8+3)</hp>
+	    
+	<speed>walk 30 ft.</speed>
+	    
+	<str>11</str>
+	    
+	<dex>14</dex>
+	    
+	<con>12</con>
+	    
+	<int>11</int>
+	    
+	<wis>13</wis>
+	    
+	<cha>11</cha>
+	    
+	<save/>
+	    
+	<skill>Nature +4, Perception +5, Stealth +6, Survival +5</skill>
+	    
+	<passive>15</passive>
+	    
+	<languages>any one language (usually Common)</languages>
+	    
+	<cr>1/2</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Keen Hearing and Sight</name>
+		      
+		<text>The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The scout makes two melee attacks or two ranged attacks.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Shortsword</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage.</text>
+		      
+		<attack>Shortsword|+4|1d6+2</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Longbow</name>
+		      
+		<text>Ranged Weapon Attack: +4 to hit, ranged 150/600 ft., one target. 6 (1d8 + 2) piercing damage.</text>
+		      
+		<attack>Longbow|+4|1d8+2</attack>
+		      
+	</action>
+	    
+	<description>Scouts are skilled hunters and trackers who offer their services for a fee. Most hunt wild game, but a few work as bounty hunters, serve as guides, or provide military reconnaissance.Source: Monster Manual p. 349, Curse of Strahd, Hoard of the Dragon Queen, Princes of the Apocalypse, Rise of Tiamat, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Ghosts of Saltmarsh, Essentials Kit: Divine Contention, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath, Essentials Kit: Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment/>
+	    
+</monster>

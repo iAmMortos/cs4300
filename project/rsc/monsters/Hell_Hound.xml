@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Hell Hound</name>
+	    
+	<size>M</size>
+	    
+	<type>fiend</type>
+	    
+	<alignment>Lawful Evil</alignment>
+	    
+	<ac>15 (natural armor)</ac>
+	    
+	<hp>45 (7d8+14)</hp>
+	    
+	<speed>walk 50 ft.</speed>
+	    
+	<str>17</str>
+	    
+	<dex>12</dex>
+	    
+	<con>14</con>
+	    
+	<int>6</int>
+	    
+	<wis>13</wis>
+	    
+	<cha>6</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +5</skill>
+	    
+	<passive>15</passive>
+	    
+	<languages>understands Infernal but can't speak it</languages>
+	    
+	<cr>3</cr>
+	    
+	<resist/>
+	    
+	<immune>fire</immune>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Keen Hearing and Smell</name>
+		      
+		<text>The hound has advantage on Wisdom (Perception) checks that rely on hearing or smell.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Pack Tactics</name>
+		      
+		<text>The hound has advantage on an attack roll against a creature if at least one of the hound's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 7 (1d8 + 3) piercing damage plus 7 (2d6) fire damage.</text>
+		      
+		<attack>Bite|+5|1d8+3</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Fire Breath (Recharge 5-6)</name>
+		      
+		<text>The hound exhales fire in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 21 (6d6) fire damage on a failed save, or half as much damage on a successful one.</text>
+		      
+		<attack>Fire Breath (Recharge 5-6)||6d6</attack>
+		      
+	</action>
+	    
+	<description>Monstrous, fire-breathing fiends that take the form of powerful dogs, hell hounds are found on the battlefields of Acheron and throughout the Lower Planes. On the Material Plane, hell hounds are most commonly seen in service to devils, fire giants, and other evil creatures that use them as guard animals and companions.Burning Hunger. Hell hounds hunt in packs, feeding on any creature that appears edible. They avoid potentially dangerous foes in favor of targeting the weakest prey with their savage bite and fiery breath, demonstrating a relentless determination as they pursue that prey to the bitter end.When hell hounds feed, the flesh they consume stokes the infernal fires that burn within them. When a hell hound dies, that fire consumes the creature's remains in a billowing eruption of smoke and blazing embers, leaving nothing behind but scorched tufts of black fur.Evil to the Core. Hell hounds are smarter than mundane beasts, and their lawful nature makes them good at following orders. However, a hell hound's evil disposition means that the creature can't be trained to be anything other than a ruthless killer. If a hell hound isn't allowed to indulge its malevolent hunger, it quickly abandons or turns against its master.Source: Monster Manual p. 182, Curse of Strahd, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Essentials Kit: Storm Lord's Wrath, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Mythic Odysseys of Theros</description>
+	    
+	<environment>underdark, mountain</environment>
+	    
+</monster>

@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Wererat</name>
+	    
+	<size>M</size>
+	    
+	<type>humanoid (human, shapechanger)</type>
+	    
+	<alignment>Lawful Evil</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>33 (6d8+6)</hp>
+	    
+	<speed>walk 30 ft.</speed>
+	    
+	<str>10</str>
+	    
+	<dex>15</dex>
+	    
+	<con>12</con>
+	    
+	<int>11</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>8</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +2, Stealth +4</skill>
+	    
+	<passive>12</passive>
+	    
+	<languages>Common (can't speak in rat form)</languages>
+	    
+	<cr>2</cr>
+	    
+	<resist/>
+	    
+	<immune>bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered</immune>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 60 ft. (rat form only)</senses>
+	    
+	<trait>
+		        
+		<name>Shapechanger</name>
+		      
+		<text>The wererat can use its action to polymorph into a rat-humanoid hybrid or into a giant rat, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Keen Smell</name>
+		      
+		<text>The wererat has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack (Humanoid or Hybrid Form Only)</name>
+		      
+		<text>The wererat makes two attacks, only one of which can be a bite.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Bite (Rat or Hybrid Form Only)</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage. If the target is a humanoid, it must succeed on a DC 11 Constitution saving throw or be cursed with wererat lycanthropy.</text>
+		      
+		<attack>Bite (Rat or Hybrid Form Only)|+4|1d4+2</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Shortsword (Humanoid or Hybrid Form Only)</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage.</text>
+		      
+		<attack>Shortsword (Humanoid or Hybrid Form Only)|+4|1d6+2</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Hand Crossbow (Humanoid or Hybrid Form Only)</name>
+		      
+		<text>Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. 5 (1d6 + 2) piercing damage.</text>
+		      
+		<attack>Hand Crossbow (Humanoid or Hybrid Form Only)|+4|1d6+2</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Variant: Nonhuman Lycanthropes</name>
+		      
+		<text>The statistics presented in this section assume a base creature of human. However, you can also use the statistics to represent nonhuman lycanthropes, adding verisimilitude by allowing a nonhuman lycanthrope to retain one or more of its humanoid racial traits. For example, an elf werewolf might have the Fey Ancestry trait.</text>
+		      
+	</action>
+	    
+	<description>Curse of Lycanthropy. A humanoid creature can be afflicted with the curse of lycanthropy after being wounded by a lycanthrope, or if one or both of its parents are lycanthropes. A remove curse spell can rid an afflicted lycanthrope of the curse, but a natural born lycanthrope can be freed of the curse only with a wish.A lycanthrope can either resist its curse or embrace it. By resisting the curse, a lycanthrope retains its normal alignment and personality while in humanoid form. It lives its life as it always has, burying deep the bestial urges raging inside it. However, when the full moon rises, the curse becomes too strong to resist, transforming the individual into its beast form-or into a horrible hybrid form that combines animal and humanoid traits. When the moon wanes, the beast within can be controlled once again. Especially if the cursed creature is unaware of its condition, it might not remember the events of its transformation, though those memories often haunt a lycanthrope as bloody dreams.Some individuals see little point in fighting the curse and accept what they are. With time and experience, they learn to master their shapechanging ability and can assume beast form or hybrid form at will. Most lycanthropes that embrace their bestial natures succumb to bloodlust, becoming evil, opportunistic creatures that prey on the weak.Player Characters as LycanthropesA character who becomes a lycanthrope retains his or her statistics except as specified by lycanthrope type. The character gains the lycanthrope's speeds in non-humanoid form, damage immunities, traits, and actions that don't involve equipment. The character is proficient with the lycanthrope's natural attacks, such as its bite or claws, which deal damage as shown in the lycanthrope's statistics. The character can't speak while in animal form.A non-lycanthrope humanoid hit by an attack that carries the curse of lycanthropy must succeed on a Constitution saving throw (DC 8 + the lycanthrope's proficiency bonus + the lycanthrope's Constitution modifier) or be cursed. If the character embraces the curse, his or her alignment becomes the one defined for the lycanthrope. The DM is free to decide that a change in alignment places the character under DM control until the curse of lycanthropy is removed.The following information applies to specific lycanthropes.Werebear. The character gains a Strength of 19 if his or her score isn't already higher, and a +1 bonus to AC while in bear or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength.Wereboar. The character gains a Strength of 17 if his or her score isn't already higher, and a +1 bonus to AC while in boar or hybrid form (from natural armor). Attack and damage rolls for the tusks are based on Strength. For the Charge trait, the DC is 8 + the character's proficiency bonus + Strength modifier.Wererat. The character gains a Dexterity of 15 if his or her score isn't already higher. Attack and damage rolls for the bite are based on whichever is higher of the character's Strength and Dexterity.Weretiger. The character gains a Strength of 17 if his or her score isn't already higher. Attack and damage rolls for the natural weapons are based on Strength. For the Pounce trait, the DC is 8 + the character's proficiency bonus + Strength modifier.Werewolf. The character gains a Strength of 15 if his or her score isn't already higher, and a +1 bonus to AC while in wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength.Source: Monster Manual p. 209, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Essentials Kit: Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Explorer's Guide to Wildemount</description>
+	    
+	<environment>forest, urban</environment>
+	    
+</monster>

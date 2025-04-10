@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>White Dragon Wyrmling</name>
+	    
+	<size>M</size>
+	    
+	<type>dragon</type>
+	    
+	<alignment>Chaotic Evil</alignment>
+	    
+	<ac>16 (natural armor)</ac>
+	    
+	<hp>32 (5d8+10)</hp>
+	    
+	<speed>walk 30 ft., burrow 15 ft., fly 60 ft., swim 30 ft.</speed>
+	    
+	<str>14</str>
+	    
+	<dex>10</dex>
+	    
+	<con>14</con>
+	    
+	<int>5</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>11</cha>
+	    
+	<save>Dex +2, Con +4, Wis +2, Cha +2</save>
+	    
+	<skill>Perception +4, Stealth +2</skill>
+	    
+	<passive>14</passive>
+	    
+	<languages>Draconic</languages>
+	    
+	<cr>2</cr>
+	    
+	<resist/>
+	    
+	<immune>cold</immune>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 10 ft., darkvision 60 ft.</senses>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 7 (1d10 + 2) piercing damage plus 2 (1d4) cold damage.</text>
+		      
+		<attack>Bite|+4|1d10+2</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Cold Breath (Recharge 5-6)</name>
+		      
+		<text>The dragon exhales an icy blast of hail in a 15-foot cone. Each creature in that area must make a DC 12 Constitution saving throw, taking 22 (5d8) cold damage on a failed save, or half as much damage on a successful one.</text>
+		      
+		<attack>Cold Breath (Recharge 5-6)||5d8</attack>
+		      
+	</action>
+	    
+	<description>True dragons are winged reptiles of ancient lineage and fearsome power. They are known and feared for their predatory cunning and greed, with the oldest dragons accounted as some of the most powerful creatures in the world. Dragons are also magical creatures whose innate power fuels their dreaded breath weapons and other preternatural abilities.Many creatures, including wyverns and dragon turtles, have draconic blood. However, true dragons fall into the two broad categories of chromatic and metallic dragons. The black, blue, green, red, and white dragons are selfish, evil, and feared by all. The brass, bronze, copper, gold, and silver dragons are noble, good, and highly respected by the wise.Though their goals and ideals vary tremendously, all true dragons covet wealth, hoarding mounds of coins and gathering gems, jewels, and magic items. Dragons with large hoards are loath to leave them for long, venturing out of their lairs only to patrol or feed.True dragons pass through four distinct stages of life, from lowly wyrmlings to ancient dragons, which can live for over a thousand years. In that time, their might can become unrivaled and their hoards can grow beyond price.Dragon Age CategoriesCategory | Size | Age RangeWyrmling | Medium | 5 years or lessYoung | Large | 6–100 yearsAdult | Huge | 101–800 yearsAncient | Gargantuan | 801 years or moreSource: Monster Manual p. 102, Storm King's Thunder, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment/>
+	    
+</monster>

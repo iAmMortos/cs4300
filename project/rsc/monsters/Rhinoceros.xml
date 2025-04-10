@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Rhinoceros</name>
+	    
+	<size>L</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>11 (natural armor)</ac>
+	    
+	<hp>45 (6d10+12)</hp>
+	    
+	<speed>walk 40 ft.</speed>
+	    
+	<str>21</str>
+	    
+	<dex>8</dex>
+	    
+	<con>15</con>
+	    
+	<int>2</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>6</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>11</passive>
+	    
+	<languages/>
+	    
+	<cr>2</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Charge</name>
+		      
+		<text>If the rhinoceros moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 (2d8) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Gore</name>
+		      
+		<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 14 (2d8 + 5) bludgeoning damage.</text>
+		      
+		<attack>Gore|+7|2d8+5</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 336, Tomb of Annihilation, Waterdeep: Dragon Heist, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment>grassland</environment>
+	    
+</monster>

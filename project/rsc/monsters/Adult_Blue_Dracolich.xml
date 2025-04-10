@@ -1,0 +1,194 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Adult Blue Dracolich</name>
+	    
+	<size>H</size>
+	    
+	<type>undead</type>
+	    
+	<alignment>Lawful Evil</alignment>
+	    
+	<ac>19 (natural armor)</ac>
+	    
+	<hp>225 (18d12+108)</hp>
+	    
+	<speed>walk 40 ft., burrow 30 ft., fly 80 ft.</speed>
+	    
+	<str>25</str>
+	    
+	<dex>10</dex>
+	    
+	<con>23</con>
+	    
+	<int>16</int>
+	    
+	<wis>15</wis>
+	    
+	<cha>19</cha>
+	    
+	<save>Dex +6, Con +12, Wis +8, Cha +10</save>
+	    
+	<skill>Perception +14, Stealth +6</skill>
+	    
+	<passive>24</passive>
+	    
+	<languages>Common, Draconic</languages>
+	    
+	<cr>17</cr>
+	    
+	<resist>necrotic</resist>
+	    
+	<immune>lightning, poison</immune>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune>charmed, exhaustion, frightened, paralyzed, poisoned</conditionImmune>
+	    
+	<senses>blindsight 60 ft., darkvision 120 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Legendary Resistance (3/Day)</name>
+		      
+		<text>If the dracolich fails a saving throw, it can choose to succeed instead.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Magic Resistance</name>
+		      
+		<text>The dracolich has advantage on saving throws against spells and other magical effects.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The dracolich can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +13 to hit, reach 10 ft., one target. 18 (2d10 + 7) piercing damage plus 5 (1d10) lightning damage.</text>
+		      
+		<attack>Bite|+13|2d10+7</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Claw</name>
+		      
+		<text>Melee Weapon Attack: +13 to hit, reach 5 ft., one target. 14 (2d6 + 7) slashing damage.</text>
+		      
+		<attack>Claw|+13|2d6+7</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Tail</name>
+		      
+		<text>Melee Weapon Attack: +13 to hit, reach 15 ft., one target. 16 (2d8 + 7) bludgeoning damage.</text>
+		      
+		<attack>Tail|+13|2d8+7</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Frightful Presence</name>
+		      
+		<text>Each creature of the dracolich's choice that is within 120 feet of the dracolich and aware of it must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dracolich's Frightful Presence for the next 24 hours.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Lightning Breath (Recharge 5-6)</name>
+		      
+		<text>The dracolich exhales lightning in a 90-foot line that is 5 feet wide. Each creature in that line must make a DC 20 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one.</text>
+		      
+		<attack>Lightning Breath (Recharge 5-6)||12d10</attack>
+		      
+	</action>
+	    
+	<legendary>
+		        
+		<text>The undead can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The undead regains spent legendary actions at the start of its turn.</text>
+		      
+	</legendary>
+	    
+	<legendary>
+		        
+		<name>Detect</name>
+		      
+		<text>The dracolich makes a Wisdom (Perception) check.</text>
+		      
+	</legendary>
+	    
+	<legendary>
+		        
+		<name>Tail Attack</name>
+		      
+		<text>The dracolich makes a tail attack.</text>
+		      
+	</legendary>
+	    
+	<legendary>
+		        
+		<name>Wing Attack (Costs 2 Actions)</name>
+		      
+		<text>The dracolich beats its tattered wings. Each creature within 10 feet of the dracolich must succeed on a DC 21 Dexterity saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. After beating its wings this way, the dracolich can fly up to half its flying speed.</text>
+		      
+	</legendary>
+	    
+	<lair>
+		        
+		<name>Lair Actions</name>
+		      
+	</lair>
+	    
+	<lair>
+		        
+		<text>On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:</text>
+		      
+		<text>• Part of the ceiling collapses above one creature that the dragon can see within 120 feet of it. The creature must succeed on a DC 15 Dexterity saving throw or take 10 (3d6) bludgeoning damage and be knocked prone and buried. The buried target is restrained and unable to breathe or stand up. A creature can take an action to make a DC 10 Strength check, ending the buried state on a success.</text>
+		      
+		<text>• A cloud of sand swirls about in a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The cloud spreads around corners. Each creature in the cloud must succeed on a DC 15 Constitution saving throw or be blinded for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		      
+		<text>• Lightning arcs, forming a 5-foot-wide line between two of the lair's solid surfaces that the dragon can see. They must be within 120 feet of the dragon and 120 feet of each other. Each creature in that line must succeed on a DC 15 Dexterity saving throw or take 10 (3d6) lightning damage.</text>
+		      
+	</lair>
+	    
+	<lair>
+		        
+		<name>Regional Effects</name>
+		      
+	</lair>
+	    
+	<lair>
+		        
+		<text>The region containing a legendary blue dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:</text>
+		      
+		<text>• Thunderstorms rage within 6 miles of the lair.</text>
+		      
+		<text>• Dust devils scour the land within 6 miles of the lair. A dust devil has the statistics of an air elemental, but it can't fly, has a speed of 50 feet, and has an Intelligence and Charisma of 1 (-5).</text>
+		      
+		<text>• Hidden sinkholes form in and around the dragon's lair. A sinkhole can be spotted from a safe distance with a successful DC 20 Wisdom (Perception) check. Otherwise, the first creature to step on the thin crust covering the sinkhole must succeed on a DC 15 Dexterity saving throw or fall 1d6 x 10 feet into the sinkhole.</text>
+		      
+		<text>If the dragon dies, the dust devils disappear immediately, and the thunderstorms abate within 1d10 days. Any sinkholes remain where they are.</text>
+		      
+	</lair>
+	    
+	<description>Even as long-lived as they are, all dragons must eventually die. This thought doesn't sit well with many dragons, some of which allow themselves to be transformed by necromantic energy and ancient rituals into powerful undead dracoliches. Only the most narcissistic dragons choose this path, knowing that by doing so, they sever all ties to their kin and the dragon gods.Beyond Death. A dracolich retains its shape and size upon transforming, its skin and scales drawing tight to its bones or sloughing away to leave a skeletal form behind. Its eyes appear as glowing points of light floating in shadowy sockets, hinting at the malevolence of its undead mind.Though many dragons pursue vain goals of destruction and dominance, dracoliches are more nefarious than the most evil dragons, driven to rule over all. A dracolich is a fiendishly intelligent tyrant that crafts complex webs of foul schemes, attracting servants motivated by greed and a lust for power. Acting from the shadows and actively plotting to keep its existence a secret, a dracolich is a cunning and challenging foe.Dracolich Phylacteries. Creating a dracolich requires the cooperation of the dragon and a group of mages or cultists that can perform the proper ritual. During the ritual, the dragon consumes a toxic brew that slays it instantly. The attendant spellcasters then ensnare its spirit and transfer it to a special gemstone that functions like a lich's phylactery. As the dragon's flesh rots away, the spirit inside the gem returns to animate the dragon's bones.If a dracolich's physical form is ever destroyed, its spirit returns to the gem as long as the two are on the same plane. If the gem comes into contact with another dragon's corpse, the dracolich's spirit can take possession of that corpse to become a new dracolich. If the dracolich's spirit gem is taken to another plane, the dracolich's spirit has nowhere to go when its undead body is destroyed and simply passes into the afterlife.Dracolich Template. Only an ancient or adult true dragon can be transformed into a dracolich. Younger dragons that attempt to undergo the transformation die, as do other creatures that aren't true dragons but possess the dragon type, such as pseudodragons and wyverns. A shadow dragon can't be transformed into a dracolich, for it has already lost too much of its physical form.When a dragon becomes a dracolich, it retains its statistics except as described below. The dragon loses any trait, such as Amphibious, that assumes a living physiology. The dracolich might retain or lose any or all of its lair actions or inherit new ones, as the DM sees fit.Type.  The dracolich's type changes from dragon to undead, and it no longer requires air, food, drink, or sleep.Damage Resistance.  The dracolich has resistance to necrotic damage.Damage Immunities.  The dracolich has immunity to poison. It also retains any immunities it had prior to becoming a dracolich.Condition Immunities. The dracolich can't be charmed, frightened, paralyzed, or poisoned. It also doesn't suffer from exhaustion.Magic Resistance.  The dracolich has advantage on saving throws against spells and other magical effects.Source: Monster Manual p. 84, Waterdeep: Dungeon of the Mad Mage</description>
+	    
+	<environment>desert</environment>
+	    
+</monster>

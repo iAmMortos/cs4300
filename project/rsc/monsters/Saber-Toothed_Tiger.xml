@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Saber-Toothed Tiger</name>
+	    
+	<size>L</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>52 (7d10+14)</hp>
+	    
+	<speed>walk 40 ft.</speed>
+	    
+	<str>18</str>
+	    
+	<dex>14</dex>
+	    
+	<con>15</con>
+	    
+	<int>3</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>8</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +3, Stealth +6</skill>
+	    
+	<passive>13</passive>
+	    
+	<languages/>
+	    
+	<cr>2</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Keen Smell</name>
+		      
+		<text>The tiger has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Pounce</name>
+		      
+		<text>If the tiger moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the tiger can make one bite attack against it as a bonus action.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 10 (1d10 + 5) piercing damage.</text>
+		      
+		<attack>Bite|+6|1d10+5</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Claw</name>
+		      
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 12 (2d6 + 5) slashing damage.</text>
+		      
+		<attack>Claw|+6|2d6+5</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 336, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment>mountain, arctic</environment>
+	    
+</monster>

@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Dragon Turtle</name>
+	    
+	<size>G</size>
+	    
+	<type>dragon</type>
+	    
+	<alignment>Neutral</alignment>
+	    
+	<ac>20 (natural armor)</ac>
+	    
+	<hp>341 (22d20+110)</hp>
+	    
+	<speed>walk 20 ft., swim 40 ft.</speed>
+	    
+	<str>25</str>
+	    
+	<dex>10</dex>
+	    
+	<con>20</con>
+	    
+	<int>10</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>12</cha>
+	    
+	<save>Dex +6, Con +11, Wis +7</save>
+	    
+	<skill/>
+	    
+	<passive>11</passive>
+	    
+	<languages>Aquan, Draconic</languages>
+	    
+	<cr>17</cr>
+	    
+	<resist>fire</resist>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 120 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Amphibious</name>
+		      
+		<text>The dragon turtle can breathe air and water.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The dragon turtle makes three attacks: one with its bite and two with its claws. It can make one tail attack in place of its two claw attacks.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +13 to hit, reach 15 ft., one target. 26 (3d12 + 7) piercing damage.</text>
+		      
+		<attack>Bite|+13|3d12+7</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Claw</name>
+		      
+		<text>Melee Weapon Attack: +13 to hit, reach 10 ft., one target. 16 (2d8 + 7) slashing damage.</text>
+		      
+		<attack>Claw|+13|2d8+7</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Tail</name>
+		      
+		<text>Melee Weapon Attack: +13 to hit, reach 15 ft., one target. 26 (3d12 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC 20 Strength saving throw or be pushed up to 10 feet away from the dragon turtle and knocked prone.</text>
+		      
+		<attack>Tail|+13|3d12+7</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Steam Breath (Recharge 5-6)</name>
+		      
+		<text>The dragon turtle exhales scalding steam in a 60-foot cone. Each creature in that area must make a DC 18 Constitution saving throw, taking 52 (15d6) fire damage on a failed save, or half as much damage on a successful one. Being underwater doesn't grant resistance against this damage.</text>
+		      
+		<attack>Steam Breath (Recharge 5-6)||15d6</attack>
+		      
+	</action>
+	    
+	<description>Dragon turtles are among the most fearsome creatures of the oceans. As large and voracious as the oldest of its land-based dragon kin, a dragon turtle strikes with its deadly jaws, steaming breath, and crushing tail.A dragon turtle's rough shell is the same dark green color as the deep water where this monster dwells. Silver highlights lining the shell resemble light dancing on open water, and a surfacing dragon turtle is sometimes mistaken for the reflection of the sun or moon on the waves. Dragons of the Deep. Like true dragons, dragon turtles collect treasure, first by sinking ships and then by sifting through the wreckage for coins and other precious items. A dragon turtle swallows treasure for transport, then regurgitates it when it reaches its lair.Dragon turtles dwell in caves hidden in coral reefs or beneath the seafloor, or along rugged stretches of coastline. If a choice cave is already inhabited, a dragon turtle attacks its current residents in an attempt to take over.Mercenary Monsters. A dragon turtle is smart enough to be bribed, and pirates sailing seas patrolled by these creatures quickly learn to offer them treasure in exchange for safe passage. Clever sahuagin sometimes ally with dragon turtles, enticing them with treasure to use their blistering breath weapons in sahuagin raids against ships and coastal settlements.Elemental Might. Dragon turtles sometimes find their way through sunken planar rifts to the Elemental Plane of Water. Those monstrous specimens can often be found in the service of marids, which strap magnificent coral thrones to the backs of dragon turtles and ride them as mounts.Source: Monster Manual p. 119, Princes of the Apocalypse, Tomb of Annihilation, Ghosts of Saltmarsh, Explorer's Guide to Wildemount, Mythic Odysseys of Theros</description>
+	    
+	<environment>underwater, coastal</environment>
+	    
+</monster>

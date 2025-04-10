@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Deer</name>
+	    
+	<size>M</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>13</ac>
+	    
+	<hp>4 (1d8)</hp>
+	    
+	<speed>walk 50 ft.</speed>
+	    
+	<str>11</str>
+	    
+	<dex>16</dex>
+	    
+	<con>11</con>
+	    
+	<int>2</int>
+	    
+	<wis>14</wis>
+	    
+	<cha>5</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>12</passive>
+	    
+	<languages/>
+	    
+	<cr>0</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 2 (1d4) piercing damage.</text>
+		      
+		<attack>Bite|+2|1d4</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 321, Hoard of the Dragon Queen, Essentials Kit: Dragon of Icespire Peak</description>
+	    
+	<environment>grassland, forest</environment>
+	    
+</monster>

@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Giant Lizard</name>
+	    
+	<size>L</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>12 (natural armor)</ac>
+	    
+	<hp>19 (3d10+3)</hp>
+	    
+	<speed>walk 30 ft., climb 30 ft.</speed>
+	    
+	<str>15</str>
+	    
+	<dex>12</dex>
+	    
+	<con>13</con>
+	    
+	<int>2</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>5</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>10</passive>
+	    
+	<languages/>
+	    
+	<cr>1/4</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 30 ft.</senses>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 6 (1d8 + 2) piercing damage.</text>
+		      
+		<attack>Bite|+4|1d8+2</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Variant: Giant Lizard Traits</name>
+		      
+		<text>Some giant lizards have one or both of the following traits:</text>
+		      
+		<text>Hold Breath. The lizard can hold its breath for 15 minutes. (A lizard that has this trait also has a swimming speed of 30 feet.)</text>
+		      
+		<text>Spider Climb. The lizard can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		      
+	</action>
+	    
+	<description>A giant lizard can be ridden or used as a draft animal. Lizardfolk also keep them as pets, and subterranean giant lizards are used as mounts and pack animals by drow, duergar, and other Underdark dwellers.Variant: Giant Lizard TraitsSome giant lizards have one or both of the following traits. Hold Breath. The lizard can hold its breath for 15 minutes. (A lizard that has this trait also has a swimming speed of 30 feet.)Spider Climb. The lizard can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.Source: Monster Manual p. 326, Hoard of the Dragon Queen, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment>underdark, forest, swamp, desert, coastal</environment>
+	    
+</monster>

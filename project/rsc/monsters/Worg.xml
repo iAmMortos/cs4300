@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Worg</name>
+	    
+	<size>L</size>
+	    
+	<type>monstrosity</type>
+	    
+	<alignment>Neutral Evil</alignment>
+	    
+	<ac>13 (natural armor)</ac>
+	    
+	<hp>26 (4d10+4)</hp>
+	    
+	<speed>walk 50 ft.</speed>
+	    
+	<str>16</str>
+	    
+	<dex>13</dex>
+	    
+	<con>13</con>
+	    
+	<int>7</int>
+	    
+	<wis>11</wis>
+	    
+	<cha>8</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +4</skill>
+	    
+	<passive>14</passive>
+	    
+	<languages>Goblin, Worg</languages>
+	    
+	<cr>1/2</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Keen Hearing and Smell</name>
+		      
+		<text>The worg has advantage on Wisdom (Perception) checks that rely on hearing or smell.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
+		      
+		<attack>Bite|+5|2d6+3</attack>
+		      
+	</action>
+	    
+	<description>A worg is an evil predator that delights in hunting and devouring creatures weaker than itself. Cunning and malevolent, worgs roam across the remote wilderness or are raised by goblins and hobgoblins. Those creatures use worgs as mounts, but a worg will turn on its rider if it feels mistreated or malnourished. Worgs speak in their own language and Goblin, and a few learn to speak Common as well.Source: Monster Manual p. 341, Princes of the Apocalypse, Storm King's Thunder, Waterdeep: Dungeon of the Mad Mage, Eberron: Rising from the Last War, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment>grassland, forest, hill</environment>
+	    
+</monster>

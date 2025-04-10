@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Giant Octopus</name>
+	    
+	<size>L</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>11</ac>
+	    
+	<hp>52 (8d10+8)</hp>
+	    
+	<speed>walk 10 ft., swim 60 ft.</speed>
+	    
+	<str>17</str>
+	    
+	<dex>13</dex>
+	    
+	<con>13</con>
+	    
+	<int>4</int>
+	    
+	<wis>10</wis>
+	    
+	<cha>4</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +4, Stealth +5</skill>
+	    
+	<passive>14</passive>
+	    
+	<languages/>
+	    
+	<cr>1</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>darkvision 60 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Hold Breath</name>
+		      
+		<text>While out of water, the octopus can hold its breath for 1 hour.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Underwater Camouflage</name>
+		      
+		<text>The octopus has advantage on Dexterity (Stealth) checks made while underwater.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Water Breathing</name>
+		      
+		<text>The octopus can breathe only underwater.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Tentacles</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 15 ft., one target. 10 (2d6 + 3) bludgeoning damage. If the target is a creature, it is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the octopus can't use its tentacles on another target.</text>
+		      
+		<attack>Tentacles|+5|2d6+3</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Ink Cloud (Recharges after a Short or Long Rest)</name>
+		      
+		<text>A 20-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action.</text>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 326, Princes of the Apocalypse, Rise of Tiamat, Ghosts of Saltmarsh, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Tasha's Cauldron of Everything</description>
+	    
+	<environment>underwater</environment>
+	    
+</monster>

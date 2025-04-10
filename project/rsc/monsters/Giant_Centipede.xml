@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Giant Centipede</name>
+	    
+	<size>S</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>13 (natural armor)</ac>
+	    
+	<hp>4 (1d6+1)</hp>
+	    
+	<speed>walk 30 ft., climb 30 ft.</speed>
+	    
+	<str>5</str>
+	    
+	<dex>14</dex>
+	    
+	<con>12</con>
+	    
+	<int>1</int>
+	    
+	<wis>7</wis>
+	    
+	<cha>3</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>8</passive>
+	    
+	<languages/>
+	    
+	<cr>1/4</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 30 ft.</senses>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or take 10 (3d6) poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
+		      
+		<attack>Bite|+4|1d4+2</attack>
+		      
+		<attack>Bite||3d6</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 323, Hoard of the Dragon Queen, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything</description>
+	    
+	<environment>underdark, urban</environment>
+	    
+</monster>

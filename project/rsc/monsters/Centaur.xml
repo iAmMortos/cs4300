@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Centaur</name>
+	    
+	<size>L</size>
+	    
+	<type>monstrosity</type>
+	    
+	<alignment>Neutral Good</alignment>
+	    
+	<ac>12</ac>
+	    
+	<hp>45 (6d10+12)</hp>
+	    
+	<speed>walk 50 ft.</speed>
+	    
+	<str>18</str>
+	    
+	<dex>14</dex>
+	    
+	<con>14</con>
+	    
+	<int>9</int>
+	    
+	<wis>13</wis>
+	    
+	<cha>11</cha>
+	    
+	<save/>
+	    
+	<skill>Athletics +6, Perception +3, Survival +3</skill>
+	    
+	<passive>13</passive>
+	    
+	<languages>Elvish, Sylvan</languages>
+	    
+	<cr>2</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Charge</name>
+		      
+		<text>If the centaur moves at least 30 feet straight toward a target and then hits it with a pike attack on the same turn, the target takes an extra 10 (3d6) piercing damage.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The centaur makes two attacks: one with its pike and one with its hooves or two with its longbow.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Pike</name>
+		      
+		<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. 9 (1d10 + 4) piercing damage.</text>
+		      
+		<attack>Pike|+6|1d10+4</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Hooves</name>
+		      
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 11 (2d6 + 4) bludgeoning damage.</text>
+		      
+		<attack>Hooves|+6|2d6+4</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Longbow</name>
+		      
+		<text>Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. 6 (1d8 + 2) piercing damage.</text>
+		      
+		<attack>Longbow|+4|1d8+2</attack>
+		      
+	</action>
+	    
+	<description>I hear centaurs make excellent mounts! — Batley Summerfoot, a halfling adventurer who never read HOOVES OF FURY, by Iryil Grayborn of SundownReclusive wanderers and omen-readers of the wild, centaurs avoid conflict but fight fiercely when pressed. They roam the vast wilderness, keeping far from borders, laws, and the company of other creatures.Wilderness Nomads. Centaur tribes range across lands with mild to hot climates, where a centaur requires only light furs or oiled skins to deal with inclement weather. They are hunter-gatherers and rarely build shelters or even use tents.Centaur migrations span continents and take decades to repeat, so that a centaur tribe might not retread the same path for generations. These long-ranging patterns can lead to conflict when centaurs encounter settlements of other creatures built along their traditional routes.Reluctant Settlers. A centaur that can't keep pace with the rest of its tribe is left behind. Some such centaurs vanish into the wilderness and are never seen again. Those that can bear the loss of their tribe might take up residence among other races. Frontier settlements value the nature knowledge of their centaur residents. Many such communities owe their survival to the insight and acumen of a centaur.Despite their reclusive nature, centaurs trade with elves and with the caravans of other benevolent humanoids they meet during their wanderings. A trader might save the life of a wounded or an elderly centaur unfit for long travel, escorting it to a settlement where it can peacefully live out the rest of its days.Source: Monster Manual p. 38, Storm King's Thunder, Tales from the Yawning Portal, Ghosts of Saltmarsh, Essentials Kit: Dragon of Icespire Peak, Mythic Odysseys of Theros</description>
+	    
+	<environment>grassland, forest</environment>
+	    
+</monster>

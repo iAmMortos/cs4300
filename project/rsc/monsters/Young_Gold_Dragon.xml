@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Young Gold Dragon</name>
+	    
+	<size>L</size>
+	    
+	<type>dragon</type>
+	    
+	<alignment>Lawful Good</alignment>
+	    
+	<ac>18 (natural armor)</ac>
+	    
+	<hp>178 (17d10+85)</hp>
+	    
+	<speed>walk 40 ft., fly 80 ft., swim 40 ft.</speed>
+	    
+	<str>23</str>
+	    
+	<dex>14</dex>
+	    
+	<con>21</con>
+	    
+	<int>16</int>
+	    
+	<wis>13</wis>
+	    
+	<cha>20</cha>
+	    
+	<save>Dex +6, Con +9, Wis +5, Cha +9</save>
+	    
+	<skill>Insight +5, Perception +9, Persuasion +9, Stealth +6</skill>
+	    
+	<passive>19</passive>
+	    
+	<languages>Common, Draconic</languages>
+	    
+	<cr>10</cr>
+	    
+	<resist/>
+	    
+	<immune>fire</immune>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses>blindsight 30 ft., darkvision 120 ft.</senses>
+	    
+	<trait>
+		        
+		<name>Amphibious</name>
+		      
+		<text>The dragon can breathe air and water.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The dragon makes three attacks: one with its bite and two with its claws.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. 17 (2d10 + 6) piercing damage.</text>
+		      
+		<attack>Bite|+10|2d10+6</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Claw</name>
+		      
+		<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. 13 (2d6 + 6) slashing damage.</text>
+		      
+		<attack>Claw|+10|2d6+6</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Breath Weapons (Recharge 5-6)</name>
+		      
+		<text>The dragon uses one of the following breath weapons.</text>
+		      
+		<text>• Fire Breath. The dragon exhales fire in a 30-foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 55 (10d10) fire damage on a failed save, or half as much damage on a successful one.</text>
+		      
+		<attack>Breath Weapons (Recharge 5-6)||10d10</attack>
+		      
+		<text>• Weakening Breath. The dragon exhales gas in a 30-foot cone. Each creature in that area must succeed on a DC 17 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		      
+	</action>
+	    
+	<description>True dragons are winged reptiles of ancient lineage and fearsome power. They are known and feared for their predatory cunning and greed, with the oldest dragons accounted as some of the most powerful creatures in the world. Dragons are also magical creatures whose innate power fuels their dreaded breath weapons and other preternatural abilities.Many creatures, including wyverns and dragon turtles, have draconic blood. However, true dragons fall into the two broad categories of chromatic and metallic dragons. The black, blue, green, red, and white dragons are selfish, evil, and feared by all. The brass, bronze, copper, gold, and silver dragons are noble, good, and highly respected by the wise.Though their goals and ideals vary tremendously, all true dragons covet wealth, hoarding mounds of coins and gathering gems, jewels, and magic items. Dragons with large hoards are loath to leave them for long, venturing out of their lairs only to patrol or feed.True dragons pass through four distinct stages of life, from lowly wyrmlings to ancient dragons, which can live for over a thousand years. In that time, their might can become unrivaled and their hoards can grow beyond price.Dragon Age CategoriesCategory | Size | Age RangeWyrmling | Medium | 5 years or lessYoung | Large | 6–100 yearsAdult | Huge | 101–800 yearsAncient | Gargantuan | 801 years or moreSource: Monster Manual p. 115</description>
+	    
+	<environment>grassland, forest</environment>
+	    
+</monster>

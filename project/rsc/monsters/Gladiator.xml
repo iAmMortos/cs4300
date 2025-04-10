@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Gladiator</name>
+	    
+	<size>M</size>
+	    
+	<type>humanoid (any race)</type>
+	    
+	<alignment>Any alignment</alignment>
+	    
+	<ac>16 (studded leather armor, shield)</ac>
+	    
+	<hp>112 (15d8+45)</hp>
+	    
+	<speed>walk 30 ft.</speed>
+	    
+	<str>18</str>
+	    
+	<dex>15</dex>
+	    
+	<con>16</con>
+	    
+	<int>10</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>15</cha>
+	    
+	<save>Str +7, Dex +5, Con +6</save>
+	    
+	<skill>Athletics +10, Intimidation +5</skill>
+	    
+	<passive>11</passive>
+	    
+	<languages>any one language (usually Common)</languages>
+	    
+	<cr>5</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Brave</name>
+		      
+		<text>The gladiator has advantage on saving throws against being frightened.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Brute</name>
+		      
+		<text>A melee weapon deals one extra die of its damage when the gladiator hits with it (included in the attack).</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Multiattack</name>
+		      
+		<text>The gladiator makes three melee attacks or two ranged attacks.</text>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Spear</name>
+		      
+		<text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. and range 20/60 ft., one target. 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack.</text>
+		      
+		<attack>Spear|+7|2d6+4</attack>
+		      
+	</action>
+	    
+	<action>
+		        
+		<name>Shield Bash</name>
+		      
+		<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.</text>
+		      
+		<attack>Shield Bash|+7|2d4+4</attack>
+		      
+	</action>
+	    
+	<reaction>
+		        
+		<name>Parry</name>
+		      
+		<text>The gladiator adds 3 to its AC against one melee attack that would hit it. To do so, the gladiator must see the attacker and be wielding a melee weapon.</text>
+		      
+	</reaction>
+	    
+	<description>Gladiators battle for the entertainment of raucous crowds. Some gladiators are brutal pit fighters who treat each match as a life-or-death struggle, while others are professional duelists who command huge fees but rarely fight to the death.Source: Monster Manual p. 346, Curse of Strahd, Rise of Tiamat, Storm King's Thunder, Tomb of Annihilation, Ghosts of Saltmarsh, Essentials Kit: Dragon of Icespire Peak, Essentials Kit: Storm Lord's Wrath, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment/>
+	    
+</monster>

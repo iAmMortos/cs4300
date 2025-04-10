@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Camel</name>
+	    
+	<size>L</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>9</ac>
+	    
+	<hp>15 (2d10+4)</hp>
+	    
+	<speed>walk 50 ft.</speed>
+	    
+	<str>16</str>
+	    
+	<dex>8</dex>
+	    
+	<con>14</con>
+	    
+	<int>2</int>
+	    
+	<wis>8</wis>
+	    
+	<cha>5</cha>
+	    
+	<save/>
+	    
+	<skill/>
+	    
+	<passive>9</passive>
+	    
+	<languages/>
+	    
+	<cr>1/8</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 2 (1d4) bludgeoning damage.</text>
+		      
+		<attack>Bite|+5|1d4</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 320, Ghosts of Saltmarsh</description>
+	    
+	<environment>desert</environment>
+	    
+</monster>

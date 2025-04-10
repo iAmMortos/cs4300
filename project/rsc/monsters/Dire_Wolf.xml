@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<monster>
+	      
+	<name>Dire Wolf</name>
+	    
+	<size>L</size>
+	    
+	<type>beast</type>
+	    
+	<alignment>Unaligned</alignment>
+	    
+	<ac>14 (natural armor)</ac>
+	    
+	<hp>37 (5d10+10)</hp>
+	    
+	<speed>walk 50 ft.</speed>
+	    
+	<str>17</str>
+	    
+	<dex>15</dex>
+	    
+	<con>15</con>
+	    
+	<int>3</int>
+	    
+	<wis>12</wis>
+	    
+	<cha>7</cha>
+	    
+	<save/>
+	    
+	<skill>Perception +3, Stealth +4</skill>
+	    
+	<passive>13</passive>
+	    
+	<languages/>
+	    
+	<cr>1</cr>
+	    
+	<resist/>
+	    
+	<immune/>
+	    
+	<vulnerable/>
+	    
+	<conditionImmune/>
+	    
+	<senses/>
+	    
+	<trait>
+		        
+		<name>Keen Hearing and Smell</name>
+		      
+		<text>The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.</text>
+		      
+	</trait>
+	    
+	<trait>
+		        
+		<name>Pack Tactics</name>
+		      
+		<text>The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+		      
+	</trait>
+	    
+	<action>
+		        
+		<name>Bite</name>
+		      
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
+		      
+		<attack>Bite|+5|2d6+3</attack>
+		      
+	</action>
+	    
+	<description>Source: Monster Manual p. 321, Curse of Strahd, Storm King's Thunder, Tales from the Yawning Portal, Ghosts of Saltmarsh, Icewind Dale: Rime of the Frostmaiden</description>
+	    
+	<environment>forest, hill</environment>
+	    
+</monster>
