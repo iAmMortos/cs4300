@@ -38,8 +38,9 @@ def parse_monster(xml_string):
 
 if __name__ == '__main__':  
   # Sample XML string
+  import os
   xml_data = ''
-  with io.open('../rsc/monsters/Goblin.xml') as f:
+  with io.open('project/rsc/monsters/Goblin.xml') as f:
     xml_data = f.read()
   monster = parse_monster(xml_data)
   
