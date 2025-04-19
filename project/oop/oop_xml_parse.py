@@ -1,6 +1,5 @@
 
 from xmelement import Xmelement
-from xml_parser import XmlParser
 import io
 
 def load_xml_file(file):
