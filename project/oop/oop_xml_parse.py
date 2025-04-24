@@ -2,12 +2,18 @@
 from xmelement import Xmelement
 import io
 
-def load_xml_file(file):
-  with io.open(file, encoding="utf-8") as f:
-    return Xmelement(f.read())
-
 def main():
-  root = load_xml_file("../rsc/monsters/Goblin.xml")
+  monster = Xmelement.load_from_file("../rsc/monsters/Goblin.xml")
+  print(monster.get("name").value)
+  trait = monster.get("trait")
+  print(trait.get("name").value)
+  print(trait.get("text").value)
+  
+  actions = monster.get("action")
+  for action in actions:
+    print(action.get("name").value)
+    print(action.get("text").value)
+    print(action.get("attack").value)
 
 if __name__ == '__main__':
   main()

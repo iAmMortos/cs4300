@@ -4,13 +4,14 @@ class XmlTag (object):
     _tagstr = tagstr
     self._attrs = {}
     self._start, self._end = span
+    self._type = None
     
     if tagstr.startswith("<?") and tagstr.endswith("?>"):
       self._type = "meta"
       _tagstr = tagstr[2:-2].strip()
     elif tagstr.endswith("/>"):
       self._type = "selfclose"
-      _tagstr = tagstr[:-2].strip()
+      _tagstr = tagstr[1:-2].strip()
     elif tagstr.startswith("</"):
       self._type = "close"
       _tagstr = tagstr[2:-1].strip()
@@ -50,3 +51,13 @@ class XmlTag (object):
   
   def attr_list(self):
     return self._attrs.keys()
+  
+  def __repr__(self):
+    if self._type == "open":
+      return f'<{self.tag}>'
+    elif self._type == "close":
+      return f'</{self.tag}>'
+    elif self._type == "selfclose":
+      return f'<{self.tag}/>'
+    elif self._type == "meta":
+      return f'<?{self.tag}?>'
