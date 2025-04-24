@@ -2,7 +2,6 @@
 import re
 import io
 from xmltag import XmlTag
-from textnode import TextNode
 
 class Xmelement (object):
   def __init__(self, xml, is_root=False):
@@ -26,7 +25,7 @@ class Xmelement (object):
   """
   @property
   def value(self):
-    if len(self._children) == 1 and type(self._children[0]) is TextNode:
+    if len(self._children) == 1 and type(self._children[0]) is _TextNode:
       return self._children[0].value
     elif len(self._children) == 0:
       return ""
@@ -78,7 +77,7 @@ class Xmelement (object):
       # capture text nodes before next tag
       s = xml[parse_idx:tag.start].strip()
       if s and len(tagstack) == 0:
-        self._children.append(TextNode(s))
+        self._children.append(_TextNode(s))
       
       if tag.type == "meta":
         self._metatag = tag
@@ -109,7 +108,7 @@ class Xmelement (object):
     
     s = xml[parse_idx:].strip()
     if s:
-      self._children.append(TextNode(s))
+      self._children.append(_TextNode(s))
     
   """
   Extract the xml meta tag if it exists.
@@ -136,4 +135,12 @@ class Xmelement (object):
       pass # error
     
     return xml[root_open.end:root_close.start]
+    
+    
+class _TextNode(object):
+  def __init__(self, text):
+    self._value = text
+  @property
+  def value(self):
+    return self._value
       
