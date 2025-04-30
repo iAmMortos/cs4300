@@ -40,19 +40,18 @@ class Xmelement (object):
   def tagname(self):
     return self._tag.tag
   
-  def get(self, tagstr):
+  def getall(self, tagstr):
     found = []
-    
     for child in self._children:
       if child.tagname == tagstr:
         found += [child]
-    
-    if len(found) == 1:
-      return found[0]
-    elif len(found) == 0:
-      return None
-    else:
-      return found
+    return found
+      
+  def getfirst(self, tagstr):
+    for child in self._children:
+      if child.tagname == tagstr:
+        return child
+    return None
     
   @staticmethod
   def _tag_iter(xml):

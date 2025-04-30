@@ -4,16 +4,18 @@ import io
 
 def main():
   monster = Xmelement.load_from_file("../rsc/monsters/Goblin.xml")
-  print(monster.get("name").value)
-  trait = monster.get("trait")
-  print(trait.get("name").value)
-  print(trait.get("text").value)
+  print(monster.getfirst("name").value)
+  trait = monster.getfirst("trait")
+  print(trait.getfirst("name").value)
+  print(trait.getfirst("text").value)
   
-  actions = monster.get("action")
+  actions = monster.getall("action")
   for action in actions:
-    print(action.get("name").value)
-    print(action.get("text").value)
-    print(action.get("attack").value)
+    print(action.getfirst("name").value)
+    print(action.getfirst("text").value)
+    print(action.getfirst("attack").value)
+    
+  print(monster.getfirst("description").value)
 
 if __name__ == '__main__':
   main()
