@@ -2,20 +2,26 @@
 from xmelement import Xmelement
 import io
 
+def bonus_for(score):
+  bonus = (int(score) - 10) // 2
+  return f'{'+' if bonus >= 0 else ''}{bonus}'
+
+def make_bonus_str(score):
+  return f'{score} ({bonus_for(score)})'
+
 def main():
   monster = Xmelement.load_from_file("../rsc/monsters/Goblin.xml")
-  print(monster.getfirst("name").value)
-  trait = monster.getfirst("trait")
-  print(trait.getfirst("name").value)
-  print(trait.getfirst("text").value)
-  
+  print(monster.get("name").value)
+  trait = monster.get("trait")
+  print(f'  {trait.get("name").value}. {trait.get("text").value}')
+  print(f'\tSTR   \tDEX   \tCON   \tINT   \tWIS   \tCHA\n\t{make_bonus_str(monster.get("str").value)}\t{make_bonus_str(monster.get("dex").value)}\t{make_bonus_str(monster.get("con").value)}\t{make_bonus_str(monster.get("int").value)}\t{make_bonus_str(monster.get("wis").value)}\t{make_bonus_str(monster.get("cha").value)}')
   actions = monster.getall("action")
   for action in actions:
-    print(action.getfirst("name").value)
-    print(action.getfirst("text").value)
-    print(action.getfirst("attack").value)
+    print(action.get("name").value)
+    print(action.get("text").value)
+    print(action.get("attack").value)
     
-  print(monster.getfirst("description").value)
+  # print(monster.get("description").value)
 
 if __name__ == '__main__':
   main()

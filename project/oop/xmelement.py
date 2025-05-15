@@ -14,8 +14,8 @@ class Xmelement (object):
     # strip meta and parent tag
     xml = self._preprocess_xml(tags, xml)
     
-    self._parse(xml)
     self._metatag = None
+    self._parse(xml)
     
   """
   Nice way to return a single value from an xml node if it's something like
@@ -47,7 +47,7 @@ class Xmelement (object):
         found += [child]
     return found
       
-  def getfirst(self, tagstr):
+  def get(self, tagstr):
     for child in self._children:
       if child.tagname == tagstr:
         return child
