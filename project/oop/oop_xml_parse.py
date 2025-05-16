@@ -4,7 +4,7 @@ import io
 
 def bonus_for(score):
   bonus = (int(score) - 10) // 2
-  return f'{'+' if bonus >= 0 else ''}{bonus}'
+  return f"{'+' if bonus >= 0 else ''}{bonus}"
 
 def make_bonus_str(score):
   return f'{score} ({bonus_for(score)})'
